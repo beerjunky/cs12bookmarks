@@ -1,28 +1,28 @@
 # 🔒 CS_12 Security Bookmarks
 
-**Gesamtanzahl:** 474 Links | **Kategorien:** 17
+**Gesamtanzahl:** 478 Links | **Kategorien:** 17
 
 ---
 
 ## 📑 Inhaltsverzeichnis
 
-- [☁️ Cloud & Hardware Security](#-cloud--hardware-security) (4 Links)
-- [⚖️ Rechtliches & Compliance](#-rechtliches--compliance) (29 Links)
-- [⚙️ Development & Automation](#-development--automation) (13 Links)
-- [🌐 Web Application Security](#-web-application-security) (35 Links)
-- [🎓 Training & Zertifizierungen](#-training--zertifizierungen) (47 Links)
-- [🎯 Penetration Testing](#-penetration-testing) (39 Links)
-- [🎯 Schwachstellen & Exploits](#-schwachstellen--exploits) (27 Links)
-- [💻 Endpoint & Systems](#-endpoint--systems) (50 Links)
-- [📊 SIEM & Monitoring](#-siem--monitoring) (12 Links)
-- [📋 Standards & Frameworks](#-standards--frameworks) (27 Links)
-- [📡 Wireless & Mobile Security](#-wireless--mobile-security) (31 Links)
-- [🔌 Netzwerk-Security](#-netzwerk-security) (34 Links)
-- [🔍 Reconnaissance & OSINT](#-reconnaissance--osint) (42 Links)
-- [🔐 Passwörter & Authentifizierung](#-passwoerter--authentifizierung) (13 Links)
-- [🔒 Kryptographie & E-Mail Security](#-kryptographie--e-mail-security) (19 Links)
-- [🛠️ Spezial-Tools & Sonstiges](#-spezial-tools--sonstiges) (13 Links)
-- [🦠 Malware-Analyse & Forensics](#-malware-analyse--forensics) (39 Links)
+- ☁️ Cloud & Hardware Security (4 Links)
+- ⚖️ Rechtliches & Compliance (29 Links)
+- ⚙️ Development & Automation (15 Links)
+- 🌐 Web Application Security (35 Links)
+- 🎓 Training & Zertifizierungen (48 Links)
+- 🎯 Penetration Testing (39 Links)
+- 🎯 Schwachstellen & Exploits (28 Links)
+- 💻 Endpoint & Systems (50 Links)
+- 📊 SIEM & Monitoring (12 Links)
+- 📋 Standards & Frameworks (27 Links)
+- 📡 Wireless & Mobile Security (31 Links)
+- 🔌 Netzwerk-Security (34 Links)
+- 🔍 Reconnaissance & OSINT (42 Links)
+- 🔐 Passwörter & Authentifizierung (13 Links)
+- 🔒 Kryptographie & E-Mail Security (19 Links)
+- 🛠️ Spezial-Tools & Sonstiges (13 Links)
+- 🦠 Malware-Analyse & Forensics (39 Links)
 
 ---
 
@@ -79,7 +79,7 @@
 
 ## ⚙️ Development & Automation
 
-*13 Links*
+*15 Links*
 
 | Tool | Beschreibung | Link |
 |------|-------------|------|
@@ -87,6 +87,8 @@
 | **Advanced Bash Scripting** | Umfassendes Bash Scripting Guide | [→ Link](https://tldp.org/LDP/abs/html/) |
 | **Blackbox AI** | AI-Assistent für Programmierer (VS Code) | [→ Link](https://www.blackbox.ai/) |
 | **DebugView** | Fängt Debug-Output von Kernel & User-Mode ab - Troubleshooting ohne Debugger | [→ Link](https://learn.microsoft.com/en-us/sysinternals/downloads/debugview) |
+| **Git Rewriting History** | Git Pro Book - History umschreiben mit rebase, filter-branch & amend | [→ Link](https://git-scm.com/book/en/v2/Git-Tools-Rewriting-History) |
+| **Gitea** | Self-hosted Git Service - leichtgewichtige Alternative zu GitLab/GitHub | [→ Link](https://gitea.io/) |
 | **Microsoft SDL** | Security Development Lifecycle | [→ Link](https://www.microsoft.com/en-us/securityengineering/sdl) |
 | **Microsoft SDL Practices** | SDL Best Practices | [→ Link](https://www.microsoft.com/en-us/securityengineering/sdl/practices) |
 | **NotMyFault** | Erzeugt absichtlich Kernel-Crashes & Hangs für Testszwecke - BSOD-Analyse-Training | [→ Link](https://learn.microsoft.com/en-us/sysinternals/downloads/notmyfault) |
@@ -145,7 +147,7 @@
 
 ## 🎓 Training & Zertifizierungen
 
-*47 Links*
+*48 Links*
 
 | Tool | Beschreibung | Link |
 |------|-------------|------|
@@ -163,6 +165,7 @@
 | **Cyber-Fuchs** | Security Awareness Training Platform (DE) | [→ Link](https://cyber-fuchs.de/) |
 | **Docker for Pentesters** | Container Security Assessment | [→ Link](https://tryhackme.com/room/docker4pentesters) |
 | **Hack The Box** | Penetration Testing Labs | [→ Link](https://www.hackthebox.com/) |
+| **Hackviser Tool Tactics** | Interaktive Übersicht von Hacking-Tools & Taktiken für Pentester | [→ Link](https://hackviser.com/tactics) |
 | **Hydra** | Network Login Cracking Tool | [→ Link](https://tryhackme.com/room/hydra) |
 | **Intro to C2** | Command & Control Frameworks (incl. Armitage) | [→ Link](https://tryhackme.com/room/introtoc2) |
 | **Investigating with ELK 101** | Elasticsearch/Logstash/Kibana | [→ Link](https://tryhackme.com/room/investigatingwithelk101) |
@@ -249,7 +252,7 @@
 
 ## 🎯 Schwachstellen & Exploits
 
-*27 Links*
+*28 Links*
 
 | Tool | Beschreibung | Link |
 |------|-------------|------|
@@ -262,6 +265,7 @@
 | **CVSS v4.0 FAQ** | CVSS Version 4.0 Häufige Fragen | [→ Link](https://www.first.org/cvss/v4.0/faq) |
 | **CWE** | Common Weakness Enumeration | [→ Link](https://cwe.mitre.org/) |
 | **Check Point ThreatMap** | Live Cyber Threat Map | [→ Link](https://threatmap.checkpoint.com/) |
+| **Exploit Database** | Exploit-Archiv für Pentester & Security Researcher - CVE-basierte Exploit-Sammlung & Google Hacking DB | [→ Link](https://www.exploit-db.com/) |
 | **Google Threat Intelligence** | Threat Analysis Platform | [→ Link](https://cloud.google.com/security/products/threat-intelligence) |
 | **HoneyDB** | Honeypot Threat Intelligence | [→ Link](https://honeydb.io/) |
 | **IBM X-Force Exchange** | Threat Intelligence Sharing | [→ Link](https://exchange.xforce.ibmcloud.com/) |
