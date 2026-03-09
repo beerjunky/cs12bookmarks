@@ -1,6 +1,6 @@
 # 🔒 CS_12 Security Bookmarks
 
-**Gesamtanzahl:** 478 Links | **Kategorien:** 17
+**Gesamtanzahl:** 497 Links | **Kategorien:** 17
 
 ---
 
@@ -9,20 +9,20 @@
 - ☁️ Cloud & Hardware Security (4 Links)
 - ⚖️ Rechtliches & Compliance (29 Links)
 - ⚙️ Development & Automation (15 Links)
-- 🌐 Web Application Security (35 Links)
-- 🎓 Training & Zertifizierungen (48 Links)
-- 🎯 Penetration Testing (39 Links)
+- 🌐 Web Application Security (38 Links)
+- 🎓 Training & Zertifizierungen (49 Links)
+- 🎯 Penetration Testing (47 Links)
 - 🎯 Schwachstellen & Exploits (28 Links)
 - 💻 Endpoint & Systems (50 Links)
 - 📊 SIEM & Monitoring (12 Links)
-- 📋 Standards & Frameworks (27 Links)
+- 📋 Standards & Frameworks (30 Links)
 - 📡 Wireless & Mobile Security (31 Links)
 - 🔌 Netzwerk-Security (34 Links)
-- 🔍 Reconnaissance & OSINT (42 Links)
+- 🔍 Reconnaissance & OSINT (44 Links)
 - 🔐 Passwörter & Authentifizierung (13 Links)
-- 🔒 Kryptographie & E-Mail Security (19 Links)
+- 🔒 Kryptographie & E-Mail Security (20 Links)
 - 🛠️ Spezial-Tools & Sonstiges (13 Links)
-- 🦠 Malware-Analyse & Forensics (39 Links)
+- 🦠 Malware-Analyse & Forensics (40 Links)
 
 ---
 
@@ -103,7 +103,7 @@
 
 ## 🌐 Web Application Security
 
-*35 Links*
+*38 Links*
 
 | Tool | Beschreibung | Link |
 |------|-------------|------|
@@ -129,8 +129,11 @@
 | **OWASP Top 10 (2025)** | Top Web Application Risks | [→ Link](https://owasp.org/Top10/2025/) |
 | **OWASP Wiki** | OWASP Knowledge Base | [→ Link](https://wiki.owasp.org/index.php/Main_Page) |
 | **OWASP ZAP** | Web Application Security Testing Tool | [→ Link](https://www.zaproxy.org/download/) |
+| **OWASP ZAP** | Zed Attack Proxy - kostenloser Web App Security Scanner mit Active/Passive Scanning | [→ Link](https://www.zaproxy.org/) |
+| **OWASP ZAP (GitHub)** | ZAP Source Code & Releases - Community-getriebener Web Security Scanner | [→ Link](https://github.com/zaproxy/zaproxy) |
 | **OpenText Fortify SAST** | Enterprise SAST Solution | [→ Link](https://www.opentext.com/products/static-application-security-testing) |
 | **Postman** | API Development & Testing Platform | [→ Link](https://www.postman.com/) |
+| **Postman API Vulnerability Check** | Vorgefertigte Collection zum Testen gängiger API-Schwachstellen (OWASP API Top 10) | [→ Link](https://www.postman.com/templates/collections/common-api-vulnerabilities-check/) |
 | **SQLMap** | Automatisiertes SQL Injection Tool | [→ Link](https://www.kali.org/tools/sqlmap/) |
 | **Session Management Cheat Sheet** | OWASP Session Management Best Practices | [→ Link](https://github.com/OWASP/CheatSheetSeries/blob/master/cheatsheets/Session_Management_Cheat_Sheet.md) |
 | **Skipfish** | Automatisierter Web Security Scanner | [→ Link](https://www.kali.org/tools/skipfish/) |
@@ -147,7 +150,7 @@
 
 ## 🎓 Training & Zertifizierungen
 
-*48 Links*
+*49 Links*
 
 | Tool | Beschreibung | Link |
 |------|-------------|------|
@@ -157,6 +160,7 @@
 | **Autopsy** | Digital Forensics Toolkit | [→ Link](https://tryhackme.com/room/autopsy2ze0) |
 | **Basic Malware RE** | Reverse Engineering Introduction | [→ Link](https://tryhackme.com/room/basicmalwarere) |
 | **Burp Suite: The Basics** | Web App Penetration Testing | [→ Link](https://tryhackme.com/room/burpsuitebasics) |
+| **CISA HVA 3.0 Training** | High Value Asset Assessment Training - Schulung zur Absicherung kritischer IT-Assets | [→ Link](https://www.cisa.gov/resources-tools/training/high-value-asset-30-hva-30-assessment-training) |
 | **CTFtime** | Capture The Flag Events Portal | [→ Link](https://ctftime.org/) |
 | **Cloudflare Learning** | KRACK Attack Explained | [→ Link](https://www.cloudflare.com/de-de/learning/security/what-is-a-krack-attack/) |
 | **CompTIA 220-1101** | A+ Core 1 Exam Practice | [→ Link](https://www.examtopics.com/exams/comptia/220-1101/) |
@@ -204,12 +208,13 @@
 
 ## 🎯 Penetration Testing
 
-*39 Links*
+*47 Links*
 
 | Tool | Beschreibung | Link |
 |------|-------------|------|
 | **AD Explorer** | Active Directory Browser & Snapshot-Tool - Durchsucht AD-Objekte, Attribute & Berechtigungen | [→ Link](https://learn.microsoft.com/en-us/sysinternals/downloads/adexplorer) |
 | **Armitage** | Metasploit GUI | [→ Link](https://www.offsec.com/metasploit-unleashed/armitage/) |
+| **Atomic Red Team** | Bibliothek kleiner ATT&CK-basierter Tests - schnelle Validierung von Detektions-Regeln | [→ Link](https://github.com/redcanaryco/atomic-red-team) |
 | **Awesome C2** | Command & Control Framework Collection | [→ Link](https://github.com/tcostam/awesome-command-control) |
 | **BeEF** | Browser Exploitation Framework | [→ Link](https://beefproject.com/) |
 | **BeEF (GitHub)** | Browser Exploitation Framework Source | [→ Link](https://github.com/beefproject/beef) |
@@ -217,6 +222,7 @@
 | **Cobalt Strike** | Commercial Adversary Simulation Platform | [→ Link](https://www.cobaltstrike.com/) |
 | **Covenant** | .NET C2 Framework (Empire-Nachfolger) | [→ Link](https://github.com/cobbr/Covenant) |
 | **DNSChef** | DNS Proxy for Penetration Testing | [→ Link](https://github.com/iphelix/dnschef) |
+| **DirBuster** | Directory & File Brute-Forcer für Webserver - findet versteckte Pfade & Dateien | [→ Link](https://dirbuster.com/) |
 | **Dradis Framework** | Kollaboratives Reporting-Framework für Pentester & Security Teams | [→ Link](https://dradis.com/) |
 | **Empire (Kali)** | Empire auf Kali Linux | [→ Link](https://www.kali.org/tools/powershell-empire/) |
 | **Empire (New)** | PowerShell/Python Post-Exploitation Framework | [→ Link](https://github.com/BC-SECURITY/Empire) |
@@ -226,8 +232,11 @@
 | **Ettercap (Official)** | Man-in-the-Middle Attack Tool | [→ Link](https://www.ettercap-project.org) |
 | **Faraday** | Kollaborative Vulnerability Management & Pentest-Plattform mit Multi-Tool-Integration | [→ Link](https://faradaysec.com/) |
 | **GoPhish** | Open-Source Phishing Framework für Security Awareness Kampagnen & Social Engineering Tests | [→ Link](https://github.com/gophish/gophish) |
+| **Gobuster** | Schneller Directory/DNS/VHost Brute-Forcer in Go - Alternative zu DirBuster | [→ Link](https://gobuster.org/) |
 | **HackerOne** | Bug Bounty & Vulnerability Coordination | [→ Link](https://www.hackerone.com/) |
 | **ICMP Loki Attack** | ICMP Penetration Testing (Scapy) | [→ Link](https://github.com/nam3z1p/ICMP_Loki_Attack) |
+| **Infection Monkey** | Open Source Breach & Attack Simulation - automatisierte Netzwerk-Sicherheitstests & Lateral Movement | [→ Link](https://github.com/guardicore/monkey) |
+| **MITRE Caldera** | Automated Adversary Emulation Platform - simuliert reale Angriffe basierend auf MITRE ATT&CK | [→ Link](https://github.com/mitre/caldera) |
 | **Metasploit Framework (GitHub)** | Exploit Development Platform | [→ Link](https://github.com/rapid7/metasploit-framework) |
 | **Meterpreter Manual** | Metasploit Meterpreter Dokumentation | [→ Link](https://docs.metasploit.com/docs/using-metasploit/advanced/meterpreter/meterpreter.html) |
 | **Mythic** | Cross-Platform C2 Framework (MacOS Support) | [→ Link](https://github.com/its-a-feature/Mythic) |
@@ -247,6 +256,9 @@
 | **Sliver GitHub** | Sliver Source Repository | [→ Link](https://github.com/BishopFox/sliver) |
 | **Social-Engineer Toolkit (SET)** | TrustedSec's Social Engineering Toolkit – Phishing, Credential Harvesting & Attack Vectors | [→ Link](https://github.com/trustedsec/social-engineer-toolkit) |
 | **The C2 Matrix** | C2 Framework Comparison | [→ Link](https://howto.thec2matrix.com/) |
+| **Wfuzz** | Web Application Fuzzer - Brute-Force für Parameter, Directories, Headers & mehr | [→ Link](https://github.com/xmendez/wfuzz) |
+| **sqlmap** | Automatisiertes SQL-Injection Detection & Exploitation Tool | [→ Link](https://sqlmap.org/) |
+| **sqlmap (GitHub)** | SQL-Injection Tool Source - unterstützt MySQL, PostgreSQL, MSSQL, Oracle & mehr | [→ Link](https://github.com/sqlmapproject/sqlmap) |
 
 ---
 
@@ -369,7 +381,7 @@
 
 ## 📋 Standards & Frameworks
 
-*27 Links*
+*30 Links*
 
 | Tool | Beschreibung | Link |
 |------|-------------|------|
@@ -379,6 +391,9 @@
 | **CIS** | Center for Internet Security | [→ Link](https://www.cisecurity.org/) |
 | **CIS Benchmarks** | Security Configuration Guidelines | [→ Link](https://www.cisecurity.org/cis-benchmarks) |
 | **CIS-CAT Pro** | CIS Configuration Assessment Tool | [→ Link](https://www.cisecurity.org/cybersecurity-tools/cis-cat-pro) |
+| **CISA HVA Program** | High Value Asset Programm - Framework zum Schutz kritischer Regierungs-IT-Systeme | [→ Link](https://www.cisa.gov/resources-tools/programs/high-value-asset-program-management-office-hva-pmo) |
+| **CISA OT Authentication Barriers** | Warum sichere Authentifizierung in OT-Umgebungen scheitert - Analyse & Empfehlungen | [→ Link](https://www.cisa.gov/sites/default/files/2026-02/Barriers-to-Secure-Communication-Why-OT-Johnny-Cant-Authenticate_508_2.pdf) |
+| **CISA Secure High Value Assets** | CISA Insights - Leitfaden zur Absicherung von High Value Assets gegen Cyber-Bedrohungen | [→ Link](https://www.cisa.gov/sites/default/files/publications/CISAInsights-Cyber-SecureHighValueAssets_S508C.pdf) |
 | **CISIS12** | Community für Informationssicherheit (IT-Grundschutz) | [→ Link](https://cisis12.de/) |
 | **DISA** | Defense Information Systems Agency | [→ Link](https://disa.mil/) |
 | **Dradis Reports** | Collaboration & Reporting für Pentests | [→ Link](https://dradis.com/ce/) |
@@ -488,7 +503,7 @@
 
 ## 🔍 Reconnaissance & OSINT
 
-*42 Links*
+*44 Links*
 
 | Tool | Beschreibung | Link |
 |------|-------------|------|
@@ -527,6 +542,8 @@
 | **SpiderFoot OSINT Guide** | Anleitung zur OSINT-Automatisierung mit SpiderFoot | [→ Link](https://spiderfoot.org/what-is-spiderfoot-and-how-does-it-support-osint-automation/) |
 | **Tenable Nessus** | Vulnerability Scanner & Reports | [→ Link](https://www.tenable.com/) |
 | **TinEye** | Reverse Image Search | [→ Link](https://tineye.com/) |
+| **TruffleHog** | Secret Scanner - findet API-Keys, Passwörter & Credentials in Git-Repos & Code | [→ Link](https://trufflesecurity.com/trufflehog) |
+| **TruffleHog (GitHub)** | Open Source Secret Scanning Engine - scannt Git History, S3 Buckets, Filesystems nach Secrets | [→ Link](https://github.com/trufflesecurity/trufflehog) |
 | **VirusTotal** | File & URL Malware Scanner | [→ Link](https://www.virustotal.com/) |
 | **WHOIS Lookup** | Domain-Registrierungsdaten & Inhaberabfrage | [→ Link](https://www.whois.com/whois/) |
 | **Wayback Machine** | Internet Archive - Webseiten-Archiv & historische Snapshots | [→ Link](https://web.archive.org/) |
@@ -561,7 +578,7 @@
 
 ## 🔒 Kryptographie & E-Mail Security
 
-*19 Links*
+*20 Links*
 
 | Tool | Beschreibung | Link |
 |------|-------------|------|
@@ -577,6 +594,7 @@
 | **SSL Pulse** | SSL/TLS Version Distribution | [→ Link](https://www.ssllabs.com/ssl-pulse/) |
 | **SSLv3 RFC** | SSL Version 3.0 Specification | [→ Link](https://datatracker.ietf.org/doc/html/rfc6101) |
 | **Sectigo SSL Checker** | SSL/TLS Zertifikat-Prüfung & Analyse | [→ Link](https://sectigostore.com/ssl-tools/ssl-checker.php) |
+| **Sweet32 Attack** | Erklärung der Sweet32 Birthday-Attacke auf 64-Bit Block Ciphers (3DES, Blowfish) | [→ Link](https://cryptoservices.github.io/blog/2016-10-03-sweet32/) |
 | **TLSv1.0 RFC** | TLS Version 1.0 Specification | [→ Link](https://www.ietf.org/rfc/rfc2246.txt) |
 | **TLSv1.0/1.1 Deprecation** | TLS 1.0/1.1 Deprecation RFC | [→ Link](https://datatracker.ietf.org/doc/html/rfc8996) |
 | **TLSv1.1 RFC** | TLS Version 1.1 Specification | [→ Link](https://datatracker.ietf.org/doc/html/rfc4346) |
@@ -611,7 +629,7 @@
 
 ## 🦠 Malware-Analyse & Forensics
 
-*39 Links*
+*40 Links*
 
 | Tool | Beschreibung | Link |
 |------|-------------|------|
@@ -638,6 +656,7 @@
 | **NIST SP 800-61r2** | Incident Response Handling Guide | [→ Link](https://csrc.nist.gov/pubs/sp/800/61/r2/final) |
 | **ProcDump** | Erstellt Prozess-Dumps bei Crashes oder Triggern - Debugging & Memory-Forensik | [→ Link](https://learn.microsoft.com/en-us/sysinternals/downloads/procdump) |
 | **RFC 3227** | Evidence Collection and Archiving Guidelines | [→ Link](https://datatracker.ietf.org/doc/html/rfc3227) |
+| **RansomLook** | Ransomware-Gruppen Monitoring - trackt Leak-Sites, Opfer & Ransomware-Aktivitäten | [→ Link](https://www.ransomlook.io/) |
 | **RegDelNull** | Löscht Registry-Keys mit eingebetteten Null-Zeichen - werden von Malware zur Tarnung genutzt | [→ Link](https://learn.microsoft.com/en-us/sysinternals/downloads/regdelNull) |
 | **Registry Explorer** | Windows Registry Forensics Tool | [→ Link](https://www.sans.org/tools/registry-explorer/) |
 | **SDelete** | Sicheres Löschen von Dateien & freiem Speicher nach DoD-Standard - Anti-Forensik & Datenschutz | [→ Link](https://learn.microsoft.com/en-us/sysinternals/downloads/sdelete) |
