@@ -3,506 +3,477 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="theme-color" content="#0a0f1a">
-    <meta name="description" content="Cybersecurity Bookmark-Sammlung mit 474+ Tools, Frameworks & Ressourcen für IT-Security Professionals.">
-    <meta property="og:title" content="CS_12 Security Bookmarks — 474+ Cybersecurity Resources">
-    <meta property="og:description" content="Sammlung von Cybersecurity-Tools, Frameworks & Lernressourcen. Kostenlos & Open Source.">
-    <title>CS_12 Security Bookmarks — 474+ Cybersecurity Resources</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <meta name="theme-color" content="#0f2027">
+    <title>CS_12 Security Bookmarks</title>
     <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
         :root {
-            --bg-deep: #060a12;
-            --bg-surface: #0c1220;
+            --bg-primary: #060a12;
             --bg-card: rgba(15, 25, 50, 0.6);
-            --bg-card-hover: rgba(20, 35, 70, 0.7);
-            --border: rgba(79, 195, 247, 0.08);
-            --border-hover: rgba(79, 195, 247, 0.2);
+            --border-color: rgba(79, 195, 247, 0.08);
             --text-primary: #e4e8f1;
             --text-secondary: rgba(228, 232, 241, 0.6);
             --text-muted: rgba(228, 232, 241, 0.35);
             --accent: #4fc3f7;
-            --accent-dim: rgba(79, 195, 247, 0.15);
-            --accent-glow: rgba(79, 195, 247, 0.08);
-            --green: #66bb6a;
-            --red: #ef5350;
-            --gold: #ffd54f;
+            --accent-hover: #3a9fd5;
         }
-
+        
         body.light-mode {
-            --bg-deep: #f0f2f8;
-            --bg-surface: #f8f9fc;
+            --bg-primary: #f0f2f8;
             --bg-card: rgba(255, 255, 255, 0.85);
-            --bg-card-hover: rgba(255, 255, 255, 0.95);
-            --border: rgba(0, 0, 0, 0.06);
-            --border-hover: rgba(37, 99, 235, 0.2);
+            --border-color: rgba(0, 0, 0, 0.06);
             --text-primary: #0f172a;
             --text-secondary: #475569;
             --text-muted: #94a3b8;
             --accent: #2563eb;
-            --accent-dim: rgba(37, 99, 235, 0.1);
-            --accent-glow: rgba(37, 99, 235, 0.05);
-            --green: #16a34a;
-            --red: #dc2626;
-            --gold: #ca8a04;
+            --accent-hover: #1d4ed8;
         }
-
+        
         body {
-            font-family: 'Outfit', -apple-system, sans-serif;
-            background: var(--bg-deep);
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Inter', sans-serif;
+            background: var(--bg-primary);
             min-height: 100vh;
+            padding: 20px;
             color: var(--text-primary);
-            overflow-x: hidden;
         }
-
-        /* Ambient background */
-        body::before {
-            content: '';
-            position: fixed;
-            top: -30%; left: -10%;
-            width: 60%; height: 60%;
-            background: radial-gradient(circle, rgba(79,195,247,0.03) 0%, transparent 70%);
-            pointer-events: none;
-            z-index: 0;
-        }
-        body::after {
-            content: '';
-            position: fixed;
-            bottom: -20%; right: -10%;
-            width: 50%; height: 50%;
-            background: radial-gradient(circle, rgba(102,187,106,0.02) 0%, transparent 70%);
-            pointer-events: none;
-            z-index: 0;
-        }
-
+        
         .container {
-            max-width: 1100px;
+            max-width: 1200px;
             margin: 0 auto;
-            padding: 0 24px;
-            position: relative;
-            z-index: 1;
         }
-
-        /* ===== HERO ===== */
-        .hero {
-            padding: 80px 0 50px;
+        
+        header {
             text-align: center;
-            position: relative;
+            margin-bottom: 30px;
         }
-        .hero-badge {
-            display: inline-flex;
-            align-items: center;
-            gap: 8px;
-            background: var(--accent-dim);
-            border: 1px solid var(--border-hover);
-            border-radius: 100px;
-            padding: 6px 18px;
-            font-size: 0.78rem;
-            font-weight: 600;
-            color: var(--accent);
-            letter-spacing: 1.5px;
-            text-transform: uppercase;
-            margin-bottom: 24px;
-        }
-        .hero-badge .pulse {
-            width: 7px; height: 7px;
-            background: var(--green);
-            border-radius: 50%;
-            animation: pulse 2s ease-in-out infinite;
-        }
-        @keyframes pulse {
-            0%, 100% { opacity: 1; transform: scale(1); }
-            50% { opacity: 0.5; transform: scale(0.8); }
-        }
-
-        .hero h1 {
-            font-size: 3.2rem;
+        
+        h1 {
+            font-size: 2.5rem;
             font-weight: 800;
-            letter-spacing: -1.5px;
-            line-height: 1.1;
-            margin-bottom: 16px;
-            background: linear-gradient(135deg, var(--text-primary) 0%, var(--accent) 100%);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
+            margin-bottom: 10px;
+            text-shadow: 0 2px 10px rgba(0,0,0,0.1);
         }
-        .hero h1 span {
-            display: block;
-            font-size: 1.1rem;
-            font-weight: 400;
-            letter-spacing: 0;
+        
+        .subtitle {
             color: var(--text-secondary);
-            -webkit-text-fill-color: var(--text-secondary);
-            margin-top: 12px;
+            font-size: 0.9rem;
+            margin-bottom: 20px;
         }
-
-        .hero-stats {
+        
+        .stats {
             display: flex;
-            gap: 32px;
+            gap: 15px;
             justify-content: center;
-            margin: 32px 0;
             flex-wrap: wrap;
+            margin-bottom: 20px;
         }
-        .hero-stat {
-            text-align: center;
-        }
-        .hero-stat .num {
-            font-family: 'Space Mono', monospace;
-            font-size: 2rem;
-            font-weight: 700;
-            color: var(--accent);
-            line-height: 1;
-        }
-        .hero-stat .label {
-            font-size: 0.75rem;
-            color: var(--text-muted);
-            text-transform: uppercase;
-            letter-spacing: 1.5px;
-            margin-top: 4px;
-        }
-
-        .hero-author {
-            display: inline-flex;
-            align-items: center;
-            gap: 12px;
+        
+        .stat-item {
             background: var(--bg-card);
-            border: 1px solid var(--border);
-            border-radius: 100px;
-            padding: 8px 20px 8px 8px;
-            margin-top: 8px;
+            backdrop-filter: blur(10px);
+            border: 1px solid var(--border-color);
+            padding: 8px 16px;
+            border-radius: 20px;
             font-size: 0.85rem;
             color: var(--text-secondary);
         }
-        .hero-author .avatar {
-            width: 32px; height: 32px;
-            background: linear-gradient(135deg, var(--accent), var(--green));
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 0.8rem;
+        
+        .stat-value {
             font-weight: 700;
-            color: var(--bg-deep);
+            color: var(--accent);
         }
-        .hero-author strong {
-            color: var(--text-primary);
-        }
-
-        /* ===== SEARCH & CONTROLS ===== */
-        .controls-bar {
+        
+        .controls {
             background: var(--bg-card);
-            backdrop-filter: blur(20px);
-            border: 1px solid var(--border);
-            border-radius: 16px;
+            backdrop-filter: blur(10px);
+            border: 1px solid var(--border-color);
             padding: 20px;
-            margin-bottom: 24px;
-            position: sticky;
-            top: 12px;
-            z-index: 100;
+            border-radius: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 8px 32px rgba(0,0,0,0.1);
         }
-
-        .search-row {
-            display: flex;
-            gap: 12px;
-            align-items: center;
-            margin-bottom: 14px;
-        }
+        
         .search-box {
-            flex: 1;
             position: relative;
+            margin-bottom: 15px;
         }
+        
         .search-box input {
             width: 100%;
-            padding: 12px 16px 12px 42px;
-            border-radius: 10px;
-            border: 1px solid var(--border);
-            background: var(--bg-surface);
+            padding: 12px 45px 12px 15px;
+            border-radius: 12px;
+            border: 1px solid var(--border-color);
+            background: var(--bg-card);
             color: var(--text-primary);
-            font-family: 'Outfit', sans-serif;
-            font-size: 0.9rem;
-            outline: none;
-            transition: border-color 0.2s;
+            font-size: 1rem;
         }
-        .search-box input:focus {
-            border-color: var(--accent);
-            box-shadow: 0 0 0 3px var(--accent-glow);
+        
+        .search-box input::placeholder {
+            color: var(--text-muted);
         }
-        .search-box input::placeholder { color: var(--text-muted); }
-        .search-box .icon {
+        
+        .search-icon {
             position: absolute;
-            left: 14px;
+            right: 15px;
             top: 50%;
             transform: translateY(-50%);
             color: var(--text-muted);
-            font-size: 1rem;
         }
-
-        .action-btn {
-            padding: 10px 16px;
-            border-radius: 10px;
-            border: 1px solid var(--border);
-            background: var(--bg-surface);
-            color: var(--text-secondary);
-            font-family: 'Outfit', sans-serif;
-            font-size: 0.8rem;
-            font-weight: 500;
-            cursor: pointer;
-            transition: all 0.2s;
-            white-space: nowrap;
-        }
-        .action-btn:hover {
-            border-color: var(--border-hover);
-            color: var(--text-primary);
-            background: var(--accent-dim);
-        }
-
-        .filter-row {
+        
+        .filter-buttons {
             display: flex;
-            gap: 6px;
+            gap: 8px;
             flex-wrap: wrap;
         }
+        
         .filter-btn {
-            padding: 6px 14px;
-            border-radius: 8px;
-            border: 1px solid transparent;
-            background: transparent;
-            color: var(--text-muted);
-            font-family: 'Outfit', sans-serif;
-            font-size: 0.78rem;
-            font-weight: 500;
-            cursor: pointer;
-            transition: all 0.2s;
-        }
-        .filter-btn:hover {
-            color: var(--text-secondary);
-            background: var(--accent-glow);
-        }
-        .filter-btn.active {
-            background: var(--accent-dim);
-            color: var(--accent);
-            border-color: var(--border-hover);
-        }
-
-        /* ===== CATEGORY SECTIONS ===== */
-        .category-section {
-            margin-bottom: 12px;
-        }
-        .category-header {
-            display: flex;
-            align-items: center;
-            gap: 12px;
-            padding: 16px 20px;
+            padding: 8px 16px;
             background: var(--bg-card);
-            border: 1px solid var(--border);
-            border-radius: 12px;
-            cursor: pointer;
-            transition: all 0.2s;
-            user-select: none;
-        }
-        .category-header:hover {
-            border-color: var(--border-hover);
-            background: var(--bg-card-hover);
-        }
-        .category-header .cat-icon {
-            font-size: 1.3rem;
-        }
-        .category-header .cat-name {
+            border: 2px solid var(--border-color);
+            color: var(--text-secondary);
+            border-radius: 20px;
+            font-size: 0.85rem;
             font-weight: 600;
-            font-size: 0.95rem;
-            flex: 1;
-        }
-        .category-header .cat-count {
-            font-family: 'Space Mono', monospace;
-            font-size: 0.75rem;
-            color: var(--text-muted);
-            background: var(--bg-surface);
-            padding: 3px 10px;
-            border-radius: 6px;
-        }
-        .category-header .chevron {
-            color: var(--text-muted);
-            transition: transform 0.3s;
-            font-size: 0.8rem;
-        }
-        .category-header.open .chevron {
-            transform: rotate(90deg);
-        }
-
-        .category-links {
-            display: none;
-            padding: 4px 0 4px 0;
-        }
-        .category-links.open {
-            display: block;
-        }
-
-        .link-card {
-            display: flex;
-            align-items: center;
-            gap: 14px;
-            padding: 12px 20px 12px 48px;
-            border-bottom: 1px solid var(--border);
-            transition: all 0.15s;
-            text-decoration: none;
-            color: inherit;
-        }
-        .link-card:last-child { border-bottom: none; }
-        .link-card:hover {
-            background: var(--accent-glow);
-            padding-left: 54px;
-        }
-        .link-card .link-title {
-            font-weight: 500;
-            font-size: 0.88rem;
-            color: var(--text-primary);
-            min-width: 180px;
-        }
-        .link-card .link-desc {
-            flex: 1;
-            font-size: 0.8rem;
-            color: var(--text-muted);
-        }
-        .link-card .link-url {
-            font-family: 'Space Mono', monospace;
-            font-size: 0.68rem;
-            color: var(--text-muted);
-            opacity: 0.5;
-            max-width: 220px;
-            overflow: hidden;
-            text-overflow: ellipsis;
+            cursor: pointer;
+            transition: all 0.3s;
             white-space: nowrap;
         }
-        .link-card .fav-btn {
+        
+        .filter-btn:hover {
+            border-color: var(--accent);
+            color: var(--accent);
+        }
+        
+        .filter-btn.active {
+            background: var(--accent);
+            border-color: var(--accent);
+            color: white;
+        }
+        
+        .action-buttons {
+            display: flex;
+            gap: 10px;
+            justify-content: center;
+            margin-top: 15px;
+            flex-wrap: wrap;
+        }
+        
+        .action-btn {
+            padding: 10px 20px;
+            background: rgba(79, 195, 247, 0.2);
+            border: 2px solid rgba(79, 195, 247, 0.5);
+            color: var(--accent);
+            border-radius: 12px;
+            font-weight: 700;
+            font-size: 0.9rem;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+        
+        .action-btn:hover {
+            background: rgba(79, 195, 247, 0.3);
+            transform: translateY(-2px);
+        }
+        
+        .category-section {
+            background: var(--bg-card);
+            backdrop-filter: blur(10px);
+            border: 1px solid var(--border-color);
+            border-radius: 20px;
+            margin-bottom: 20px;
+            overflow: hidden;
+            box-shadow: 0 8px 32px rgba(0,0,0,0.1);
+        }
+        
+        .category-header {
+            padding: 15px 20px;
+            background: rgba(0,0,0,0.1);
+            border-bottom: 1px solid var(--border-color);
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: all 0.3s;
+        }
+        
+        .category-header:hover {
+            background: rgba(0,0,0,0.15);
+        }
+        
+        .category-name {
+            font-weight: 700;
+            font-size: 1.1rem;
+        }
+        
+        .category-count {
+            background: var(--accent);
+            color: white;
+            padding: 4px 12px;
+            border-radius: 12px;
+            font-size: 0.85rem;
+            font-weight: 700;
+            margin-left: 10px;
+        }
+        
+        .expand-icon {
+            font-size: 1.2rem;
+            transition: transform 0.3s;
+            color: var(--text-muted);
+        }
+        
+        .category-section.expanded .expand-icon {
+            transform: rotate(180deg);
+        }
+        
+        .links-container {
+            display: none;
+            padding: 10px;
+        }
+        
+        .category-section.expanded .links-container {
+            display: block;
+            animation: slideDown 0.3s ease-out;
+        }
+        
+        @keyframes slideDown {
+            from {
+                opacity: 0;
+                max-height: 0;
+            }
+            to {
+                opacity: 1;
+                max-height: 2000px;
+            }
+        }
+        
+        .link-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            padding: 15px;
+            margin: 10px;
+            transition: all 0.3s;
+            position: relative;
+        }
+        
+        .link-card:hover {
+            transform: translateX(5px);
+            border-color: var(--accent);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        
+        .link-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 8px;
+        }
+        
+        .link-title {
+            font-weight: 700;
+            font-size: 1rem;
+            color: var(--text-primary);
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        
+        .link-title:hover {
+            color: var(--accent);
+        }
+        
+        .link-actions {
+            display: flex;
+            gap: 8px;
+        }
+        
+        .link-action {
             background: none;
             border: none;
             cursor: pointer;
-            font-size: 1rem;
-            opacity: 0.3;
-            transition: all 0.2s;
+            font-size: 1.2rem;
             padding: 4px;
+            opacity: 0.5;
+            transition: all 0.3s;
         }
-        .link-card .fav-btn:hover,
-        .link-card .fav-btn.active {
+        
+        .link-action:hover {
+            opacity: 1;
+            transform: scale(1.2);
+        }
+        
+        .link-action.favorite {
+            color: #ffd43b;
+        }
+        
+        .link-action.favorite.active {
             opacity: 1;
         }
-
-        /* ===== FOOTER ===== */
-        .footer {
-            text-align: center;
-            padding: 60px 0 40px;
+        
+        .link-description {
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+            margin-bottom: 8px;
+        }
+        
+        .link-url {
             color: var(--text-muted);
-            font-size: 0.78rem;
+            font-size: 0.8rem;
+            font-family: monospace;
+            word-break: break-all;
         }
-        .footer a {
-            color: var(--accent);
-            text-decoration: none;
+        
+        .link-meta {
+            display: flex;
+            gap: 10px;
+            margin-top: 8px;
+            font-size: 0.75rem;
+            color: var(--text-muted);
         }
-        .footer a:hover { text-decoration: underline; }
-        .footer .footer-line {
-            width: 60px;
-            height: 1px;
-            background: var(--border);
-            margin: 16px auto;
-        }
-
-        /* ===== NO RESULTS ===== */
+        
         .no-results {
             text-align: center;
-            padding: 60px 20px;
+            padding: 40px 20px;
             color: var(--text-muted);
-            font-size: 1rem;
         }
-
-        /* ===== RESPONSIVE ===== */
+        
+        .modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0,0,0,0.8);
+            z-index: 1000;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+        
+        .modal-content {
+            background: var(--bg-primary);
+            border-radius: 20px;
+            padding: 30px;
+            max-width: 600px;
+            width: 100%;
+            max-height: 90vh;
+            overflow-y: auto;
+        }
+        
+        .modal-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        
+        .modal-title {
+            font-size: 1.5rem;
+            font-weight: 700;
+        }
+        
+        .modal-close {
+            background: rgba(255,107,107,0.2);
+            border: 2px solid #ff6b6b;
+            color: #ff6b6b;
+            width: 35px;
+            height: 35px;
+            border-radius: 50%;
+            font-size: 1.2rem;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+        
+        .modal-close:hover {
+            background: rgba(255,107,107,0.3);
+            transform: rotate(90deg);
+        }
+        
+        textarea, input[type="text"] {
+            width: 100%;
+            padding: 12px;
+            border-radius: 8px;
+            border: 1px solid var(--border-color);
+            background: var(--bg-card);
+            color: var(--text-primary);
+            font-family: inherit;
+            font-size: 0.9rem;
+            margin-bottom: 10px;
+        }
+        
+        .form-group {
+            margin-bottom: 15px;
+        }
+        
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: 600;
+            color: var(--text-secondary);
+        }
+        
         @media (max-width: 768px) {
-            .hero h1 { font-size: 2.2rem; }
-            .hero-stats { gap: 20px; }
-            .hero-stat .num { font-size: 1.5rem; }
-            .link-card { padding-left: 24px; flex-wrap: wrap; }
-            .link-card:hover { padding-left: 28px; }
-            .link-card .link-url { display: none; }
-            .link-card .link-title { min-width: auto; }
-            .search-row { flex-wrap: wrap; }
+            h1 {
+                font-size: 2rem;
+            }
+            
+            .filter-buttons {
+                max-height: 200px;
+                overflow-y: auto;
+            }
         }
-
-        /* ===== ANIMATIONS ===== */
-        @keyframes fadeUp {
-            from { opacity: 0; transform: translateY(20px); }
-            to { opacity: 1; transform: translateY(0); }
-        }
-        .hero { animation: fadeUp 0.8s ease-out; }
-        .controls-bar { animation: fadeUp 0.8s ease-out 0.1s both; }
-        .category-section { animation: fadeUp 0.5s ease-out both; }
     </style>
 </head>
 <body>
     <div class="container">
-        <!-- HERO -->
-        <section class="hero">
-            <div class="hero-badge"><span class="pulse"></span> Open Source Collection</div>
-            <h1>
-                CS_12 Security Bookmarks
-                <span><span id="heroLinkCount"></span>+ Cybersecurity-Ressourcen — Tools, Frameworks, Trainings & mehr</span>
-            </h1>
-            <div class="hero-stats">
-                <div class="hero-stat">
-                    <div class="num" id="totalLinks">474</div>
-                    <div class="label">Links</div>
-                </div>
-                <div class="hero-stat">
-                    <div class="num" id="totalCategories">17</div>
-                    <div class="label">Kategorien</div>
-                </div>
-                <div class="hero-stat">
-                    <div class="num" id="favoriteCount">0</div>
-                    <div class="label">Favoriten</div>
-                </div>
+        <header>
+            <h1>🔒 CS_12 Security Bookmarks</h1>
+            <p class="subtitle">Cybersecurity Link Collection</p>
+            <div class="stats">
+                <div class="stat-item"><span class="stat-value" id="totalLinks">497</span> Links</div>
+                <div class="stat-item"><span class="stat-value" id="totalCategories">33</span> Kategorien</div>
+                <div class="stat-item"><span class="stat-value" id="favoriteCount">0</span> Favoriten</div>
+                <div class="stat-item"><span class="stat-value" id="visibleCount">136</span> Sichtbar</div>
             </div>
-            <div class="hero-author">
-                <div class="avatar">C</div>
-                <span>Erstellt von <strong>Cornell</strong> — Cybersecurity Specialist & Pentester</span>
+        </header>
+        
+        <div class="controls">
+            <div class="search-box">
+                <input type="text" id="searchInput" placeholder="Suche nach Titel, Beschreibung, URL...">
+                <span class="search-icon">🔍</span>
             </div>
-        </section>
-
-        <!-- CONTROLS -->
-        <div class="controls-bar">
-            <div class="search-row">
-                <div class="search-box">
-                    <span class="icon">🔍</span>
-                    <input type="text" id="searchInput" placeholder="Suche nach Tool, Kategorie oder URL...">
-                </div>
-                <button class="action-btn" onclick="toggleDarkMode()">🌓 Theme</button>
-                <button class="action-btn" onclick="expandAll()">▼ Alle</button>
-                <button class="action-btn" onclick="collapseAll()">▶ Zuklappen</button>
-            </div>
-            <div class="filter-row" id="filterButtons">
+            
+            <div class="filter-buttons" id="filterButtons">
                 <button class="filter-btn active" data-filter="all">Alle</button>
                 <button class="filter-btn" data-filter="favorites">⭐ Favoriten</button>
             </div>
+            
+            <div class="action-buttons">
+                <button class="action-btn" onclick="toggleDarkMode()">🌓 Dark/Light</button>
+                <button class="action-btn" onclick="expandAll()">📂 Alle öffnen</button>
+                <button class="action-btn" onclick="collapseAll()">📁 Alle schließen</button>
+                <button class="action-btn" onclick="exportBookmarks()">💾 Export JSON</button>
+                <button class="action-btn" onclick="exportMarkdown()">📝 Export MD</button>
+            </div>
         </div>
-
-        <!-- CATEGORIES -->
-        <div id="categoriesContainer"></div>
-        <div class="no-results" id="noResults" style="display:none;">Keine Links gefunden</div>
-
         
-
-        <!-- FOOTER -->
-        <footer class="footer">
-            <div class="footer-line"></div>
-            <p>CS_12 Security Bookmarks — <span id="footerLinks"></span> Ressourcen in <span id="footerCats"></span> Kategorien</p>
-            <p style="margin-top:6px;">
-                Made with 🖤 by Cornell · 
-                <a href="https://github.com/beerjunky" target="_blank">GitHub</a> · 
-                <a href="https://www.linkedin.com/in/cornell-graefe" target="_blank">LinkedIn</a>
-            </p>
-            <p style="margin-top:12px;font-size:0.7rem;">Letzte Aktualisierung: März 2026 · CompTIA Security+ · OSCP in progress</p>
-        </footer>
+        <div id="categoriesContainer"></div>
+        
+        <div class="no-results" id="noResults" style="display:none;">
+            Keine Links gefunden 😕
+        </div>
     </div>
 
+
     <script>
+        // Bookmarks Data - 164 Links
         const bookmarksData = [
   {
     "title": "FIDO / VeloCrypt MicroSD HSM (PDF)",
@@ -4481,173 +4452,244 @@
     "main_category": "🛡️ DEFENSIVE SECURITY"
   }
 ];
-
-        // Favorites & clicks via localStorage
-        let favorites = JSON.parse(localStorage.getItem('cs12_favorites')) || [];
-        let linkClicks = JSON.parse(localStorage.getItem('cs12_clicks')) || {};
-
-        function isFavorite(url) { return favorites.includes(url); }
-        function toggleFavorite(url, e) {
-            e.preventDefault();
-            e.stopPropagation();
+        // Load favorites and stats from localStorage
+        let favorites = JSON.parse(localStorage.getItem('bookmarkFavorites')) || [];
+        let linkClicks = JSON.parse(localStorage.getItem('bookmarkClicks')) || {};
+        let currentFilter = 'all';
+        let searchQuery = '';
+        
+        // Initialize
+        init();
+        
+        function init() {
+            renderCategories();
+            updateStats();
+            setupEventListeners();
+        }
+        
+        function setupEventListeners() {
+            document.getElementById('searchInput').addEventListener('input', (e) => {
+                searchQuery = e.target.value.toLowerCase();
+                filterAndRender();
+            });
+            
+            document.querySelectorAll('[data-filter]').forEach(btn => {
+                btn.addEventListener('click', (e) => {
+                    document.querySelectorAll('[data-filter]').forEach(b => b.classList.remove('active'));
+                    e.target.classList.add('active');
+                    currentFilter = e.target.dataset.filter;
+                    filterAndRender();
+                });
+            });
+        }
+        
+        function renderCategories() {
+            const container = document.getElementById('categoriesContainer');
+            const groupedByCategory = {};
+            
+            bookmarksData.forEach(link => {
+                if (!groupedByCategory[link.category]) {
+                    groupedByCategory[link.category] = [];
+                }
+                groupedByCategory[link.category].push(link);
+            });
+            
+            container.innerHTML = '';
+            
+            Object.keys(groupedByCategory).sort().forEach(category => {
+                const links = groupedByCategory[category];
+                const section = createCategorySection(category, links);
+                container.appendChild(section);
+            });
+        }
+        
+        function createCategorySection(category, links) {
+            const section = document.createElement('div');
+            section.className = 'category-section';
+            section.dataset.category = category;
+            
+            section.innerHTML = `
+                <div class="category-header" onclick="toggleCategory('${category}')">
+                    <div>
+                        <span class="category-name">${category}</span>
+                        <span class="category-count">${links.length}</span>
+                    </div>
+                    <span class="expand-icon">▼</span>
+                </div>
+                <div class="links-container">
+                    ${links.map(link => createLinkCard(link)).join('')}
+                </div>
+            `;
+            
+            return section;
+        }
+        
+        function createLinkCard(link) {
+            const isFavorite = favorites.includes(link.url);
+            const clicks = linkClicks[link.url] || 0;
+            
+            return `
+                <div class="link-card" data-url="${link.url}">
+                    <div class="link-header">
+                        <a href="${link.url}" class="link-title" target="_blank" onclick="trackClick('${link.url}')">
+                            🔗 ${link.title}
+                        </a>
+                        <div class="link-actions">
+                            <button class="link-action favorite ${isFavorite ? 'active' : ''}" onclick="toggleFavorite('${link.url}', event)">⭐</button>
+                        </div>
+                    </div>
+                    <div class="link-description">${link.description}</div>
+                    <div class="link-url">${link.url}</div>
+                    ${clicks > 0 ? `<div class="link-meta"><span>📊 ${clicks} Klicks</span></div>` : ''}
+                </div>
+            `;
+        }
+        
+        function toggleCategory(category) {
+            const section = document.querySelector(`[data-category="${category}"]`);
+            section.classList.toggle('expanded');
+        }
+        
+        function toggleFavorite(url, event) {
+            event.preventDefault();
+            event.stopPropagation();
+            
             if (favorites.includes(url)) {
                 favorites = favorites.filter(f => f !== url);
             } else {
                 favorites.push(url);
             }
-            localStorage.setItem('cs12_favorites', JSON.stringify(favorites));
+            
+            localStorage.setItem('bookmarkFavorites', JSON.stringify(favorites));
             renderCategories();
             updateStats();
         }
-
+        
         function trackClick(url) {
             linkClicks[url] = (linkClicks[url] || 0) + 1;
-            localStorage.setItem('cs12_clicks', JSON.stringify(linkClicks));
+            localStorage.setItem('bookmarkClicks', JSON.stringify(linkClicks));
         }
-
-        // Rendering
-        function renderCategories() {
-            const container = document.getElementById('categoriesContainer');
-            const search = document.getElementById('searchInput').value.toLowerCase();
-            const activeFilter = document.querySelector('.filter-btn.active')?.dataset.filter || 'all';
-
-            let filtered = bookmarksData;
-            if (search) {
-                filtered = filtered.filter(b =>
-                    b.title.toLowerCase().includes(search) ||
-                    b.description.toLowerCase().includes(search) ||
-                    b.url.toLowerCase().includes(search) ||
-                    b.category.toLowerCase().includes(search)
+        
+        function filterAndRender() {
+            let filteredLinks = bookmarksData;
+            
+            // Apply filter
+            if (currentFilter === 'favorites') {
+                filteredLinks = filteredLinks.filter(link => favorites.includes(link.url));
+            }
+            
+            // Apply search
+            if (searchQuery) {
+                filteredLinks = filteredLinks.filter(link => 
+                    link.title.toLowerCase().includes(searchQuery) ||
+                    link.description.toLowerCase().includes(searchQuery) ||
+                    link.url.toLowerCase().includes(searchQuery) ||
+                    link.category.toLowerCase().includes(searchQuery)
                 );
             }
-            if (activeFilter === 'favorites') {
-                filtered = filtered.filter(b => isFavorite(b.url));
-            } else if (activeFilter !== 'all') {
-                filtered = filtered.filter(b => b.category === activeFilter);
-            }
-
-            // Group by category
-            const groups = {};
-            filtered.forEach(b => {
-                const cat = b.category || 'Sonstiges';
-                if (!groups[cat]) groups[cat] = [];
-                groups[cat].push(b);
-            });
-
-            let html = '';
-            let delay = 0;
-            const sortedCats = Object.keys(groups).sort();
-
-            sortedCats.forEach(cat => {
-                const links = groups[cat];
-                const icon = cat.split(' ')[0];
-                const name = cat.split(' ').slice(1).join(' ');
-                html += `
-                    <div class="category-section" style="animation-delay:${delay}s">
-                        <div class="category-header" onclick="toggleCategory(this)">
-                            <span class="cat-icon">${icon}</span>
-                            <span class="cat-name">${name}</span>
-                            <span class="cat-count">${links.length}</span>
-                            <span class="chevron">▶</span>
-                        </div>
-                        <div class="category-links">`;
-                links.forEach(link => {
-                    const favClass = isFavorite(link.url) ? 'active' : '';
-                    const favIcon = isFavorite(link.url) ? '⭐' : '☆';
-                    html += `
-                            <a href="${link.url}" target="_blank" rel="noopener" class="link-card" onclick="trackClick('${link.url}')">
-                                <span class="link-title">${link.title}</span>
-                                <span class="link-desc">${link.description}</span>
-                                <span class="link-url">${link.url.replace('https://','').replace('http://','').split('/')[0]}</span>
-                                <button class="fav-btn ${favClass}" onclick="toggleFavorite('${link.url}', event)">${favIcon}</button>
-                            </a>`;
+            
+            const container = document.getElementById('categoriesContainer');
+            const noResults = document.getElementById('noResults');
+            
+            if (filteredLinks.length === 0) {
+                container.style.display = 'none';
+                noResults.style.display = 'block';
+            } else {
+                container.style.display = 'block';
+                noResults.style.display = 'none';
+                
+                // Group and render
+                const groupedByCategory = {};
+                filteredLinks.forEach(link => {
+                    if (!groupedByCategory[link.category]) {
+                        groupedByCategory[link.category] = [];
+                    }
+                    groupedByCategory[link.category].push(link);
                 });
-                html += `
-                        </div>
-                    </div>`;
-                delay += 0.03;
-            });
-
-            container.innerHTML = html;
-            document.getElementById('noResults').style.display = filtered.length === 0 ? 'block' : 'none';
-            updateStats();
+                
+                container.innerHTML = '';
+                Object.keys(groupedByCategory).sort().forEach(category => {
+                    const links = groupedByCategory[category];
+                    const section = createCategorySection(category, links);
+                    container.appendChild(section);
+                });
+            }
+            
+            updateStats(filteredLinks.length);
         }
-
-        function toggleCategory(el) {
-            el.classList.toggle('open');
-            el.nextElementSibling.classList.toggle('open');
-        }
-
-        function expandAll() {
-            document.querySelectorAll('.category-header').forEach(h => {
-                h.classList.add('open');
-                h.nextElementSibling.classList.add('open');
-            });
-        }
-        function collapseAll() {
-            document.querySelectorAll('.category-header').forEach(h => {
-                h.classList.remove('open');
-                h.nextElementSibling.classList.remove('open');
-            });
-        }
-
-        function updateStats() {
-            const total = bookmarksData.length;
-            const cats = [...new Set(bookmarksData.map(b => b.category))];
-            document.getElementById('totalLinks').textContent = total;
-            document.getElementById('totalCategories').textContent = cats.length;
+        
+        function updateStats(visibleCount) {
+            document.getElementById('totalLinks').textContent = bookmarksData.length;
+            document.getElementById('totalCategories').textContent = new Set(bookmarksData.map(l => l.category)).size;
             document.getElementById('favoriteCount').textContent = favorites.length;
-            // Dynamic hero + footer
-            const hl = document.getElementById('heroLinkCount');
-            if (hl) hl.textContent = total;
-            const fl = document.getElementById('footerLinks');
-            if (fl) fl.textContent = total;
-            const fc = document.getElementById('footerCats');
-            if (fc) fc.textContent = cats.length;
+            document.getElementById('visibleCount').textContent = visibleCount !== undefined ? visibleCount : bookmarksData.length;
         }
-
-        // Filter buttons
-        function setupFilters() {
-            const row = document.getElementById('filterButtons');
-            const cats = [...new Set(bookmarksData.map(b => b.category))].sort();
-            cats.forEach(cat => {
-                const btn = document.createElement('button');
-                btn.className = 'filter-btn';
-                btn.dataset.filter = cat;
-                btn.textContent = cat;
-                btn.onclick = function() {
-                    document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
-                    this.classList.add('active');
-                    renderCategories();
-                };
-                row.appendChild(btn);
-            });
-
-            // Wire up existing buttons
-            row.querySelectorAll('.filter-btn[data-filter="all"], .filter-btn[data-filter="favorites"]').forEach(btn => {
-                btn.onclick = function() {
-                    document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
-                    this.classList.add('active');
-                    renderCategories();
-                };
+        
+        function expandAll() {
+            document.querySelectorAll('.category-section').forEach(section => {
+                section.classList.add('expanded');
             });
         }
-
-        // Search
-        document.getElementById('searchInput').addEventListener('input', renderCategories);
-
-        // Dark/Light toggle
+        
+        function collapseAll() {
+            document.querySelectorAll('.category-section').forEach(section => {
+                section.classList.remove('expanded');
+            });
+        }
+        
         function toggleDarkMode() {
             document.body.classList.toggle('light-mode');
-            localStorage.setItem('cs12_theme', document.body.classList.contains('light-mode') ? 'light' : 'dark');
+            localStorage.setItem('lightMode', document.body.classList.contains('light-mode'));
         }
-        if (localStorage.getItem('cs12_theme') === 'light') document.body.classList.add('light-mode');
-
-
-
-        // Init
-        setupFilters();
-        renderCategories();
+        
+        // Load saved theme
+        if (localStorage.getItem('lightMode') === 'true') {
+            document.body.classList.add('light-mode');
+        }
+        
+        function exportBookmarks() {
+            const dataStr = JSON.stringify(bookmarksData, null, 2);
+            const dataBlob = new Blob([dataStr], { type: 'application/json' });
+            const url = URL.createObjectURL(dataBlob);
+            const link = document.createElement('a');
+            link.href = url;
+            link.download = 'cs12_bookmarks_export.json';
+            link.click();
+        }
+        
+        function exportMarkdown() {
+            const sorted = [...bookmarksData].sort((a, b) => (a.category + a.title).localeCompare(b.category + b.title));
+            const cats = {};
+            sorted.forEach(b => {
+                if (!cats[b.category]) cats[b.category] = [];
+                cats[b.category].push(b);
+            });
+            
+            let md = '# 🔒 CS_12 Security Bookmarks\n\n';
+            md += '**Gesamtanzahl:** ' + bookmarksData.length + ' Links | **Kategorien:** ' + Object.keys(cats).length + '\n\n---\n\n';
+            md += '## 📑 Inhaltsverzeichnis\n\n';
+            Object.keys(cats).sort().forEach(cat => {
+                md += '- ' + cat + ' (' + cats[cat].length + ' Links)\n';
+            });
+            md += '\n---\n\n';
+            Object.keys(cats).sort().forEach(cat => {
+                md += '## ' + cat + '\n\n';
+                md += '*' + cats[cat].length + ' Links*\n\n';
+                md += '| Tool | Beschreibung | Link |\n';
+                md += '|------|-------------|------|\n';
+                cats[cat].forEach(l => {
+                    md += '| **' + l.title.replace(/\|/g, '-') + '** | ' + (l.description || '').replace(/\|/g, '-') + ' | [→ Link](' + l.url + ') |\n';
+                });
+                md += '\n---\n\n';
+            });
+            
+            const blob = new Blob([md], { type: 'text/markdown' });
+            const url = URL.createObjectURL(blob);
+            const link = document.createElement('a');
+            link.href = url;
+            link.download = 'CS12-Security-Bookmarks.md';
+            link.click();
+        }
     </script>
 </body>
 </html>
