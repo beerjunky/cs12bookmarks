@@ -1,21 +1,21 @@
 # 🔒 CS_12 Security Bookmarks
 
-**Gesamtanzahl:** 497 Links | **Kategorien:** 17
+**Gesamtanzahl:** 515 Links | **Kategorien:** 17
 
 ---
 
 ## 📑 Inhaltsverzeichnis
 
-- ☁️ Cloud & Hardware Security (4 Links)
+- ☁️ Cloud & Hardware Security (14 Links)
 - ⚖️ Rechtliches & Compliance (29 Links)
 - ⚙️ Development & Automation (15 Links)
 - 🌐 Web Application Security (38 Links)
 - 🎓 Training & Zertifizierungen (49 Links)
-- 🎯 Penetration Testing (47 Links)
-- 🎯 Schwachstellen & Exploits (28 Links)
+- 🎯 Penetration Testing (48 Links)
+- 🎯 Schwachstellen & Exploits (33 Links)
 - 💻 Endpoint & Systems (50 Links)
 - 📊 SIEM & Monitoring (12 Links)
-- 📋 Standards & Frameworks (30 Links)
+- 📋 Standards & Frameworks (32 Links)
 - 📡 Wireless & Mobile Security (31 Links)
 - 🔌 Netzwerk-Security (34 Links)
 - 🔍 Reconnaissance & OSINT (44 Links)
@@ -28,14 +28,24 @@
 
 ## ☁️ Cloud & Hardware Security
 
-*4 Links*
+*14 Links*
 
 | Tool | Beschreibung | Link |
 |------|-------------|------|
-| **FIDO / VeloCrypt MicroSD HSM (PDF)** | Product Brief | [→ Link](https://fidoalliance.org/wp-content/uploads/2021/06/VeloCrypt_MicroSD_HSM_Product_Brief.pdf) |
-| **ScoutSuite** | Multi-Cloud Security Auditing | [→ Link](https://github.com/nccgroup/ScoutSuite) |
-| **Swissbit iShield HSM** | Industrial HSM Solutions | [→ Link](https://www.swissbit.com/de/produkte/security-produkte/ishield-hsm/) |
-| **WiSECURE MicroSD HSM** | MicroSD Form Factor HSM | [→ Link](https://wisecure-tech.com/en/hsm/microsd-hsm/) |
+| **Docker Bench Security** | Automatisiertes Audit-Skript das Docker-Installationen gegen den CIS Docker Benchmark prüft. Testet Host-Konfiguration, Docker Daemon, Container-Runtime, Images und Netzwerk-Einstellungen. | [→ Link](https://github.com/docker/docker-bench-security) |
+| **FIDO / VeloCrypt MicroSD HSM (PDF)** | Product Brief zum VeloCrypt MicroSD Hardware Security Module im FIDO-Standard. Kompaktes HSM im MicroSD-Format für sichere Schlüsselspeicherung und kryptographische Operationen in Embedded-Systemen. | [→ Link](https://fidoalliance.org/wp-content/uploads/2021/06/VeloCrypt_MicroSD_HSM_Product_Brief.pdf) |
+| **GCP Metadata Library** | Google Cloud Metadata-Server Client-Library. Wird in Pentests genutzt um SSRF-Angriffe gegen den GCP Metadata-Endpoint zu verstehen und Instance-Credentials zu extrahieren. | [→ Link](https://github.com/googleapis/gcp-metadata) |
+| **Kube-Hunter (GitHub)** | Open Source Kubernetes Security Scanner von Aqua Security. Simuliert Angriffe auf K8s-Cluster, testet auf offene Dashboards, exposed APIs, Privilege Escalation und Container-Escape-Möglichkeiten. | [→ Link](https://github.com/aquasecurity/kube-hunter) |
+| **Kube-Hunter Docs** | Dokumentation für Kube-Hunter — das Kubernetes Penetration Testing Tool von Aqua Security. Erklärt die verschiedenen Scan-Modi (Remote, Internal, Network) und gefundene Schwachstellentypen. | [→ Link](https://aquasecurity.github.io/kube-hunter/) |
+| **Kube-Hunter Einführung (Aqua Security)** | Offizieller Ankündigungs-Artikel zu Kube-Hunter. Beschreibt die Motivation hinter dem Tool, typische Kubernetes-Angriffsvektoren und wie Kube-Hunter diese automatisiert aufdeckt. | [→ Link](https://www.aquasec.com/news/introducing-kube-hunter-an-open-source-tool-for-discovering-security-issues-in-kubernetes-clusters/) |
+| **Pacu (GitHub)** | Open Source AWS Exploitation Framework von Rhino Security Labs. Modulares Pentesting-Tool mit über 30 Modulen für Privilege Escalation, Data Exfiltration und Persistence in AWS-Umgebungen. | [→ Link](https://github.com/RhinoSecurityLabs/pacu) |
+| **Pacu Release Artikel (Rhino Security)** | Offizieller Release-Artikel zum AWS Exploitation Framework Pacu. Erklärt die modulare Architektur, Demo-Workflows und warum dedizierte Cloud-Pentest-Tools nötig sind. | [→ Link](https://rhinosecuritylabs.com/aws/pacu-open-source-aws-exploitation-framework/) |
+| **Prowler** | Cloud Security Platform mit Open-Source-Kern. Bietet kontinuierliches Security-Monitoring, Compliance-Reporting und Schwachstellen-Erkennung für Multi-Cloud-Umgebungen. | [→ Link](https://prowler.com/) |
+| **Prowler (GitHub)** | Open Source Cloud Security Tool für AWS, Azure & GCP. Führt hunderte automatisierte Checks gegen CIS Benchmarks, PCI-DSS, HIPAA und weitere Compliance-Frameworks durch. | [→ Link](https://github.com/prowler-cloud/prowler) |
+| **ScoutSuite** | Multi-Cloud Security Auditing Tool von NCC Group für AWS, Azure, GCP, Oracle & Alibaba. Sammelt automatisiert Konfigurationsdaten und identifiziert Fehlkonfigurationen über ein HTML-Dashboard. | [→ Link](https://github.com/nccgroup/ScoutSuite) |
+| **ScoutSuite Release Artikel (NCC Group)** | Offizieller Release-Artikel von NCC Group zu ScoutSuite. Beschreibt die Architektur des Tools, unterstützte Cloud-Provider und typische Audit-Workflows für Cloud-Infrastruktur. | [→ Link](https://www.nccgroup.com/research/tool-release-scoutsuite-5130/) |
+| **Swissbit iShield HSM** | Hardware Security Module von Swissbit im industriellen Formfaktor. Entwickelt für IoT- und Embedded-Geräte, bietet sichere Schlüsselverwaltung und Firmware-Integrity-Checks. | [→ Link](https://www.swissbit.com/de/produkte/security-produkte/ishield-hsm/) |
+| **WiSECURE MicroSD HSM** | Hardware Security Module im MicroSD-Formfaktor von WiSECURE. Ermöglicht kryptographische Operationen und Schlüsselspeicherung in mobilen Geräten und kompakten Embedded-Systemen. | [→ Link](https://wisecure-tech.com/en/hsm/microsd-hsm/) |
 
 ---
 
@@ -45,35 +55,35 @@
 
 | Tool | Beschreibung | Link |
 |------|-------------|------|
-| **BDSG** | Bundesdatenschutzgesetz | [→ Link](https://dsgvo-gesetz.de/bdsg/) |
-| **BSI-KritisV** | BSI-Kritisverordnung | [→ Link](https://www.gesetze-im-internet.de/bsi-kritisv/) |
-| **Bundesdatenschutzgesetz (BDSG)** | German Data Protection Act | [→ Link](https://www.gesetze-im-internet.de/bdsg_2018/) |
-| **CCPA** | California Consumer Privacy Act | [→ Link](https://oag.ca.gov/privacy/ccpa) |
-| **CER-Richtlinie** | Resilienz kritischer Einrichtungen (EU) | [→ Link](https://eur-lex.europa.eu/eli/dir/2022/2557/oj) |
-| **CPRA 2020** | California Privacy Rights Act | [→ Link](https://iapp.org/resources/article/the-california-privacy-rights-act-of-2020/) |
-| **Computer Misuse Act 1990** | UK Hacking Law | [→ Link](https://www.legislation.gov.uk/ukpga/1990/18/section/3A) |
-| **Cyber Resilience Act** | EU-Verordnung für Cybersicherheit bei Produkten | [→ Link](https://eur-lex.europa.eu/eli/reg/2024/2847/oj) |
-| **DORA-Verordnung** | Digital Operational Resilience Act (Finanzsektor) | [→ Link](https://eur-lex.europa.eu/eli/reg/2022/2554/oj) |
-| **DSGVO (DE)** | Datenschutz-Grundverordnung (Deutschland) | [→ Link](https://dsgvo-gesetz.de/) |
-| **DSGVO (offiziell)** | EU General Data Protection Regulation | [→ Link](https://gdpr.eu/de/) |
-| **GDPR** | General Data Protection Regulation (EU) | [→ Link](https://gdpr.eu/) |
-| **HIPAA** | Health Insurance Portability & Accountability Act | [→ Link](https://www.cdc.gov/phlp/php/resources/health-insurance-portability-and-accountability-act-of-1996-hipaa.html) |
-| **IT-SiG 2.0** | Zweites IT-Sicherheitsgesetz | [→ Link](https://www.bsi.bund.de/DE/Das-BSI/Auftrag/Gesetze-und-Verordnungen/IT-SiG/2-0/it_sig_2-0.html) |
-| **IT-Sicherheitsgesetz** | Gesetz über das BSI (IT-SiG) | [→ Link](https://www.gesetze-im-internet.de/bsig_2009/) |
-| **Incogni** | Anonymitäts-Service | [→ Link](https://incogni.com/) |
-| **IronGeek Computer Laws** | US State Hacking Laws | [→ Link](https://www.irongeek.com/i.php?page=computerlaws/state-hacking-laws) |
-| **KRITIS** | Kritische Infrastrukturen - Schutz & Sicherheit | [→ Link](https://www.bmi.bund.de/SharedDocs/downloads/DE/publikationen/themen/bevoelkerungsschutz/kritis.pdf) |
-| **KRITIS-Dachgesetz** | Schutz kritischer Einrichtungen | [→ Link](https://www.bundesregierung.de/breg-de/aktuelles/kritis-dachgesetz-2318846) |
-| **Mullvad VPN** | Privacy-fokussierter VPN (No-Logs) | [→ Link](https://mullvad.net/en) |
-| **NCSL Computer Crime** | US Computer Crime Statutes | [→ Link](https://www.ncsl.org/technology-and-communication/computer-crime-statutes) |
-| **NIS-2-Richtlinie** | EU-Richtlinie zur Netz- und Informationssicherheit | [→ Link](https://eur-lex.europa.eu/eli/dir/2022/2555/oj) |
-| **NY Cybersecurity Regulation** | New York State Cybersecurity | [→ Link](https://www.dfs.ny.gov/system/files/documents/2019/02/dfsrf500txt.pdf) |
-| **PCI DSS** | Payment Card Industry Data Security Standard | [→ Link](https://www.pcisecuritystandards.org/about_us/) |
-| **PCI-DSS Documentation** | Payment Card Industry Documentation | [→ Link](https://www.pcisecuritystandards.org/document_library?document=pci_dss) |
-| **YaCy** | Peer-to-Peer Suchmaschine | [→ Link](https://yacy.de/) |
-| **§ 202a StGB** | Ausspähen von Daten (Hacking) | [→ Link](https://www.gesetze-im-internet.de/stgb/__202a.html) |
-| **§ 202b StGB** | Abfangen von Daten | [→ Link](https://www.gesetze-im-internet.de/stgb/__202b.html) |
-| **§ 202c StGB** | Vorbereiten des Ausspähens von Daten | [→ Link](https://www.gesetze-im-internet.de/stgb/__202c.html) |
+| **BDSG** | Bundesdatenschutzgesetz — das deutsche Datenschutzgesetz als nationale Ergänzung zur DSGVO. Regelt u.a. die Bestellung von Datenschutzbeauftragten und den Beschäftigtendatenschutz. | [→ Link](https://dsgvo-gesetz.de/bdsg/) |
+| **BSI-KritisV** | BSI-Kritisverordnung — definiert Schwellenwerte und Kriterien für kritische Infrastrukturen in Deutschland. Legt fest welche Betreiber unter die KRITIS-Regulierung fallen. | [→ Link](https://www.gesetze-im-internet.de/bsi-kritisv/) |
+| **Bundesdatenschutzgesetz (BDSG)** | Volltext des BDSG — deutsches Datenschutzgesetz als nationale Umsetzung der DSGVO. Enthält spezifische Regelungen zu Videoüberwachung, Scoring und Beschäftigtendatenschutz. | [→ Link](https://www.gesetze-im-internet.de/bdsg_2018/) |
+| **CCPA** | California Consumer Privacy Act — kalifornisches Datenschutzgesetz das Verbrauchern Kontrolle über ihre persönlichen Daten gibt. Vorbild für Datenschutzgesetze in anderen US-Bundesstaaten. | [→ Link](https://oag.ca.gov/privacy/ccpa) |
+| **CER-Richtlinie** | EU-Richtlinie zur Resilienz kritischer Einrichtungen. Ersetzt die europäische KRITIS-Richtlinie und erweitert den Schutz auf elf Sektoren mit Pflicht-Risikobewertungen und Meldepflichten. | [→ Link](https://eur-lex.europa.eu/eli/dir/2022/2557/oj) |
+| **CPRA 2020** | California Privacy Rights Act — Erweiterung des CCPA mit strengeren Datenschutzanforderungen. Führt das Recht auf Berichtigung und eine eigenständige Datenschutzbehörde ein. | [→ Link](https://iapp.org/resources/article/the-california-privacy-rights-act-of-2020/) |
+| **Computer Misuse Act 1990** | UK-Gesetz das unbefugten Computerzugriff und Hacking unter Strafe stellt. Definiert drei Hauptdelikte von unauthorisiertem Zugang bis zur Beeinträchtigung von Computersystemen. | [→ Link](https://www.legislation.gov.uk/ukpga/1990/18/section/3A) |
+| **Cyber Resilience Act** | EU-Verordnung die Cybersicherheitsanforderungen an alle Produkte mit digitalen Elementen stellt. Verpflichtet Hersteller zu Security-by-Design über den gesamten Produktlebenszyklus. | [→ Link](https://eur-lex.europa.eu/eli/reg/2024/2847/oj) |
+| **DORA-Verordnung** | Digital Operational Resilience Act — EU-Verordnung für den Finanzsektor. Fordert ICT-Risikomanagement, Incident-Reporting, Resilience-Testing und Third-Party-Risk-Management von Finanzunternehmen. | [→ Link](https://eur-lex.europa.eu/eli/reg/2022/2554/oj) |
+| **DSGVO (DE)** | Deutsche Fassung der Datenschutz-Grundverordnung auf dsgvo-gesetz.de. Übersichtliche Darstellung aller Artikel und Erwägungsgründe mit Suchfunktion und Querverweisen. | [→ Link](https://dsgvo-gesetz.de/) |
+| **DSGVO (offiziell)** | Offizielle EU-Seite zur Datenschutz-Grundverordnung. Enthält den vollständigen Verordnungstext, Erklärungen für Bürger und Unternehmen sowie Informationen zu nationalen Datenschutzbehörden. | [→ Link](https://gdpr.eu/de/) |
+| **GDPR** | General Data Protection Regulation — englischsprachige Fassung der EU-Datenschutz-Grundverordnung. Internationale Referenz für Datenschutz-Compliance und Privacy-by-Design. | [→ Link](https://gdpr.eu/) |
+| **HIPAA** | Health Insurance Portability and Accountability Act — US-Gesetz zum Schutz von Gesundheitsdaten. Definiert strenge Anforderungen an die Sicherheit elektronischer Patientenakten. | [→ Link](https://www.cdc.gov/phlp/php/resources/health-insurance-portability-and-accountability-act-of-1996-hipaa.html) |
+| **IT-SiG 2.0** | Zweites IT-Sicherheitsgesetz Deutschlands — erweitert die KRITIS-Regulierung und Befugnisse des BSI. Führt Unternehmen im besonderen öffentlichen Interesse als neue Kategorie ein. | [→ Link](https://www.bsi.bund.de/DE/Das-BSI/Auftrag/Gesetze-und-Verordnungen/IT-SiG/2-0/it_sig_2-0.html) |
+| **IT-Sicherheitsgesetz** | Erstes IT-Sicherheitsgesetz von 2015 — das Gesetz über das Bundesamt für Sicherheit in der Informationstechnik. Grundlage für KRITIS-Meldepflichten und BSI-Befugnisse. | [→ Link](https://www.gesetze-im-internet.de/bsig_2009/) |
+| **Incogni** | Datenlösch-Service der persönliche Daten bei Data Brokern entfernen lässt. Automatisiert DSGVO/CCPA-Löschanfragen — reduziert den digitalen Fußabdruck und Spam-Risiko. | [→ Link](https://incogni.com/) |
+| **IronGeek Computer Laws** | Übersicht der US-amerikanischen Computer-Crime-Gesetze nach Bundesstaat. Nützliche Referenz für rechtliche Rahmenbedingungen bei Penetration Tests in den USA. | [→ Link](https://www.irongeek.com/i.php?page=computerlaws/state-hacking-laws) |
+| **KRITIS** | BSI-Portal für Kritische Infrastrukturen in Deutschland. Informationen zu Sektoren, Meldepflichten, Sicherheitsanforderungen und Prüfverfahren für KRITIS-Betreiber. | [→ Link](https://www.bmi.bund.de/SharedDocs/downloads/DE/publikationen/themen/bevoelkerungsschutz/kritis.pdf) |
+| **KRITIS-Dachgesetz** | Entwurf des KRITIS-Dachgesetzes zur Umsetzung der EU CER-Richtlinie. Schafft erstmals einen sektorübergreifenden Rechtsrahmen für den physischen Schutz kritischer Infrastrukturen. | [→ Link](https://www.bundesregierung.de/breg-de/aktuelles/kritis-dachgesetz-2318846) |
+| **Mullvad VPN** | Datenschutz-fokussierter VPN-Dienst aus Schweden. Akzeptiert anonyme Zahlung, kein Account nötig — nur eine generierte Nummer. Regelmäßig unabhängig auditiert. | [→ Link](https://mullvad.net/en) |
+| **NCSL Computer Crime** | National Conference of State Legislatures — Übersicht aller US-Bundesstaaten-Gesetze zu Computerkriminalität. Referenz für die rechtliche Einordnung von Hacking in den USA. | [→ Link](https://www.ncsl.org/technology-and-communication/computer-crime-statutes) |
+| **NIS-2-Richtlinie** | EU-Richtlinie für ein hohes gemeinsames Cybersicherheitsniveau. Erweitert den Geltungsbereich auf 18 Sektoren und verschärft Meldepflichten, Risikomanagement und Sanktionen erheblich. | [→ Link](https://eur-lex.europa.eu/eli/dir/2022/2555/oj) |
+| **NY Cybersecurity Regulation** | New York State Department of Financial Services Cybersecurity Regulation (23 NYCRR 500). Strenge Cybersicherheitsanforderungen für Finanzdienstleister in New York. | [→ Link](https://www.dfs.ny.gov/system/files/documents/2019/02/dfsrf500txt.pdf) |
+| **PCI DSS** | Payment Card Industry Data Security Standard — globaler Sicherheitsstandard für Kreditkartenverarbeitung. Zwölf Anforderungsbereiche von Netzwerksicherheit bis regelmäßige Audits. | [→ Link](https://www.pcisecuritystandards.org/about_us/) |
+| **PCI-DSS Documentation** | Offizielle PCI-DSS-Dokumentationsbibliothek des PCI Security Standards Council. Enthält den vollständigen Standard, SAQs, Penetration-Testing-Guidance und Best-Practice-Dokumente. | [→ Link](https://www.pcisecuritystandards.org/document_library?document=pci_dss) |
+| **YaCy** | Dezentrale Peer-to-Peer-Suchmaschine ohne zentralen Server. Ermöglicht datenschutzfreundliches Web-Crawling und eigene Suchindizes — Alternative zu Google ohne Tracking. | [→ Link](https://yacy.de/) |
+| **§ 202a StGB** | Paragraph 202a StGB — Ausspähen von Daten. Stellt das unbefugte Beschaffen von Zugang zu besonders gesicherten Daten unter Strafe. Grundlage für Hacking-Strafverfolgung in Deutschland. | [→ Link](https://www.gesetze-im-internet.de/stgb/__202a.html) |
+| **§ 202b StGB** | Paragraph 202b StGB — Abfangen von Daten. Kriminalisiert das unbefugte Abfangen nicht-öffentlicher Datenübermittlungen oder elektromagnetischer Abstrahlung. | [→ Link](https://www.gesetze-im-internet.de/stgb/__202b.html) |
+| **§ 202c StGB** | Paragraph 202c StGB — Vorbereitung des Ausspähens von Daten. Der umstrittene 'Hackerparagraph' der auch den Besitz von Hacking-Tools unter bestimmten Umständen unter Strafe stellt. | [→ Link](https://www.gesetze-im-internet.de/stgb/__202c.html) |
 
 ---
 
@@ -83,21 +93,21 @@
 
 | Tool | Beschreibung | Link |
 |------|-------------|------|
-| **Adaxes** | M365 AD Account & Privileges Management | [→ Link](https://www.adaxes.com/info_demos.htm) |
-| **Advanced Bash Scripting** | Umfassendes Bash Scripting Guide | [→ Link](https://tldp.org/LDP/abs/html/) |
-| **Blackbox AI** | AI-Assistent für Programmierer (VS Code) | [→ Link](https://www.blackbox.ai/) |
-| **DebugView** | Fängt Debug-Output von Kernel & User-Mode ab - Troubleshooting ohne Debugger | [→ Link](https://learn.microsoft.com/en-us/sysinternals/downloads/debugview) |
-| **Git Rewriting History** | Git Pro Book - History umschreiben mit rebase, filter-branch & amend | [→ Link](https://git-scm.com/book/en/v2/Git-Tools-Rewriting-History) |
-| **Gitea** | Self-hosted Git Service - leichtgewichtige Alternative zu GitLab/GitHub | [→ Link](https://gitea.io/) |
-| **Microsoft SDL** | Security Development Lifecycle | [→ Link](https://www.microsoft.com/en-us/securityengineering/sdl) |
-| **Microsoft SDL Practices** | SDL Best Practices | [→ Link](https://www.microsoft.com/en-us/securityengineering/sdl/practices) |
-| **NotMyFault** | Erzeugt absichtlich Kernel-Crashes & Hangs für Testszwecke - BSOD-Analyse-Training | [→ Link](https://learn.microsoft.com/en-us/sysinternals/downloads/notmyfault) |
-| **PowerShell Documentation** | Offizielle PowerShell Dokumentation | [→ Link](https://learn.microsoft.com/en-us/powershell/scripting/overview) |
-| **PowerShell for IT Security** | Praktisches PowerShell für Security (File Monitoring) | [→ Link](https://www.varonis.com/blog/practical-powershell-for-it-security-part-i-file-event-monitoring) |
-| **Scratch** | Programmier-Lernspiel (MIT) | [→ Link](https://scratch.mit.edu/) |
-| **ScriptRunner** | PowerShell Automation Platform | [→ Link](https://www.scriptrunner.com/) |
-| **Testlimit** | Stresstest für System-Ressourcen (Handles, Threads, Memory) - testet Systemgrenzen | [→ Link](https://learn.microsoft.com/en-us/sysinternals/downloads/testlimit) |
-| **Zsh Guide** | Zsh Grundlagen | [→ Link](https://grml.org/zsh/) |
+| **Adaxes** | M365 & Active Directory Automatisierungsplattform. Ermöglicht regelbasiertes User-Provisioning, Self-Service-Passwort-Reset und delegierte AD-Verwaltung über eine Web-Oberfläche. | [→ Link](https://www.adaxes.com/info_demos.htm) |
+| **Advanced Bash Scripting** | Umfassendes Online-Handbuch für fortgeschrittenes Bash-Scripting. Erklärt Variablen, Schleifen, Regex, Signale und komplexe Skript-Architekturen — Standardwerk für Linux-Administration. | [→ Link](https://tldp.org/LDP/abs/html/) |
+| **Blackbox AI** | KI-Assistent für Programmierer als VS Code Extension. Bietet Code-Completion, Chat-basierte Code-Generierung und Erklärungen — nützlich für schnelle Security-Script-Entwicklung. | [→ Link](https://www.blackbox.ai/) |
+| **DebugView** | Sysinternals-Tool das Debug-Output von Kernel- und User-Mode-Programmen abfängt. Zeigt OutputDebugString-Aufrufe in Echtzeit — unverzichtbar für Treiberentwicklung und Troubleshooting ohne Debugger. | [→ Link](https://learn.microsoft.com/en-us/sysinternals/downloads/debugview) |
+| **Git Rewriting History** | Kapitel aus dem Git Pro Book über das Umschreiben der Git-History. Erklärt interactive rebase, filter-branch und commit --amend für saubere Repositories und Credential-Bereinigung. | [→ Link](https://git-scm.com/book/en/v2/Git-Tools-Rewriting-History) |
+| **Gitea** | Self-hosted Git Service als leichtgewichtige Alternative zu GitLab und GitHub. Geschrieben in Go, einfach zu installieren und ideal für private Code-Repositories auf eigenem Server. | [→ Link](https://gitea.io/) |
+| **Microsoft SDL** | Microsoft Security Development Lifecycle — bewährtes Framework für sichere Softwareentwicklung. Integriert Security-Maßnahmen in jede Phase des Development-Prozesses. | [→ Link](https://www.microsoft.com/en-us/securityengineering/sdl) |
+| **Microsoft SDL Practices** | Microsoft Security Development Lifecycle Best Practices. Konkrete Implementierungsanleitungen für Threat Modeling, Security Testing und Secure Coding in der Softwareentwicklung. | [→ Link](https://www.microsoft.com/en-us/securityengineering/sdl/practices) |
+| **NotMyFault** | Sysinternals-Tool das absichtlich Kernel-Crashes, Hangs und Memory-Leaks erzeugt. Ideal für BSOD-Analyse-Training, Crash-Dump-Konfiguration und Testen von Monitoring-Systemen. | [→ Link](https://learn.microsoft.com/en-us/sysinternals/downloads/notmyfault) |
+| **PowerShell Documentation** | Offizielle Microsoft PowerShell-Dokumentation mit Cmdlet-Referenz, Scripting-Guide und Module-Übersicht. Essentiell für Windows-Administration und Security-Automatisierung. | [→ Link](https://learn.microsoft.com/en-us/powershell/scripting/overview) |
+| **PowerShell for IT Security** | Praktischer Guide für PowerShell im IT-Security-Bereich. Zeigt Anwendungsfälle wie File Integrity Monitoring, Log-Analyse, Incident Response und automatisierte Security-Checks. | [→ Link](https://www.varonis.com/blog/practical-powershell-for-it-security-part-i-file-event-monitoring) |
+| **Scratch** | Programmier-Lernspiel (MIT). Hilfreich für Security-Automatisierung und DevSecOps-Workflows. | [→ Link](https://scratch.mit.edu/) |
+| **ScriptRunner** | PowerShell Automation Platform. Hilfreich für Security-Automatisierung und DevSecOps-Workflows. | [→ Link](https://www.scriptrunner.com/) |
+| **Testlimit** | Sysinternals-Stresstool das System-Ressourcen wie Handles, Threads und Memory an ihre Grenzen treibt. Nützlich für Stabilitätstests und zum Verstehen von Windows-Ressourcenlimits. | [→ Link](https://learn.microsoft.com/en-us/sysinternals/downloads/testlimit) |
+| **Zsh Guide** | Einführung in die Z Shell (Zsh) — die moderne Bash-Alternative mit Auto-Completion, Plugins und Themes. Grundlagen für effizientes Terminal-Arbeiten und Security-Scripting. | [→ Link](https://grml.org/zsh/) |
 
 ---
 
@@ -107,44 +117,44 @@
 
 | Tool | Beschreibung | Link |
 |------|-------------|------|
-| **Acunetix** | Web Vulnerability Scanner | [→ Link](https://www.acunetix.com/) |
-| **Aikido** | SonarQube Alternative Comparison | [→ Link](https://www.aikido.dev/comparison/sonarqube-alternative) |
-| **Arachni** | Web Application Security Scanner Framework | [→ Link](https://github.com/Arachni/arachni) |
-| **Black Duck (Synopsys)** | Open Source Security & Management | [→ Link](https://www.blackduck.com/) |
-| **Burp Suite Community** | Web Application Security Testing | [→ Link](https://portswigger.net/burp/communitydownload) |
-| **Burp Suite Pro** | Professional Web/Mobile Security Testing | [→ Link](https://portswigger.net/burp) |
-| **CERT BFF Fuzzer** | Basic Fuzzing Framework (Git) | [→ Link](https://github.com/CERTCC/certfuzz) |
-| **CERT Fuzzing** | Fuzzing Engine & Frameworks | [→ Link](https://www.sei.cmu.edu/about/divisions/cert/index.cfm) |
-| **Coverity Scan** | Free Static Analysis for Open Source | [→ Link](https://scan.coverity.com/) |
-| **DirBuster** | Web Directory Brute-Forcing | [→ Link](https://www.kali.org/tools/dirbuster/) |
-| **FortifyApp** | Application Security Platform | [→ Link](https://fortifyapp.com/) |
-| **Grabber** | Leichtgewichtiger Web Vulnerability Scanner | [→ Link](https://rgaucher.info/beta/grabber/) |
-| **Invicti** | Application Security Testing Platform | [→ Link](https://www.invicti.com/) |
-| **OWASP Dependency-Check** | Dependency Vulnerability Scanner | [→ Link](https://owasp.org/www-project-dependency-check/) |
-| **OWASP SAMM** | Software Assurance Maturity Model | [→ Link](https://owasp.org/www-project-samm/) |
-| **OWASP SKF (GitHub)** | SKF Source Repository | [→ Link](https://github.com/blabla1337/skf-flask) |
-| **OWASP SKF (Portal)** | Security Knowledge Framework | [→ Link](https://beta.securityknowledgeframework.org/auth/login) |
-| **OWASP Spotlight (2021-02-03)** | Featured Projects Archive | [→ Link](https://owasp.org/projects/spotlight/historical/2021.02.03/) |
-| **OWASP Top 10** | Top 10 Web Application Security Risks | [→ Link](https://owasp.org/www-project-top-ten/) |
-| **OWASP Top 10 (2025)** | Top Web Application Risks | [→ Link](https://owasp.org/Top10/2025/) |
-| **OWASP Wiki** | OWASP Knowledge Base | [→ Link](https://wiki.owasp.org/index.php/Main_Page) |
-| **OWASP ZAP** | Web Application Security Testing Tool | [→ Link](https://www.zaproxy.org/download/) |
-| **OWASP ZAP** | Zed Attack Proxy - kostenloser Web App Security Scanner mit Active/Passive Scanning | [→ Link](https://www.zaproxy.org/) |
-| **OWASP ZAP (GitHub)** | ZAP Source Code & Releases - Community-getriebener Web Security Scanner | [→ Link](https://github.com/zaproxy/zaproxy) |
-| **OpenText Fortify SAST** | Enterprise SAST Solution | [→ Link](https://www.opentext.com/products/static-application-security-testing) |
-| **Postman** | API Development & Testing Platform | [→ Link](https://www.postman.com/) |
-| **Postman API Vulnerability Check** | Vorgefertigte Collection zum Testen gängiger API-Schwachstellen (OWASP API Top 10) | [→ Link](https://www.postman.com/templates/collections/common-api-vulnerabilities-check/) |
-| **SQLMap** | Automatisiertes SQL Injection Tool | [→ Link](https://www.kali.org/tools/sqlmap/) |
-| **Session Management Cheat Sheet** | OWASP Session Management Best Practices | [→ Link](https://github.com/OWASP/CheatSheetSeries/blob/master/cheatsheets/Session_Management_Cheat_Sheet.md) |
-| **Skipfish** | Automatisierter Web Security Scanner | [→ Link](https://www.kali.org/tools/skipfish/) |
-| **SonarQube** | Code Quality & Security Platform | [→ Link](https://www.sonarsource.com/de/products/sonarqube/) |
-| **SonarQube (GitHub)** | SonarQube Source Repository | [→ Link](https://github.com/SonarSource/sonarqube) |
-| **WAFNinja** | Web Application Firewall Bypass Tool - WAF-Evasion Testing | [→ Link](https://github.com/khalilbijjou/WAFNinja) |
-| **WPScan (GitHub)** | WordPress Security Scanner - Vulnerability Detection für WP-Installationen | [→ Link](https://github.com/wpscanteam/wpscan) |
-| **WPScan.com** | WordPress Vulnerability Database & Online Scanner | [→ Link](https://wpscan.com/) |
-| **Wapiti** | Web Application Vulnerability Scanner | [→ Link](https://wapiti-scanner.github.io/) |
-| **XSS Attacks Article** | 3 gefährliche XSS-Angriffe der letzten Dekade | [→ Link](https://readwrite.com/3-dangerous-cross-site-scripting-attacks-of-the-last-decade/) |
-| **wafw00f** | Web Application Firewall Fingerprinting & Detection Tool | [→ Link](https://github.com/EnableSecurity/wafw00f) |
+| **Acunetix** | Kommerzieller Web Vulnerability Scanner der automatisiert SQL-Injection, XSS und weitere OWASP-Top-10-Schwachstellen erkennt. Integriert sich in CI/CD-Pipelines für DevSecOps. | [→ Link](https://www.acunetix.com/) |
+| **Aikido** | SonarQube Alternative Comparison. Wichtig für die Absicherung und das Testen von Webanwendungen. | [→ Link](https://www.aikido.dev/comparison/sonarqube-alternative) |
+| **Arachni** | Open Source Web Application Security Scanner mit modernem Framework. Unterstützt aktive und passive Checks, Browser-Cluster für JavaScript-heavy Apps und REST-API. | [→ Link](https://github.com/Arachni/arachni) |
+| **Black Duck (Synopsys)** | Open Source Security & Management. Wichtig für die Absicherung und das Testen von Webanwendungen. | [→ Link](https://www.blackduck.com/) |
+| **Burp Suite Community** | Kostenlose Version der Burp Suite mit Proxy, Repeater und Decoder. Eingeschränkt gegenüber der Pro-Version, aber ausreichend für manuelles Web-Application-Testing und Lernzwecke. | [→ Link](https://portswigger.net/burp/communitydownload) |
+| **Burp Suite Pro** | Professional Web/Mobile Security Testing. Wichtig für die Absicherung und das Testen von Webanwendungen. | [→ Link](https://portswigger.net/burp) |
+| **CERT BFF Fuzzer** | Basic Fuzzing Framework (Git). Wichtig für die Absicherung und das Testen von Webanwendungen. | [→ Link](https://github.com/CERTCC/certfuzz) |
+| **CERT Fuzzing** | Fuzzing Engine & Frameworks. Wichtig für die Absicherung und das Testen von Webanwendungen. | [→ Link](https://www.sei.cmu.edu/about/divisions/cert/index.cfm) |
+| **Coverity Scan** | Free Static Analysis for Open Source. Wichtig für die Absicherung und das Testen von Webanwendungen. | [→ Link](https://scan.coverity.com/) |
+| **DirBuster** | Java-basierter Directory- und File-Brute-Forcer für Webserver. Findet versteckte Verzeichnisse und Dateien durch Wörterbuch-basiertes Scanning — OWASP-Projekt. | [→ Link](https://www.kali.org/tools/dirbuster/) |
+| **FortifyApp** | Application Security Platform. Wichtig für die Absicherung und das Testen von Webanwendungen. | [→ Link](https://fortifyapp.com/) |
+| **Grabber** | Leichtgewichtiger Web Vulnerability Scanner. Wichtig für die Absicherung und das Testen von Webanwendungen. | [→ Link](https://rgaucher.info/beta/grabber/) |
+| **Invicti** | Enterprise Web Application Security Scanner (ehemals Netsparker). Proof-based Scanning das False Positives minimiert und automatisch Schwachstellen verifiziert. | [→ Link](https://www.invicti.com/) |
+| **OWASP Dependency-Check** | Dependency Vulnerability Scanner. Wichtig für die Absicherung und das Testen von Webanwendungen. | [→ Link](https://owasp.org/www-project-dependency-check/) |
+| **OWASP SAMM** | OWASP Software Assurance Maturity Model — Framework zur Bewertung und Verbesserung der Software-Sicherheit. Definiert Reifegrade für Governance, Design, Implementation und Verification. | [→ Link](https://owasp.org/www-project-samm/) |
+| **OWASP SKF (GitHub)** | SKF Source Repository. Wichtig für die Absicherung und das Testen von Webanwendungen. | [→ Link](https://github.com/blabla1337/skf-flask) |
+| **OWASP SKF (Portal)** | Security Knowledge Framework. Wichtig für die Absicherung und das Testen von Webanwendungen. | [→ Link](https://beta.securityknowledgeframework.org/auth/login) |
+| **OWASP Spotlight (2021-02-03)** | Featured Projects Archive. Wichtig für die Absicherung und das Testen von Webanwendungen. | [→ Link](https://owasp.org/projects/spotlight/historical/2021.02.03/) |
+| **OWASP Top 10** | Die zehn kritischsten Sicherheitsrisiken für Webanwendungen, zusammengestellt von der OWASP-Community. Branchenstandard für Web-Application-Security von Injection bis SSRF. | [→ Link](https://owasp.org/www-project-top-ten/) |
+| **OWASP Top 10 (2025)** | Top Web Application Risks. Wichtig für die Absicherung und das Testen von Webanwendungen. | [→ Link](https://owasp.org/Top10/2025/) |
+| **OWASP Wiki** | OWASP Knowledge Base. Wichtig für die Absicherung und das Testen von Webanwendungen. | [→ Link](https://wiki.owasp.org/index.php/Main_Page) |
+| **OWASP ZAP** | OWASP Zed Attack Proxy — kostenloser Web Application Security Scanner. Bietet Active und Passive Scanning, Fuzzing, Spidering und API-Testing in einer Open-Source-Plattform. | [→ Link](https://www.zaproxy.org/download/) |
+| **OWASP ZAP** | OWASP Zed Attack Proxy — kostenloser Web Application Security Scanner. Bietet Active und Passive Scanning, Fuzzing, Spidering und API-Testing in einer Open-Source-Plattform. | [→ Link](https://www.zaproxy.org/) |
+| **OWASP ZAP (GitHub)** | GitHub-Repository des OWASP ZAP Security Scanners. Community-getriebene Entwicklung mit regelmäßigen Releases, Add-ons und Integrationen für CI/CD-Pipelines. | [→ Link](https://github.com/zaproxy/zaproxy) |
+| **OpenText Fortify SAST** | Enterprise SAST Solution. Wichtig für die Absicherung und das Testen von Webanwendungen. | [→ Link](https://www.opentext.com/products/static-application-security-testing) |
+| **Postman** | API Development & Testing Platform. Wichtig für die Absicherung und das Testen von Webanwendungen. | [→ Link](https://www.postman.com/) |
+| **Postman API Vulnerability Check** | Vorgefertigte Postman-Collection zum Testen gängiger API-Schwachstellen. Deckt OWASP API Top 10 ab — von Broken Authentication bis Mass Assignment. | [→ Link](https://www.postman.com/templates/collections/common-api-vulnerabilities-check/) |
+| **SQLMap** | Automatisiertes SQL Injection Tool. Wichtig für die Absicherung und das Testen von Webanwendungen. | [→ Link](https://www.kali.org/tools/sqlmap/) |
+| **Session Management Cheat Sheet** | OWASP Session Management Best Practices. Wichtig für die Absicherung und das Testen von Webanwendungen. | [→ Link](https://github.com/OWASP/CheatSheetSeries/blob/master/cheatsheets/Session_Management_Cheat_Sheet.md) |
+| **Skipfish** | Automatisierter Web Security Scanner. Wichtig für die Absicherung und das Testen von Webanwendungen. | [→ Link](https://www.kali.org/tools/skipfish/) |
+| **SonarQube** | Open Source Plattform für kontinuierliche Code-Qualität und Security-Analyse. Erkennt Bugs, Code-Smells und Security-Vulnerabilities in über 25 Programmiersprachen. | [→ Link](https://www.sonarsource.com/de/products/sonarqube/) |
+| **SonarQube (GitHub)** | SonarQube Source Repository. Wichtig für die Absicherung und das Testen von Webanwendungen. | [→ Link](https://github.com/SonarSource/sonarqube) |
+| **WAFNinja** | WAF-Bypass-Tool das automatisiert Payloads generiert um Web Application Firewalls zu umgehen. Testet verschiedene Encoding- und Evasion-Techniken gegen WAF-Regeln. | [→ Link](https://github.com/khalilbijjou/WAFNinja) |
+| **WPScan (GitHub)** | GitHub-Repository des WordPress Security Scanners. Erkennt verwundbare Plugins, Themes, schwache Passwörter und WordPress-Core-Schwachstellen durch aktives Scanning. | [→ Link](https://github.com/wpscanteam/wpscan) |
+| **WPScan.com** | WordPress Vulnerability Database & Online Scanner. Wichtig für die Absicherung und das Testen von Webanwendungen. | [→ Link](https://wpscan.com/) |
+| **Wapiti** | Web Application Vulnerability Scanner. Wichtig für die Absicherung und das Testen von Webanwendungen. | [→ Link](https://wapiti-scanner.github.io/) |
+| **XSS Attacks Article** | 3 gefährliche XSS-Angriffe der letzten Dekade. Wichtig für die Absicherung und das Testen von Webanwendungen. | [→ Link](https://readwrite.com/3-dangerous-cross-site-scripting-attacks-of-the-last-decade/) |
+| **wafw00f** | Web Application Firewall Fingerprinting Tool. Identifiziert über 100 verschiedene WAF-Produkte anhand ihrer HTTP-Responses — wichtiger erster Schritt bei Web-Pentests. | [→ Link](https://github.com/EnableSecurity/wafw00f) |
 
 ---
 
@@ -154,148 +164,154 @@
 
 | Tool | Beschreibung | Link |
 |------|-------------|------|
-| **0xRick Blog** | CTF Writeups und Pentesting-Blog | [→ Link](https://0xrick.github.io/about/) |
-| **Active Directory Basics** | Enterprise Environment Fundamentals | [→ Link](https://tryhackme.com/room/winadbasics) |
-| **Attacking Active Directory** | AD Exploitation Techniques | [→ Link](https://tryhackme.com/room/attackingad) |
-| **Autopsy** | Digital Forensics Toolkit | [→ Link](https://tryhackme.com/room/autopsy2ze0) |
-| **Basic Malware RE** | Reverse Engineering Introduction | [→ Link](https://tryhackme.com/room/basicmalwarere) |
-| **Burp Suite: The Basics** | Web App Penetration Testing | [→ Link](https://tryhackme.com/room/burpsuitebasics) |
-| **CISA HVA 3.0 Training** | High Value Asset Assessment Training - Schulung zur Absicherung kritischer IT-Assets | [→ Link](https://www.cisa.gov/resources-tools/training/high-value-asset-30-hva-30-assessment-training) |
-| **CTFtime** | Capture The Flag Events Portal | [→ Link](https://ctftime.org/) |
-| **Cloudflare Learning** | KRACK Attack Explained | [→ Link](https://www.cloudflare.com/de-de/learning/security/what-is-a-krack-attack/) |
-| **CompTIA 220-1101** | A+ Core 1 Exam Practice | [→ Link](https://www.examtopics.com/exams/comptia/220-1101/) |
-| **CompTIA Certifications** | IT Certification Programs | [→ Link](https://www.comptia.org/certifications/) |
-| **Credly** | Digitale Zertifikate & Badges (CompTIA, OSCP, etc.) | [→ Link](https://www.credly.com/) |
-| **Cyber-Fuchs** | Security Awareness Training Platform (DE) | [→ Link](https://cyber-fuchs.de/) |
-| **Docker for Pentesters** | Container Security Assessment | [→ Link](https://tryhackme.com/room/docker4pentesters) |
-| **Hack The Box** | Penetration Testing Labs | [→ Link](https://www.hackthebox.com/) |
-| **Hackviser Tool Tactics** | Interaktive Übersicht von Hacking-Tools & Taktiken für Pentester | [→ Link](https://hackviser.com/tactics) |
-| **Hydra** | Network Login Cracking Tool | [→ Link](https://tryhackme.com/room/hydra) |
-| **Intro to C2** | Command & Control Frameworks (incl. Armitage) | [→ Link](https://tryhackme.com/room/introtoc2) |
-| **Investigating with ELK 101** | Elasticsearch/Logstash/Kibana | [→ Link](https://tryhackme.com/room/investigatingwithelk101) |
-| **John The Ripper** | Password Hash Cracking | [→ Link](https://tryhackme.com/room/johntheripper0) |
-| **Kryptographie (Digitalwelt)** | Cryptography Basics (DE) | [→ Link](https://www.digitalwelt.org/hackerland/inhalt/kryptographie) |
-| **Learn Python** | Interactive Python Tutorial | [→ Link](https://www.learnpython.org/) |
-| **Linux Forensics** | DFIR on Linux Systems | [→ Link](https://tryhackme.com/room/linuxforensics) |
-| **MAL: Malware Introductory** | Malware Analysis Basics | [→ Link](https://tryhackme.com/room/malmalintroductory) |
-| **Metasploit: Exploitation** | Advanced Exploitation Techniques | [→ Link](https://tryhackme.com/room/metasploitexploitation) |
-| **Metasploit: Introduction** | Exploitation Framework Basics | [→ Link](https://tryhackme.com/room/metasploitintro) |
-| **Network Forensics** | PCAP Analysis & Investigation | [→ Link](https://tryhackme.com/room/networkforensics) |
-| **Nmap** | Network Scanning Fundamentals | [→ Link](https://tryhackme.com/room/furthernmap) |
-| **Null Byte** | Hacking-Tutorials und Security-Artikel | [→ Link](https://null-byte.wonderhowto.com/) |
-| **OWASP Top 10** | Web Application Vulnerabilities | [→ Link](https://tryhackme.com/room/owasptop10) |
-| **Offensive Security** | OSCP, OSWE und weitere Pentesting-Zertifizierungen | [→ Link](https://www.offsec.com/) |
-| **OverTheWire** | Security Wargames | [→ Link](https://overthewire.org/wargames/) |
-| **PowerShell for Pentesters** | Offensive PowerShell Techniques | [→ Link](https://tryhackme.com/room/powershell) |
-| **Root-Me** | Hacking & Security Challenges | [→ Link](https://www.root-me.org/) |
-| **Shodan.io** | Internet-connected Device Discovery | [→ Link](https://tryhackme.com/room/shodan) |
-| **Snort** | Intrusion Detection System | [→ Link](https://tryhackme.com/room/snort) |
-| **SolarWinds Hack (NPR)** | Supply Chain Attack Analysis | [→ Link](https://www.npr.org/2021/04/16/985439655/a-worst-nightmare-cyberattack-the-untold-story-of-the-solarwinds-hack) |
-| **Splunk 101** | SIEM & Log Analysis | [→ Link](https://tryhackme.com/room/splunk101) |
-| **Top 7 Vendor-Related Breaches** | Supply Chain Security Incidents | [→ Link](https://www.securitystudio.com/blog/top-7-vendor-related-breaches-of-all-time) |
-| **TryHackMe** | Cybersecurity Training Platform | [→ Link](https://tryhackme.com/) |
-| **Udemy** | Online Lernplattform | [→ Link](https://udemy.com) |
-| **Volatility** | Memory Forensics Framework | [→ Link](https://tryhackme.com/room/volatility) |
-| **VulnHub** | Vulnerable VMs für Lab-Übungen | [→ Link](https://www.vulnhub.com/) |
-| **Wazuh** | Open Source SIEM Platform | [→ Link](https://tryhackme.com/room/wazuhct) |
-| **Windows Forensics 1** | Incident Response on Windows | [→ Link](https://tryhackme.com/room/windowsforensics1) |
-| **Wireshark 101** | Packet Analysis & Traffic Inspection | [→ Link](https://tryhackme.com/room/wireshark) |
-| **Zeek** | Network Security Monitoring Platform | [→ Link](https://tryhackme.com/room/zeekbro) |
-| **goto fail (Wired, 2014)** | Apple SSL/TLS Vulnerability | [→ Link](https://www.wired.com/2014/02/gotofail/) |
-| **picoCTF** | Gamifizierte Cybersecurity Challenges | [→ Link](https://picoctf.org/) |
+| **0xRick Blog** | CTF Writeups und Pentesting-Blog. Wertvolle Lernressource für den Aufbau und die Vertiefung von Security-Kompetenzen. | [→ Link](https://0xrick.github.io/about/) |
+| **Active Directory Basics** | Enterprise Environment Fundamentals. Wertvolle Lernressource für den Aufbau und die Vertiefung von Security-Kompetenzen. | [→ Link](https://tryhackme.com/room/winadbasics) |
+| **Attacking Active Directory** | AD Exploitation Techniques. Wertvolle Lernressource für den Aufbau und die Vertiefung von Security-Kompetenzen. | [→ Link](https://tryhackme.com/room/attackingad) |
+| **Autopsy** | Open Source Digital Forensics Platform mit GUI. Analysiert Festplatten-Images, extrahiert Dateien, E-Mails, Browser-Historien und Timeline-Daten für forensische Untersuchungen. | [→ Link](https://tryhackme.com/room/autopsy2ze0) |
+| **Basic Malware RE** | Reverse Engineering Introduction. Wertvolle Lernressource für den Aufbau und die Vertiefung von Security-Kompetenzen. | [→ Link](https://tryhackme.com/room/basicmalwarere) |
+| **Burp Suite: The Basics** | Web App Penetration Testing. Wertvolle Lernressource für den Aufbau und die Vertiefung von Security-Kompetenzen. | [→ Link](https://tryhackme.com/room/burpsuitebasics) |
+| **CISA HVA 3.0 Training** | High Value Asset Assessment Training der CISA. Schulung zur Identifikation, Priorisierung und Absicherung kritischer IT-Assets in Regierungs- und Unternehmensumgebungen. | [→ Link](https://www.cisa.gov/resources-tools/training/high-value-asset-30-hva-30-assessment-training) |
+| **CTFtime** | Zentrale Plattform für Capture-the-Flag-Wettbewerbe weltweit. Listet kommende CTFs, Team-Rankings und Writeups — die Community-Drehscheibe für kompetitives Hacking. | [→ Link](https://ctftime.org/) |
+| **Cloudflare Learning** | KRACK Attack Explained. Wertvolle Lernressource für den Aufbau und die Vertiefung von Security-Kompetenzen. | [→ Link](https://www.cloudflare.com/de-de/learning/security/what-is-a-krack-attack/) |
+| **CompTIA 220-1101** | A+ Core 1 Exam Practice. Wertvolle Lernressource für den Aufbau und die Vertiefung von Security-Kompetenzen. | [→ Link](https://www.examtopics.com/exams/comptia/220-1101/) |
+| **CompTIA Certifications** | IT Certification Programs. Wertvolle Lernressource für den Aufbau und die Vertiefung von Security-Kompetenzen. | [→ Link](https://www.comptia.org/certifications/) |
+| **Credly** | Digitale Zertifikate & Badges (CompTIA, OSCP, etc.). Wertvolle Lernressource für den Aufbau und die Vertiefung von Security-Kompetenzen. | [→ Link](https://www.credly.com/) |
+| **Cyber-Fuchs** | Security Awareness Training Platform (DE). Wertvolle Lernressource für den Aufbau und die Vertiefung von Security-Kompetenzen. | [→ Link](https://cyber-fuchs.de/) |
+| **Docker for Pentesters** | Container Security Assessment. Wertvolle Lernressource für den Aufbau und die Vertiefung von Security-Kompetenzen. | [→ Link](https://tryhackme.com/room/docker4pentesters) |
+| **Hack The Box** | Gamifizierte Pentesting-Plattform mit hunderten verwundbaren Maschinen und Challenges. Bietet realistische Szenarien von Easy bis Insane — Pflichtplattform für OSCP-Vorbereitung. | [→ Link](https://www.hackthebox.com/) |
+| **Hackviser Tool Tactics** | Interaktive Übersicht von Hacking-Tools sortiert nach Taktiken und Techniken. Verknüpft Tools mit MITRE ATT&CK-Phasen — praktische Referenz für Pentester und Red Teamer. | [→ Link](https://hackviser.com/tactics) |
+| **Hydra** | Schneller Netzwerk-Login-Cracker für über 50 Protokolle. Unterstützt SSH, FTP, HTTP, SMB, RDP und viele mehr — Standardtool für Brute-Force-Angriffe auf Netzwerkdienste. | [→ Link](https://tryhackme.com/room/hydra) |
+| **Intro to C2** | Command & Control Frameworks (incl. Armitage). Wertvolle Lernressource für den Aufbau und die Vertiefung von Security-Kompetenzen. | [→ Link](https://tryhackme.com/room/introtoc2) |
+| **Investigating with ELK 101** | Elasticsearch/Logstash/Kibana. Wertvolle Lernressource für den Aufbau und die Vertiefung von Security-Kompetenzen. | [→ Link](https://tryhackme.com/room/investigatingwithelk101) |
+| **John The Ripper** | Password Hash Cracking. Wertvolle Lernressource für den Aufbau und die Vertiefung von Security-Kompetenzen. | [→ Link](https://tryhackme.com/room/johntheripper0) |
+| **Kryptographie (Digitalwelt)** | Cryptography Basics (DE). Wertvolle Lernressource für den Aufbau und die Vertiefung von Security-Kompetenzen. | [→ Link](https://www.digitalwelt.org/hackerland/inhalt/kryptographie) |
+| **Learn Python** | Interactive Python Tutorial. Wertvolle Lernressource für den Aufbau und die Vertiefung von Security-Kompetenzen. | [→ Link](https://www.learnpython.org/) |
+| **Linux Forensics** | DFIR on Linux Systems. Wertvolle Lernressource für den Aufbau und die Vertiefung von Security-Kompetenzen. | [→ Link](https://tryhackme.com/room/linuxforensics) |
+| **MAL: Malware Introductory** | Malware Analysis Basics. Wertvolle Lernressource für den Aufbau und die Vertiefung von Security-Kompetenzen. | [→ Link](https://tryhackme.com/room/malmalintroductory) |
+| **Metasploit: Exploitation** | Advanced Exploitation Techniques. Wertvolle Lernressource für den Aufbau und die Vertiefung von Security-Kompetenzen. | [→ Link](https://tryhackme.com/room/metasploitexploitation) |
+| **Metasploit: Introduction** | Exploitation Framework Basics. Wertvolle Lernressource für den Aufbau und die Vertiefung von Security-Kompetenzen. | [→ Link](https://tryhackme.com/room/metasploitintro) |
+| **Network Forensics** | PCAP Analysis & Investigation. Wertvolle Lernressource für den Aufbau und die Vertiefung von Security-Kompetenzen. | [→ Link](https://tryhackme.com/room/networkforensics) |
+| **Nmap** | Der Industrie-Standard für Netzwerk-Scanning und Port-Discovery. Service-Erkennung, OS-Fingerprinting, NSE-Scripting und mehr — unverzichtbar für jeden Pentester und Admin. | [→ Link](https://tryhackme.com/room/furthernmap) |
+| **Null Byte** | Hacking-Tutorials und Security-Artikel. Wertvolle Lernressource für den Aufbau und die Vertiefung von Security-Kompetenzen. | [→ Link](https://null-byte.wonderhowto.com/) |
+| **OWASP Top 10** | Die zehn kritischsten Sicherheitsrisiken für Webanwendungen, zusammengestellt von der OWASP-Community. Branchenstandard für Web-Application-Security von Injection bis SSRF. | [→ Link](https://tryhackme.com/room/owasptop10) |
+| **Offensive Security** | Anbieter der OSCP-, OSWE- und OSEP-Zertifizierungen — dem Goldstandard im Penetration Testing. Entwickelt auch Kali Linux und bietet praxisorientierte Hacking-Trainings. | [→ Link](https://www.offsec.com/) |
+| **OverTheWire** | Wargames-Plattform zum Erlernen von Linux, Netzwerken und Security-Konzepten. Bandit für Einsteiger, Narnia für Exploitation — ideal zum Aufbau von Grundlagenwissen. | [→ Link](https://overthewire.org/wargames/) |
+| **PowerShell for Pentesters** | Offensive PowerShell Techniques. Wertvolle Lernressource für den Aufbau und die Vertiefung von Security-Kompetenzen. | [→ Link](https://tryhackme.com/room/powershell) |
+| **Root-Me** | Hacking & Security Challenges. Wertvolle Lernressource für den Aufbau und die Vertiefung von Security-Kompetenzen. | [→ Link](https://www.root-me.org/) |
+| **Shodan.io** | Internet-connected Device Discovery. Wertvolle Lernressource für den Aufbau und die Vertiefung von Security-Kompetenzen. | [→ Link](https://tryhackme.com/room/shodan) |
+| **Snort** | Open Source Network Intrusion Detection und Prevention System. Analysiert Netzwerkverkehr in Echtzeit mit regelbasierter Erkennung von Angriffen und Protokollanomalien. | [→ Link](https://tryhackme.com/room/snort) |
+| **SolarWinds Hack (NPR)** | Supply Chain Attack Analysis. Wertvolle Lernressource für den Aufbau und die Vertiefung von Security-Kompetenzen. | [→ Link](https://www.npr.org/2021/04/16/985439655/a-worst-nightmare-cyberattack-the-untold-story-of-the-solarwinds-hack) |
+| **Splunk 101** | SIEM & Log Analysis. Wertvolle Lernressource für den Aufbau und die Vertiefung von Security-Kompetenzen. | [→ Link](https://tryhackme.com/room/splunk101) |
+| **Top 7 Vendor-Related Breaches** | Supply Chain Security Incidents. Wertvolle Lernressource für den Aufbau und die Vertiefung von Security-Kompetenzen. | [→ Link](https://www.securitystudio.com/blog/top-7-vendor-related-breaches-of-all-time) |
+| **TryHackMe** | Interaktive Cybersecurity-Lernplattform mit geführten Räumen und Challenges. Browserbasierte VMs ohne Setup — perfekt für Einsteiger bis zur OSCP-Vorbereitung. | [→ Link](https://tryhackme.com/) |
+| **Udemy** | Online Lernplattform. Wertvolle Lernressource für den Aufbau und die Vertiefung von Security-Kompetenzen. | [→ Link](https://udemy.com) |
+| **Volatility** | Memory Forensics Framework. Wertvolle Lernressource für den Aufbau und die Vertiefung von Security-Kompetenzen. | [→ Link](https://tryhackme.com/room/volatility) |
+| **VulnHub** | Sammlung absichtlich verwundbarer virtueller Maschinen zum Download. Ideal für Offline-Pentesting-Übungen und OSCP-Vorbereitung in der eigenen Lab-Umgebung. | [→ Link](https://www.vulnhub.com/) |
+| **Wazuh** | Open Source Security Platform mit SIEM, XDR und SOAR-Funktionalität. Bietet File Integrity Monitoring, Vulnerability Detection und Compliance-Reporting — kostenlose Alternative zu kommerziellen SIEMs. | [→ Link](https://tryhackme.com/room/wazuhct) |
+| **Windows Forensics 1** | Incident Response on Windows. Wertvolle Lernressource für den Aufbau und die Vertiefung von Security-Kompetenzen. | [→ Link](https://tryhackme.com/room/windowsforensics1) |
+| **Wireshark 101** | Packet Analysis & Traffic Inspection. Wertvolle Lernressource für den Aufbau und die Vertiefung von Security-Kompetenzen. | [→ Link](https://tryhackme.com/room/wireshark) |
+| **Zeek** | Network Security Monitoring Platform. Wertvolle Lernressource für den Aufbau und die Vertiefung von Security-Kompetenzen. | [→ Link](https://tryhackme.com/room/zeekbro) |
+| **goto fail (Wired, 2014)** | Apple SSL/TLS Vulnerability. Wertvolle Lernressource für den Aufbau und die Vertiefung von Security-Kompetenzen. | [→ Link](https://www.wired.com/2014/02/gotofail/) |
+| **picoCTF** | Gamifizierte Cybersecurity Challenges. Wertvolle Lernressource für den Aufbau und die Vertiefung von Security-Kompetenzen. | [→ Link](https://picoctf.org/) |
 
 ---
 
 ## 🎯 Penetration Testing
 
-*47 Links*
+*48 Links*
 
 | Tool | Beschreibung | Link |
 |------|-------------|------|
-| **AD Explorer** | Active Directory Browser & Snapshot-Tool - Durchsucht AD-Objekte, Attribute & Berechtigungen | [→ Link](https://learn.microsoft.com/en-us/sysinternals/downloads/adexplorer) |
-| **Armitage** | Metasploit GUI | [→ Link](https://www.offsec.com/metasploit-unleashed/armitage/) |
-| **Atomic Red Team** | Bibliothek kleiner ATT&CK-basierter Tests - schnelle Validierung von Detektions-Regeln | [→ Link](https://github.com/redcanaryco/atomic-red-team) |
-| **Awesome C2** | Command & Control Framework Collection | [→ Link](https://github.com/tcostam/awesome-command-control) |
-| **BeEF** | Browser Exploitation Framework | [→ Link](https://beefproject.com/) |
-| **BeEF (GitHub)** | Browser Exploitation Framework Source | [→ Link](https://github.com/beefproject/beef) |
-| **Bugcrowd** | Crowdsourced Security Platform | [→ Link](https://www.bugcrowd.com/) |
-| **Cobalt Strike** | Commercial Adversary Simulation Platform | [→ Link](https://www.cobaltstrike.com/) |
-| **Covenant** | .NET C2 Framework (Empire-Nachfolger) | [→ Link](https://github.com/cobbr/Covenant) |
-| **DNSChef** | DNS Proxy for Penetration Testing | [→ Link](https://github.com/iphelix/dnschef) |
-| **DirBuster** | Directory & File Brute-Forcer für Webserver - findet versteckte Pfade & Dateien | [→ Link](https://dirbuster.com/) |
-| **Dradis Framework** | Kollaboratives Reporting-Framework für Pentester & Security Teams | [→ Link](https://dradis.com/) |
-| **Empire (Kali)** | Empire auf Kali Linux | [→ Link](https://www.kali.org/tools/powershell-empire/) |
-| **Empire (New)** | PowerShell/Python Post-Exploitation Framework | [→ Link](https://github.com/BC-SECURITY/Empire) |
-| **Empire (Old)** | PowerShell Post-Exploitation Framework (Alt) | [→ Link](https://github.com/EmpireProject/Empire) |
-| **Empire Wiki** | Empire Dokumentation (aktuell) | [→ Link](https://bc-security.gitbook.io/empire-wiki) |
-| **Ettercap (Kali Tools)** | MITM Tool Documentation | [→ Link](https://www.kali.org/tools/ettercap/) |
-| **Ettercap (Official)** | Man-in-the-Middle Attack Tool | [→ Link](https://www.ettercap-project.org) |
+| **AD Explorer** | Sysinternals Active Directory Browser mit Snapshot-Funktion. Durchsucht AD-Objekte, Attribute und Berechtigungen — unverzichtbar für AD-Enumeration und Sicherheitsaudits. | [→ Link](https://learn.microsoft.com/en-us/sysinternals/downloads/adexplorer) |
+| **Armitage** | Grafische Benutzeroberfläche für Metasploit Framework. Visualisiert Netzwerke, vereinfacht Exploitation und ermöglicht kollaboratives Pentesting im Team. | [→ Link](https://www.offsec.com/metasploit-unleashed/armitage/) |
+| **Atomic Red Team** | Bibliothek kleiner, portabler ATT&CK-basierter Tests von Red Canary. Ermöglicht schnelle Validierung von Detektions-Regeln ohne komplexe Red-Team-Infrastruktur. | [→ Link](https://github.com/redcanaryco/atomic-red-team) |
+| **Awesome C2** | Command & Control Framework Collection. Wichtiges Werkzeug im Arsenal eines jeden Penetration Testers. | [→ Link](https://github.com/tcostam/awesome-command-control) |
+| **BeEF** | Browser Exploitation Framework — hookt Webbrowser und nutzt sie als Angriffsvektoren. Demonstriert die Risiken von XSS-Schwachstellen durch reale Browser-basierte Angriffe. | [→ Link](https://beefproject.com/) |
+| **BeEF (GitHub)** | Browser Exploitation Framework Source. Wichtiges Werkzeug im Arsenal eines jeden Penetration Testers. | [→ Link](https://github.com/beefproject/beef) |
+| **Bugcrowd** | Bug-Bounty und Vulnerability-Disclosure-Plattform für Unternehmen. Crowd-sourced Security Testing mit tausenden Researchern — Alternative zu HackerOne mit fokus auf Managed Programs. | [→ Link](https://www.bugcrowd.com/) |
+| **Cobalt Strike** | Kommerzielle Adversary Simulation und Red Team Operations Plattform. Bietet Beacon-Payloads, C2-Kommunikation und Post-Exploitation — der Industriestandard für Red Teaming. | [→ Link](https://www.cobaltstrike.com/) |
+| **Covenant** | .NET C2 Framework (Empire-Nachfolger). Wichtiges Werkzeug im Arsenal eines jeden Penetration Testers. | [→ Link](https://github.com/cobbr/Covenant) |
+| **DNSChef** | DNS Proxy for Penetration Testing. Wichtiges Werkzeug im Arsenal eines jeden Penetration Testers. | [→ Link](https://github.com/iphelix/dnschef) |
+| **DirBuster** | Java-basierter Directory- und File-Brute-Forcer für Webserver. Findet versteckte Verzeichnisse und Dateien durch Wörterbuch-basiertes Scanning — OWASP-Projekt. | [→ Link](https://dirbuster.com/) |
+| **Dradis Framework** | Kollaboratives Reporting-Framework für Pentester & Security Teams. Wichtiges Werkzeug im Arsenal eines jeden Penetration Testers. | [→ Link](https://dradis.com/) |
+| **Empire (Kali)** | Empire auf Kali Linux. Wichtiges Werkzeug im Arsenal eines jeden Penetration Testers. | [→ Link](https://www.kali.org/tools/powershell-empire/) |
+| **Empire (New)** | PowerShell/Python Post-Exploitation Framework. Wichtiges Werkzeug im Arsenal eines jeden Penetration Testers. | [→ Link](https://github.com/BC-SECURITY/Empire) |
+| **Empire (Old)** | PowerShell Post-Exploitation Framework (Alt). Wichtiges Werkzeug im Arsenal eines jeden Penetration Testers. | [→ Link](https://github.com/EmpireProject/Empire) |
+| **Empire Wiki** | Empire Dokumentation (aktuell). Wichtiges Werkzeug im Arsenal eines jeden Penetration Testers. | [→ Link](https://bc-security.gitbook.io/empire-wiki) |
+| **Ettercap (Kali Tools)** | MITM Tool Documentation. Wichtiges Werkzeug im Arsenal eines jeden Penetration Testers. | [→ Link](https://www.kali.org/tools/ettercap/) |
+| **Ettercap (Official)** | Man-in-the-Middle Attack Tool. Wichtiges Werkzeug im Arsenal eines jeden Penetration Testers. | [→ Link](https://www.ettercap-project.org) |
 | **Faraday** | Kollaborative Vulnerability Management & Pentest-Plattform mit Multi-Tool-Integration | [→ Link](https://faradaysec.com/) |
 | **GoPhish** | Open-Source Phishing Framework für Security Awareness Kampagnen & Social Engineering Tests | [→ Link](https://github.com/gophish/gophish) |
-| **Gobuster** | Schneller Directory/DNS/VHost Brute-Forcer in Go - Alternative zu DirBuster | [→ Link](https://gobuster.org/) |
-| **HackerOne** | Bug Bounty & Vulnerability Coordination | [→ Link](https://www.hackerone.com/) |
-| **ICMP Loki Attack** | ICMP Penetration Testing (Scapy) | [→ Link](https://github.com/nam3z1p/ICMP_Loki_Attack) |
-| **Infection Monkey** | Open Source Breach & Attack Simulation - automatisierte Netzwerk-Sicherheitstests & Lateral Movement | [→ Link](https://github.com/guardicore/monkey) |
-| **MITRE Caldera** | Automated Adversary Emulation Platform - simuliert reale Angriffe basierend auf MITRE ATT&CK | [→ Link](https://github.com/mitre/caldera) |
-| **Metasploit Framework (GitHub)** | Exploit Development Platform | [→ Link](https://github.com/rapid7/metasploit-framework) |
-| **Meterpreter Manual** | Metasploit Meterpreter Dokumentation | [→ Link](https://docs.metasploit.com/docs/using-metasploit/advanced/meterpreter/meterpreter.html) |
-| **Mythic** | Cross-Platform C2 Framework (MacOS Support) | [→ Link](https://github.com/its-a-feature/Mythic) |
-| **Nikto** | Web Server Scanner | [→ Link](https://github.com/sullo/nikto) |
-| **Nishang** | PowerShell für Red Teaming | [→ Link](https://github.com/samratashok/nishang) |
-| **NoPowerShell** | PowerShell-Execution in C# | [→ Link](https://github.com/bitsadmin/nopowershell) |
-| **ObfuscatedEmpire** | Obfuskierte PowerShell Payloads | [→ Link](https://github.com/cobbr/ObfuscatedEmpire) |
-| **PSAttack** | PowerShell Attack Framework | [→ Link](https://github.com/gdssecurity/PSAttack) |
-| **PipeList** | Listet Named Pipes auf dem System - erkennt IPC-Kommunikation & potentielle Angriffsvektoren | [→ Link](https://learn.microsoft.com/en-us/sysinternals/downloads/pipelist) |
-| **PowerLessShell** | PowerShell ohne powershell.exe | [→ Link](https://github.com/Mr-Un1k0d3r/PowerLessShell) |
-| **PowerShdll** | PowerShell via DLL | [→ Link](https://github.com/p3nt4/PowerShdll) |
-| **PowerSploit** | PowerShell Post-Exploitation Collection | [→ Link](https://github.com/PowerShellMafia/PowerSploit) |
-| **Powercat** | PowerShell Netcat Alternative | [→ Link](https://github.com/besimorhino/powercat) |
-| **PsGetSid** | Übersetzt SIDs zu Account-Namen und umgekehrt - wichtig für AD-Enumeration | [→ Link](https://learn.microsoft.com/en-us/sysinternals/downloads/psgetsid) |
-| **PsLoggedOn** | Zeigt lokal & remote eingeloggte Benutzer - Enumeration für Lateral Movement | [→ Link](https://learn.microsoft.com/en-us/sysinternals/downloads/psloggedon) |
-| **Sliver** | Open Source C2 Framework | [→ Link](https://bishopfox.com/tools/sliver) |
-| **Sliver GitHub** | Sliver Source Repository | [→ Link](https://github.com/BishopFox/sliver) |
+| **Gobuster** | Schneller Directory-, DNS- und VHost-Brute-Forcer geschrieben in Go. Performante Alternative zu DirBuster mit Support für verschiedene Wordlists und Wildcard-Erkennung. | [→ Link](https://gobuster.org/) |
+| **HackerOne** | Weltweit führende Bug-Bounty-Plattform die Unternehmen mit ethischen Hackern verbindet. Über 300.000 Researcher melden Schwachstellen gegen Prämien bei Firmen wie Google und Microsoft. | [→ Link](https://www.hackerone.com/) |
+| **ICMP Loki Attack** | ICMP Penetration Testing (Scapy). Wichtiges Werkzeug im Arsenal eines jeden Penetration Testers. | [→ Link](https://github.com/nam3z1p/ICMP_Loki_Attack) |
+| **Infection Monkey** | Open Source Breach & Attack Simulation von Guardicore. Simuliert automatisiert Lateral Movement, Credential Theft und Netzwerk-Angriffe zur Validierung der Sicherheitsmaßnahmen. | [→ Link](https://github.com/guardicore/monkey) |
+| **MITRE Caldera** | Automated Adversary Emulation Platform basierend auf dem MITRE ATT&CK Framework. Simuliert reale Angriffsketten automatisiert — ideal für Red-Team-Assessments und Detection-Testing. | [→ Link](https://github.com/mitre/caldera) |
+| **Metasploit Framework (GitHub)** | Exploit Development Platform. Wichtiges Werkzeug im Arsenal eines jeden Penetration Testers. | [→ Link](https://github.com/rapid7/metasploit-framework) |
+| **Meterpreter Manual** | Metasploit Meterpreter Dokumentation. Wichtiges Werkzeug im Arsenal eines jeden Penetration Testers. | [→ Link](https://docs.metasploit.com/docs/using-metasploit/advanced/meterpreter/meterpreter.html) |
+| **Mythic** | Cross-Platform C2 Framework (MacOS Support). Wichtiges Werkzeug im Arsenal eines jeden Penetration Testers. | [→ Link](https://github.com/its-a-feature/Mythic) |
+| **Nikto** | Open Source Web Server Scanner der über 6.700 potentiell gefährliche Dateien und Programme prüft. Erkennt veraltete Server-Versionen, Fehlkonfigurationen und bekannte Schwachstellen. | [→ Link](https://github.com/sullo/nikto) |
+| **Nishang** | PowerShell für Red Teaming. Wichtiges Werkzeug im Arsenal eines jeden Penetration Testers. | [→ Link](https://github.com/samratashok/nishang) |
+| **NoPowerShell** | PowerShell-Execution in C#. Wichtiges Werkzeug im Arsenal eines jeden Penetration Testers. | [→ Link](https://github.com/bitsadmin/nopowershell) |
+| **ObfuscatedEmpire** | Obfuskierte PowerShell Payloads. Wichtiges Werkzeug im Arsenal eines jeden Penetration Testers. | [→ Link](https://github.com/cobbr/ObfuscatedEmpire) |
+| **PSAttack** | PowerShell Attack Framework. Wichtiges Werkzeug im Arsenal eines jeden Penetration Testers. | [→ Link](https://github.com/gdssecurity/PSAttack) |
+| **PipeList** | Sysinternals-Tool das Named Pipes auf Windows-Systemen auflistet. Erkennt IPC-Kommunikationskanäle — relevant für Privilege Escalation und Impersonation-Angriffe. | [→ Link](https://learn.microsoft.com/en-us/sysinternals/downloads/pipelist) |
+| **PowerLessShell** | PowerShell ohne powershell.exe. Wichtiges Werkzeug im Arsenal eines jeden Penetration Testers. | [→ Link](https://github.com/Mr-Un1k0d3r/PowerLessShell) |
+| **PowerShdll** | PowerShell via DLL. Wichtiges Werkzeug im Arsenal eines jeden Penetration Testers. | [→ Link](https://github.com/p3nt4/PowerShdll) |
+| **PowerSploit** | PowerShell Post-Exploitation Collection. Wichtiges Werkzeug im Arsenal eines jeden Penetration Testers. | [→ Link](https://github.com/PowerShellMafia/PowerSploit) |
+| **Powercat** | PowerShell Netcat Alternative. Wichtiges Werkzeug im Arsenal eines jeden Penetration Testers. | [→ Link](https://github.com/besimorhino/powercat) |
+| **PsGetSid** | Sysinternals-Tool zur Übersetzung von SIDs zu Account-Namen und umgekehrt. Nützlich für AD-Enumeration und forensische Analyse von Windows-Security-Logs. | [→ Link](https://learn.microsoft.com/en-us/sysinternals/downloads/psgetsid) |
+| **PsLoggedOn** | Sysinternals-Tool das lokal und remote eingeloggte Benutzer anzeigt. Hilft bei der Enumeration aktiver Sessions für gezielte Lateral-Movement-Angriffe. | [→ Link](https://learn.microsoft.com/en-us/sysinternals/downloads/psloggedon) |
+| **Purple Knight (Semperis)** | Kostenloses Active Directory Security Assessment Tool. Scannt AD und Entra ID auf über 150 Schwachstellen — von Kerberos-Delegation bis Password-Policy-Lücken. | [→ Link](https://www.semperis.com/de/purple-knight/) |
+| **Sliver** | Open Source C2 Framework. Wichtiges Werkzeug im Arsenal eines jeden Penetration Testers. | [→ Link](https://bishopfox.com/tools/sliver) |
+| **Sliver GitHub** | Sliver Source Repository. Wichtiges Werkzeug im Arsenal eines jeden Penetration Testers. | [→ Link](https://github.com/BishopFox/sliver) |
 | **Social-Engineer Toolkit (SET)** | TrustedSec's Social Engineering Toolkit – Phishing, Credential Harvesting & Attack Vectors | [→ Link](https://github.com/trustedsec/social-engineer-toolkit) |
-| **The C2 Matrix** | C2 Framework Comparison | [→ Link](https://howto.thec2matrix.com/) |
-| **Wfuzz** | Web Application Fuzzer - Brute-Force für Parameter, Directories, Headers & mehr | [→ Link](https://github.com/xmendez/wfuzz) |
-| **sqlmap** | Automatisiertes SQL-Injection Detection & Exploitation Tool | [→ Link](https://sqlmap.org/) |
-| **sqlmap (GitHub)** | SQL-Injection Tool Source - unterstützt MySQL, PostgreSQL, MSSQL, Oracle & mehr | [→ Link](https://github.com/sqlmapproject/sqlmap) |
+| **The C2 Matrix** | C2 Framework Comparison. Wichtiges Werkzeug im Arsenal eines jeden Penetration Testers. | [→ Link](https://howto.thec2matrix.com/) |
+| **Wfuzz** | Vielseitiger Web Application Fuzzer für Brute-Force-Angriffe auf Parameter, Directories, Headers und Cookies. Unterstützt Filter, Encoder und rekursives Fuzzing. | [→ Link](https://github.com/xmendez/wfuzz) |
+| **sqlmap** | Automatisiertes SQL-Injection Detection und Exploitation Tool. Erkennt und nutzt SQL-Injection-Schwachstellen aus — unterstützt alle gängigen Datenbanksysteme. | [→ Link](https://sqlmap.org/) |
+| **sqlmap (GitHub)** | GitHub-Repository von sqlmap mit aktuellem Source Code und Dokumentation. Unterstützt MySQL, PostgreSQL, MSSQL, Oracle, SQLite und mehr für automatisierte SQL-Injection-Tests. | [→ Link](https://github.com/sqlmapproject/sqlmap) |
 
 ---
 
 ## 🎯 Schwachstellen & Exploits
 
-*28 Links*
+*33 Links*
 
 | Tool | Beschreibung | Link |
 |------|-------------|------|
-| **AlienVault OTX** | Open Threat Exchange | [→ Link](https://otx.alienvault.com/browse/global/pulses) |
-| **CIS Threat Feeds** | Real-Time Threat Indicator Feeds | [→ Link](https://www.cisecurity.org/ms-isac/services/real-time-indicator-feeds) |
-| **CVE** | Common Vulnerabilities and Exposures | [→ Link](https://cve.mitre.org/) |
-| **CVE Enginsight** | CVE Database & Analytics | [→ Link](https://cve.enginsight.com/) |
-| **CVSS** | Common Vulnerability Scoring System | [→ Link](https://www.first.org/cvss/) |
-| **CVSS v3 Calculator** | CVSS Score Calculator Version 3 | [→ Link](https://www.first.org/cvss/calculator/3.0) |
-| **CVSS v4.0 FAQ** | CVSS Version 4.0 Häufige Fragen | [→ Link](https://www.first.org/cvss/v4.0/faq) |
-| **CWE** | Common Weakness Enumeration | [→ Link](https://cwe.mitre.org/) |
-| **Check Point ThreatMap** | Live Cyber Threat Map | [→ Link](https://threatmap.checkpoint.com/) |
-| **Exploit Database** | Exploit-Archiv für Pentester & Security Researcher - CVE-basierte Exploit-Sammlung & Google Hacking DB | [→ Link](https://www.exploit-db.com/) |
-| **Google Threat Intelligence** | Threat Analysis Platform | [→ Link](https://cloud.google.com/security/products/threat-intelligence) |
-| **HoneyDB** | Honeypot Threat Intelligence | [→ Link](https://honeydb.io/) |
-| **IBM X-Force Exchange** | Threat Intelligence Sharing | [→ Link](https://exchange.xforce.ibmcloud.com/) |
-| **Kaspersky CyberMap** | Real-time Cyber Attack Map | [→ Link](https://cybermap.kaspersky.com/) |
-| **MITRE ATT&CK** | Adversary Tactics & Techniques Knowledge Base | [→ Link](https://attack.mitre.org/) |
-| **Microsoft Security Bulletins** | Microsoft Security Updates | [→ Link](https://learn.microsoft.com/en-us/security-updates/) |
-| **Microsoft Update Guide** | Microsoft Security Update Suche | [→ Link](https://msrc.microsoft.com/update-guide) |
-| **NIST CVSS** | Common Vulnerability Scoring System | [→ Link](https://nvd.nist.gov/vuln-metrics/cvss) |
-| **NVD (NIST)** | National Vulnerability Database | [→ Link](https://nvd.nist.gov/) |
-| **OpenPhish** | Phishing Intelligence Database | [→ Link](https://openphish.com/phishing_database.html) |
-| **Packet Storm** | Exploit & Advisory Downloads | [→ Link](https://packetstorm.news/files/latest/1) |
-| **Qualys** | Cloud Security & Compliance Platform | [→ Link](https://www.qualys.com/) |
-| **Retina Community** | Kostenloser Vulnerability Scanner (128 IPs) | [→ Link](https://sourceforge.net/projects/retinacommunity/) |
-| **SearchSploit.py** | Exploit Database Search Script | [→ Link](https://github.com/rad10/SearchSploit.py) |
-| **Spamhaus** | Anti-Spam Intelligence | [→ Link](https://www.spamhaus.com/) |
-| **Vulners** | Vulnerability Intelligence Database | [→ Link](https://vulners.com/search) |
-| **abuse.ch** | Malware Tracking & Blocklists | [→ Link](https://abuse.ch/) |
-| **blocklist.de** | IP Blocklist Service | [→ Link](https://www.blocklist.de/en/index.html) |
+| **AlienVault OTX** | Open Threat Exchange. Wichtige Ressource für Vulnerability Research und Exploit-Analyse. | [→ Link](https://otx.alienvault.com/browse/global/pulses) |
+| **CIS Threat Feeds** | Real-Time Threat Indicator Feeds. Wichtige Ressource für Vulnerability Research und Exploit-Analyse. | [→ Link](https://www.cisecurity.org/ms-isac/services/real-time-indicator-feeds) |
+| **CVE** | Common Vulnerabilities and Exposures. Wichtige Ressource für Vulnerability Research und Exploit-Analyse. | [→ Link](https://cve.mitre.org/) |
+| **CVE Enginsight** | CVE Database & Analytics. Wichtige Ressource für Vulnerability Research und Exploit-Analyse. | [→ Link](https://cve.enginsight.com/) |
+| **CVSS** | Common Vulnerability Scoring System. Wichtige Ressource für Vulnerability Research und Exploit-Analyse. | [→ Link](https://www.first.org/cvss/) |
+| **CVSS v3 Calculator** | CVSS Score Calculator Version 3. Wichtige Ressource für Vulnerability Research und Exploit-Analyse. | [→ Link](https://www.first.org/cvss/calculator/3.0) |
+| **CVSS v4.0 FAQ** | CVSS Version 4.0 Häufige Fragen. Wichtige Ressource für Vulnerability Research und Exploit-Analyse. | [→ Link](https://www.first.org/cvss/v4.0/faq) |
+| **CWE** | Common Weakness Enumeration. Wichtige Ressource für Vulnerability Research und Exploit-Analyse. | [→ Link](https://cwe.mitre.org/) |
+| **Check Point ThreatMap** | Live Cyber Threat Map. Wichtige Ressource für Vulnerability Research und Exploit-Analyse. | [→ Link](https://threatmap.checkpoint.com/) |
+| **Docker Hub Breach Discussion (Hacker News)** | Hacker-News-Thread zum Docker-Hub-Datenleck von 2019. Community-Analyse der Auswirkungen auf 190.000 Accounts und die Risiken kompromittierter Container-Images in CI/CD-Pipelines. | [→ Link](https://news.ycombinator.com/item?id=19763413) |
+| **Docker Hub Hack (Threatpost)** | Sicherheitsanalyse des Docker-Hub-Breaches mit Fokus auf die Angriffsvektoren. Erklärt warum kompromittierte Docker-Images ein massives Supply-Chain-Risiko für Unternehmen darstellen. | [→ Link](https://threatpost.com/docker-hub-hack/144176/) |
+| **Docker Hub Hacked (GBHackers)** | Bericht über den Docker-Hub-Hack, bei dem Angreifer Zugriff auf 190.000 Nutzerkonten erhielten. Beschreibt die kompromittierten Daten und Empfehlungen zum Schutz von Container-Registries. | [→ Link](https://gbhackers.com/docker-hub-hacked/) |
+| **Exploit Database** | Exploit-Archiv für Pentester und Security Researcher mit tausenden CVE-basierten Exploits. Enthält auch die Google Hacking Database für gezielte Suchanfragen nach verwundbaren Systemen. | [→ Link](https://www.exploit-db.com/) |
+| **Google Threat Intelligence** | Threat Analysis Platform. Wichtige Ressource für Vulnerability Research und Exploit-Analyse. | [→ Link](https://cloud.google.com/security/products/threat-intelligence) |
+| **HoneyDB** | Honeypot Threat Intelligence. Wichtige Ressource für Vulnerability Research und Exploit-Analyse. | [→ Link](https://honeydb.io/) |
+| **IBM X-Force Exchange** | Threat Intelligence Sharing. Wichtige Ressource für Vulnerability Research und Exploit-Analyse. | [→ Link](https://exchange.xforce.ibmcloud.com/) |
+| **Kaspersky CyberMap** | Real-time Cyber Attack Map. Wichtige Ressource für Vulnerability Research und Exploit-Analyse. | [→ Link](https://cybermap.kaspersky.com/) |
+| **MITRE ATT&CK** | MITRE ATT&CK Framework — weltweit genutzte Wissensdatenbank für Angriffstechniken. Katalogisiert Taktiken, Techniken und Prozeduren (TTPs) realer Angreifergruppen systematisch. | [→ Link](https://attack.mitre.org/) |
+| **Microsoft Security Bulletins** | Microsoft Security Updates. Wichtige Ressource für Vulnerability Research und Exploit-Analyse. | [→ Link](https://learn.microsoft.com/en-us/security-updates/) |
+| **Microsoft Update Guide** | Microsoft Security Update Suche. Wichtige Ressource für Vulnerability Research und Exploit-Analyse. | [→ Link](https://msrc.microsoft.com/update-guide) |
+| **NIST CVSS** | Common Vulnerability Scoring System. Wichtige Ressource für Vulnerability Research und Exploit-Analyse. | [→ Link](https://nvd.nist.gov/vuln-metrics/cvss) |
+| **NVD (NIST)** | National Vulnerability Database. Wichtige Ressource für Vulnerability Research und Exploit-Analyse. | [→ Link](https://nvd.nist.gov/) |
+| **OpenPhish** | Phishing Intelligence Database. Wichtige Ressource für Vulnerability Research und Exploit-Analyse. | [→ Link](https://openphish.com/phishing_database.html) |
+| **Packet Storm** | Exploit & Advisory Downloads. Wichtige Ressource für Vulnerability Research und Exploit-Analyse. | [→ Link](https://packetstorm.news/files/latest/1) |
+| **Qualys** | Cloud Security & Compliance Platform. Wichtige Ressource für Vulnerability Research und Exploit-Analyse. | [→ Link](https://www.qualys.com/) |
+| **Retina Community** | Kostenloser Vulnerability Scanner (128 IPs). Wichtige Ressource für Vulnerability Research und Exploit-Analyse. | [→ Link](https://sourceforge.net/projects/retinacommunity/) |
+| **SearchSploit.py** | Exploit Database Search Script. Wichtige Ressource für Vulnerability Research und Exploit-Analyse. | [→ Link](https://github.com/rad10/SearchSploit.py) |
+| **SolarWinds Attack Analyse (Aqua Security)** | Detaillierte Aufarbeitung des SolarWinds Supply-Chain-Angriffs von 2020. Erklärt wie Angreifer den Build-Prozess kompromittierten und über ein manipuliertes Update 18.000+ Organisationen infiltrierten. | [→ Link](https://www.aquasec.com/cloud-native-academy/supply-chain-security/solarwinds-attack/) |
+| **SolarWinds Hack & Power Infrastructure (The Intercept)** | Investigativer Bericht über die Auswirkungen des SolarWinds-Hacks auf kritische Infrastruktur. Beleuchtet die Verbindungen zu Energieversorgern und die Risiken für das US-Stromnetz. | [→ Link](https://theintercept.com/2020/12/24/solarwinds-hack-power-infrastructure/) |
+| **Spamhaus** | Anti-Spam Intelligence. Wichtige Ressource für Vulnerability Research und Exploit-Analyse. | [→ Link](https://www.spamhaus.com/) |
+| **Vulners** | Aggregierte Schwachstellen-Suchmaschine die CVEs, Exploits und Patches aus hunderten Quellen zusammenführt. API-Zugang für automatisierte Vulnerability-Intelligence-Workflows. | [→ Link](https://vulners.com/search) |
+| **abuse.ch** | Malware Tracking & Blocklists. Wichtige Ressource für Vulnerability Research und Exploit-Analyse. | [→ Link](https://abuse.ch/) |
+| **blocklist.de** | IP Blocklist Service. Wichtige Ressource für Vulnerability Research und Exploit-Analyse. | [→ Link](https://www.blocklist.de/en/index.html) |
 
 ---
 
@@ -305,56 +321,56 @@
 
 | Tool | Beschreibung | Link |
 |------|-------------|------|
-| **AD Restore** | Stellt gelöschte Active Directory-Objekte aus Tombstones wieder her | [→ Link](https://learn.microsoft.com/en-us/sysinternals/downloads/adrestore) |
-| **AccessChk** | Prüft effektive Berechtigungen auf Dateien, Registry, Services - Privilege Escalation Checks | [→ Link](https://learn.microsoft.com/en-us/sysinternals/downloads/accesschk) |
-| **AtlasOS** | Optimized Windows for Performance | [→ Link](https://atlasos.net/) |
-| **Autoruns** | Vollständige Übersicht aller Autostart-Einträge - erkennt Persistenz-Mechanismen von Malware | [→ Link](https://learn.microsoft.com/en-us/sysinternals/downloads/autoruns) |
-| **BgInfo** | Zeigt System-Informationen (IP, Hostname, OS, Patches) auf dem Desktop-Hintergrund | [→ Link](https://learn.microsoft.com/en-us/sysinternals/downloads/bginfo) |
-| **ClockRes** | Zeigt die System-Timer-Auflösung - relevant für Performance-Analyse | [→ Link](https://learn.microsoft.com/en-us/sysinternals/downloads/clockres) |
-| **Coreinfo** | Zeigt CPU-Features, Caches, NUMA-Topologie & Virtualisierungssupport | [→ Link](https://learn.microsoft.com/en-us/sysinternals/downloads/coreinfo) |
-| **Ctrl2Cap** | Remappt CapsLock zu Ctrl auf Kernel-Ebene | [→ Link](https://learn.microsoft.com/en-us/sysinternals/downloads/ctrl2cap) |
-| **Desktops** | Virtuelle Desktops für Windows - isolierte Arbeitsbereiche | [→ Link](https://learn.microsoft.com/en-us/sysinternals/downloads/desktops) |
-| **Disk Usage (du)** | Verzeichnis-Speicherplatzanalyse mit Unterordner-Aufschlüsselung | [→ Link](https://learn.microsoft.com/en-us/sysinternals/downloads/du) |
-| **DistroWatch** | Linux Distribution Tracker | [→ Link](https://distrowatch.com/) |
-| **Emsisoft Emergency Kit** | Portable Malware Scanner | [→ Link](https://www.emsisoft.com/de/home/emergency-kit/download/) |
-| **Handle** | Zeigt offene Handles (Dateien, Registry, Prozesse) - hilft bei gesperrten Dateien & Forensik | [→ Link](https://learn.microsoft.com/en-us/sysinternals/downloads/handle) |
-| **Junction** | Erstellt & verwaltet NTFS Junction Points (symbolische Verzeichnislinks) | [→ Link](https://learn.microsoft.com/en-us/sysinternals/downloads/junction) |
-| **Kali Linux** | Penetration Testing Distribution | [→ Link](https://www.kali.org/) |
-| **Linux Man Pages** | Online Linux Manual Pages | [→ Link](https://linux.die.net/man/) |
-| **LoadOrder** | Zeigt die Reihenfolge in der Treiber & Services beim Boot geladen werden | [→ Link](https://learn.microsoft.com/en-us/sysinternals/downloads/loadorder) |
-| **LogonSessions** | Listet aktive Logon-Sessions mit Typ (Interactive, Network, Service) & Authentifizierungsdetails | [→ Link](https://learn.microsoft.com/en-us/sysinternals/downloads/logonsessions) |
-| **MBR2GPT** | Convert MBR to GPT Partition | [→ Link](https://learn.microsoft.com/en-us/windows/deployment/mbr-to-gpt) |
-| **MBSA Removal** | Microsoft Baseline Security Analyzer (veraltet) | [→ Link](https://learn.microsoft.com/de-de/windows/security/operating-system-security/device-management/windows-security-configuration-framework/mbsa-removal-and-guidance) |
-| **Malwarebytes** | Anti-Malware & Endpoint Protection | [→ Link](https://www.malwarebytes.com/de/) |
-| **Microsoft Intune / ConfigMgr Docs** | Device Management Platform | [→ Link](https://learn.microsoft.com/en-us/intune/configmgr/) |
-| **Microsoft SCT** | Security Compliance Toolkit | [→ Link](https://www.microsoft.com/en-us/download/details.aspx?id=55319) |
-| **MoveFile / PendMoves** | Plant Dateioperationen beim nächsten Boot - zeigt ausstehende File-Moves | [→ Link](https://learn.microsoft.com/en-us/sysinternals/downloads/movefile) |
-| **Parrot Security OS** | Security-focused Linux Distribution | [→ Link](https://www.parrotsec.org/) |
-| **Portmon** | Überwacht serielle & parallele Port-Aktivität in Echtzeit | [→ Link](https://learn.microsoft.com/en-us/sysinternals/downloads/portmon) |
-| **Process Explorer** | Erweiterter Task-Manager - Prozessdetails, DLLs, Handles, GPU-Auslastung & VirusTotal-Integration | [→ Link](https://learn.microsoft.com/en-us/sysinternals/downloads/process-explorer) |
+| **AD Restore** | Sysinternals-Tool das gelöschte Active Directory-Objekte aus Tombstones wiederherstellt. Ermöglicht Recovery von versehentlich gelöschten AD-Accounts und Gruppen. | [→ Link](https://learn.microsoft.com/en-us/sysinternals/downloads/adrestore) |
+| **AccessChk** | Sysinternals-Tool das effektive Berechtigungen für Dateien, Registry-Keys, Services und Prozesse anzeigt. Essentiell für Privilege-Escalation-Enumeration auf Windows-Systemen. | [→ Link](https://learn.microsoft.com/en-us/sysinternals/downloads/accesschk) |
+| **AtlasOS** | Optimized Windows for Performance. Nützlich für Windows-Administration und Endpoint-Security. | [→ Link](https://atlasos.net/) |
+| **Autoruns** | Sysinternals-Tool das ALLE Autostart-Einträge anzeigt — Registry, Services, Scheduled Tasks, DLLs und mehr. Erkennt Malware-Persistenz die andere Tools übersehen. | [→ Link](https://learn.microsoft.com/en-us/sysinternals/downloads/autoruns) |
+| **BgInfo** | Sysinternals-Tool das System-Informationen wie IP-Adresse, Hostname, OS-Version und Patches auf dem Desktop-Hintergrund anzeigt. Standard in vielen Server-Umgebungen für schnelle Übersicht. | [→ Link](https://learn.microsoft.com/en-us/sysinternals/downloads/bginfo) |
+| **ClockRes** | Sysinternals-Tool das die System-Timer-Auflösung anzeigt. Relevant für Performance-Analyse und Timing-sensitive Anwendungen auf Windows-Systemen. | [→ Link](https://learn.microsoft.com/en-us/sysinternals/downloads/clockres) |
+| **Coreinfo** | Sysinternals-Tool das CPU-Features, Cache-Hierarchie, NUMA-Topologie und Virtualisierungssupport detailliert anzeigt. Nützlich für Performance-Tuning und Kompatibilitätschecks. | [→ Link](https://learn.microsoft.com/en-us/sysinternals/downloads/coreinfo) |
+| **Ctrl2Cap** | Sysinternals Kernel-Mode-Treiber der CapsLock zu Ctrl remappt. Kleine Ergonomie-Verbesserung für Entwickler und Vim-Nutzer auf Kernel-Ebene. | [→ Link](https://learn.microsoft.com/en-us/sysinternals/downloads/ctrl2cap) |
+| **Desktops** | Sysinternals Virtual Desktop Tool für Windows. Erstellt bis zu vier isolierte Desktop-Arbeitsbereiche — praktisch für die Trennung von Arbeitskontexten. | [→ Link](https://learn.microsoft.com/en-us/sysinternals/downloads/desktops) |
+| **Disk Usage (du)** | Sysinternals Verzeichnis-Speicherplatzanalyse mit detaillierter Unterordner-Aufschlüsselung. Schneller als Windows Explorer für die Identifikation von Speicherplatz-Fressern. | [→ Link](https://learn.microsoft.com/en-us/sysinternals/downloads/du) |
+| **DistroWatch** | Linux Distribution Tracker. Nützlich für Windows-Administration und Endpoint-Security. | [→ Link](https://distrowatch.com/) |
+| **Emsisoft Emergency Kit** | Portable Malware Scanner. Nützlich für Windows-Administration und Endpoint-Security. | [→ Link](https://www.emsisoft.com/de/home/emergency-kit/download/) |
+| **Handle** | Sysinternals-Tool das offene File-Handles pro Prozess anzeigt. Findet Datei-Locks, identifiziert welcher Prozess eine Datei blockiert und erkennt verdächtige Dateizugriffe. | [→ Link](https://learn.microsoft.com/en-us/sysinternals/downloads/handle) |
+| **Junction** | Sysinternals-Tool zum Erstellen und Verwalten von NTFS Junction Points. Symbolische Verzeichnislinks auf Dateisystem-Ebene — nützlich für flexible Verzeichnisstrukturen. | [→ Link](https://learn.microsoft.com/en-us/sysinternals/downloads/junction) |
+| **Kali Linux** | Penetration Testing Distribution. Nützlich für Windows-Administration und Endpoint-Security. | [→ Link](https://www.kali.org/) |
+| **Linux Man Pages** | Online Linux Manual Pages. Nützlich für Windows-Administration und Endpoint-Security. | [→ Link](https://linux.die.net/man/) |
+| **LoadOrder** | Sysinternals-Tool das die Boot-Ladereihenfolge von Treibern und Services anzeigt. Hilft bei Boot-Problemen und beim Verständnis der Windows-Startsequenz. | [→ Link](https://learn.microsoft.com/en-us/sysinternals/downloads/loadorder) |
+| **LogonSessions** | Sysinternals-Tool das aktive Logon-Sessions mit Typ (Interactive, Network, Service) und Authentifizierungsdetails auflistet. Nützlich für Security-Audits und Incident Response. | [→ Link](https://learn.microsoft.com/en-us/sysinternals/downloads/logonsessions) |
+| **MBR2GPT** | Convert MBR to GPT Partition. Nützlich für Windows-Administration und Endpoint-Security. | [→ Link](https://learn.microsoft.com/en-us/windows/deployment/mbr-to-gpt) |
+| **MBSA Removal** | Microsoft Baseline Security Analyzer (veraltet). Nützlich für Windows-Administration und Endpoint-Security. | [→ Link](https://learn.microsoft.com/de-de/windows/security/operating-system-security/device-management/windows-security-configuration-framework/mbsa-removal-and-guidance) |
+| **Malwarebytes** | Anti-Malware-Software mit verhaltensbasierter Erkennung und Ransomware-Schutz. Ergänzt traditionelle Antivirus-Lösungen durch spezialisierte Malware-Erkennung. | [→ Link](https://www.malwarebytes.com/de/) |
+| **Microsoft Intune / ConfigMgr Docs** | Device Management Platform. Nützlich für Windows-Administration und Endpoint-Security. | [→ Link](https://learn.microsoft.com/en-us/intune/configmgr/) |
+| **Microsoft SCT** | Security Compliance Toolkit. Nützlich für Windows-Administration und Endpoint-Security. | [→ Link](https://www.microsoft.com/en-us/download/details.aspx?id=55319) |
+| **MoveFile / PendMoves** | Sysinternals-Tools zum Planen von Dateioperationen beim nächsten Boot und Anzeigen ausstehender Moves. Relevant für Malware-Analyse und System-Updates. | [→ Link](https://learn.microsoft.com/en-us/sysinternals/downloads/movefile) |
+| **Parrot Security OS** | Security-focused Linux Distribution. Nützlich für Windows-Administration und Endpoint-Security. | [→ Link](https://www.parrotsec.org/) |
+| **Portmon** | Sysinternals-Tool das serielle und parallele Port-Aktivität in Echtzeit überwacht. Nützlich für Debugging von Hardware-Kommunikation und Legacy-Systemen. | [→ Link](https://learn.microsoft.com/en-us/sysinternals/downloads/portmon) |
+| **Process Explorer** | Erweiterter Sysinternals Task-Manager der DLLs, Handles, GPU-Nutzung und VirusTotal-Integration bietet. Zeigt Prozess-Hierarchien und versteckte Prozesse — unverzichtbar für Malware-Triage. | [→ Link](https://learn.microsoft.com/en-us/sysinternals/downloads/process-explorer) |
 | **Process Monitor (ProcMon)** | Echtzeit-Monitoring von Dateisystem-, Registry- & Prozess-Aktivitäten - essentiell für Malware-Analyse | [→ Link](https://learn.microsoft.com/en-us/sysinternals/downloads/procmon) |
-| **Process Monitor (ProcMon)** | Echtzeit-Überwachung von Registry, Dateisystem, Netzwerk & Prozess-Aktivitäten | [→ Link](https://learn.microsoft.com/en-us/sysinternals/downloads/process-monitor) |
-| **PsExec** | Remote-Befehlsausführung auf Windows-Systemen - oft in Pentests & Lateral Movement eingesetzt | [→ Link](https://learn.microsoft.com/en-us/sysinternals/downloads/psexec) |
-| **PsFile** | Zeigt remote geöffnete Dateien auf einem System - erkennt aktive Netzwerk-Shares | [→ Link](https://learn.microsoft.com/en-us/sysinternals/downloads/psfile) |
-| **PsInfo** | Sammelt detaillierte System-Informationen (OS, Hotfixes, Disk, Uptime) - auch remote | [→ Link](https://learn.microsoft.com/en-us/sysinternals/downloads/psinfo) |
-| **PsKill** | Beendet Prozesse lokal & remote per Name oder PID | [→ Link](https://learn.microsoft.com/en-us/sysinternals/downloads/pskill) |
-| **PsList** | Kommandozeilen-Prozessliste mit CPU-Zeit & Memory - auch remote ausführbar | [→ Link](https://learn.microsoft.com/en-us/sysinternals/downloads/pslist) |
-| **PsPasswd** | Ändert Account-Passwörter lokal & remote - Massen-Passwort-Reset | [→ Link](https://learn.microsoft.com/en-us/sysinternals/downloads/pspasswd) |
-| **PsService** | Windows Service Controller - Start/Stop/Query von Diensten auch auf Remote-Systemen | [→ Link](https://learn.microsoft.com/en-us/sysinternals/downloads/psservice) |
-| **PsShutdown** | Remote Shutdown/Restart/Hibernate/Suspend von Systemen | [→ Link](https://learn.microsoft.com/en-us/sysinternals/downloads/psshutdown) |
-| **RAMMap** | Detaillierte physische RAM-Nutzungsanalyse nach Typ (Driver, Mapped File, Page Table) | [→ Link](https://learn.microsoft.com/en-us/sysinternals/downloads/rammap) |
-| **RedHat Compliance Scanning** | RHEL Configuration Compliance | [→ Link](https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/7/html/security_guide/configuration-compliance-scanning_scanning-the-system-for-configuration-compliance-and-vulnerabilities) |
-| **RedHat Security Guide** | RHEL 7 Security Documentation | [→ Link](https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/7/html/security_guide/index) |
-| **RegJump** | Springt direkt zu einem Registry-Pfad in Regedit - schnelle Navigation | [→ Link](https://learn.microsoft.com/en-us/sysinternals/downloads/regjump) |
-| **SSD-LED Tool** | SSD Activity LED Indicator | [→ Link](https://github.com/SIRprise/SSD-LED/releases/download/v1.0.7.5/SSD-LED1.0.7.5.zip) |
-| **Spybot Search & Destroy** | Spyware Removal Tool | [→ Link](https://www.safer-networking.org/products/spybot-free-edition/) |
-| **Sync** | Flusht Dateisystem-Cache auf Disk - sichert Datenintegrität | [→ Link](https://learn.microsoft.com/en-us/sysinternals/downloads/sync) |
+| **Process Monitor (ProcMon)** | Echtzeit-Überwachung von Registry, Dateisystem, Netzwerk & Prozess-Aktivitäten. Nützlich für Windows-Administration und Endpoint-Security. | [→ Link](https://learn.microsoft.com/en-us/sysinternals/downloads/process-monitor) |
+| **PsExec** | Sysinternals Remote-Execution-Tool das Prozesse auf entfernten Systemen ohne Agent startet. Wird sowohl für legitime Administration als auch für Lateral Movement in Pentests genutzt. | [→ Link](https://learn.microsoft.com/en-us/sysinternals/downloads/psexec) |
+| **PsFile** | Sysinternals-Tool das remote geöffnete Dateien auf einem System anzeigt. Identifiziert aktive Netzwerk-Share-Zugriffe — nützlich für Troubleshooting und Security-Monitoring. | [→ Link](https://learn.microsoft.com/en-us/sysinternals/downloads/psfile) |
+| **PsInfo** | Sysinternals-Tool das detaillierte System-Informationen sammelt — OS, Hotfixes, Disk, Uptime und mehr. Auch remote ausführbar für schnelle Bestandsaufnahmen. | [→ Link](https://learn.microsoft.com/en-us/sysinternals/downloads/psinfo) |
+| **PsKill** | Sysinternals-Tool zum Beenden von Prozessen lokal und remote per Name oder PID. Funktioniert auch wenn der Task-Manager den Prozess nicht beenden kann. | [→ Link](https://learn.microsoft.com/en-us/sysinternals/downloads/pskill) |
+| **PsList** | Sysinternals Kommandozeilen-Prozessliste mit CPU-Zeit und Memory-Verbrauch. Remote-fähig — schnelle Prozessübersicht ohne GUI-Zugang zum Zielsystem. | [→ Link](https://learn.microsoft.com/en-us/sysinternals/downloads/pslist) |
+| **PsPasswd** | Sysinternals-Tool zum Ändern von Account-Passwörtern lokal und remote. Ermöglicht Massen-Passwort-Resets über mehrere Systeme hinweg. | [→ Link](https://learn.microsoft.com/en-us/sysinternals/downloads/pspasswd) |
+| **PsService** | Sysinternals Windows Service Controller für Start, Stop und Query von Diensten. Funktioniert auch remote — praktisch für die Verwaltung von Services ohne RDP. | [→ Link](https://learn.microsoft.com/en-us/sysinternals/downloads/psservice) |
+| **PsShutdown** | Sysinternals-Tool für Remote-Shutdown, Restart, Hibernate und Suspend von Windows-Systemen. Unterstützt Timer und benutzerdefinierte Nachrichten an eingeloggte User. | [→ Link](https://learn.microsoft.com/en-us/sysinternals/downloads/psshutdown) |
+| **RAMMap** | Sysinternals-Tool für detaillierte physische RAM-Nutzungsanalyse. Zeigt Speicherverteilung nach Typ — Driver Locked, Mapped File, Page Table und mehr. | [→ Link](https://learn.microsoft.com/en-us/sysinternals/downloads/rammap) |
+| **RedHat Compliance Scanning** | RHEL Configuration Compliance. Nützlich für Windows-Administration und Endpoint-Security. | [→ Link](https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/7/html/security_guide/configuration-compliance-scanning_scanning-the-system-for-configuration-compliance-and-vulnerabilities) |
+| **RedHat Security Guide** | RHEL 7 Security Documentation. Nützlich für Windows-Administration und Endpoint-Security. | [→ Link](https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/7/html/security_guide/index) |
+| **RegJump** | Sysinternals-Tool das direkt zu einem Registry-Pfad in Regedit springt. Spart Zeit bei der Navigation — akzeptiert Pfade als Kommandozeilenargument. | [→ Link](https://learn.microsoft.com/en-us/sysinternals/downloads/regjump) |
+| **SSD-LED Tool** | SSD Activity LED Indicator. Nützlich für Windows-Administration und Endpoint-Security. | [→ Link](https://github.com/SIRprise/SSD-LED/releases/download/v1.0.7.5/SSD-LED1.0.7.5.zip) |
+| **Spybot Search & Destroy** | Spyware Removal Tool. Nützlich für Windows-Administration und Endpoint-Security. | [→ Link](https://www.safer-networking.org/products/spybot-free-edition/) |
+| **Sync** | Sysinternals-Tool das den Dateisystem-Cache auf die Festplatte flusht. Sichert Datenintegrität vor Systemänderungen oder bei instabilen Systemen. | [→ Link](https://learn.microsoft.com/en-us/sysinternals/downloads/sync) |
 | **Sysinternals Suite** | Microsoft Sysinternals - Komplette Suite für Windows System-Administration & Troubleshooting | [→ Link](https://learn.microsoft.com/en-us/sysinternals/) |
-| **TCPView** | Echtzeit-Anzeige aller TCP/UDP-Verbindungen mit Prozesszuordnung - Netzwerk-Troubleshooting | [→ Link](https://learn.microsoft.com/en-us/sysinternals/downloads/tcpview) |
-| **VolumeID** | Ändert Volume-Seriennummern von FAT/NTFS-Partitionen | [→ Link](https://learn.microsoft.com/en-us/sysinternals/downloads/volumeid) |
-| **Windows Security Baselines (DE)** | Microsoft Sicherheitsbaselines (DE) | [→ Link](https://learn.microsoft.com/de-de/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines) |
-| **Windows Security Baselines (EN)** | Microsoft Security Baselines (EN) | [→ Link](https://learn.microsoft.com/nl-nl/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines) |
-| **xRDP** | Remote Desktop Protocol for Linux | [→ Link](https://www.xrdp.org/) |
+| **TCPView** | Sysinternals-Tool das alle aktiven TCP/UDP-Verbindungen mit Prozesszuordnung in Echtzeit anzeigt. Erkennt verdächtige Netzwerkaktivität und unbekannte Verbindungen sofort. | [→ Link](https://learn.microsoft.com/en-us/sysinternals/downloads/tcpview) |
+| **VolumeID** | Sysinternals-Tool das Volume-Seriennummern von FAT- und NTFS-Partitionen ändert. Nützlich für Disk-Cloning und forensische Szenarien. | [→ Link](https://learn.microsoft.com/en-us/sysinternals/downloads/volumeid) |
+| **Windows Security Baselines (DE)** | Microsoft Sicherheitsbaselines (DE). Nützlich für Windows-Administration und Endpoint-Security. | [→ Link](https://learn.microsoft.com/de-de/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines) |
+| **Windows Security Baselines (EN)** | Microsoft Security Baselines (EN). Nützlich für Windows-Administration und Endpoint-Security. | [→ Link](https://learn.microsoft.com/nl-nl/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines) |
+| **xRDP** | Remote Desktop Protocol for Linux. Nützlich für Windows-Administration und Endpoint-Security. | [→ Link](https://www.xrdp.org/) |
 
 ---
 
@@ -364,57 +380,59 @@
 
 | Tool | Beschreibung | Link |
 |------|-------------|------|
-| **AD Insight** | Echtzeit-Monitoring von LDAP-Anfragen an Active Directory - Troubleshooting & Security-Audit | [→ Link](https://learn.microsoft.com/en-us/sysinternals/downloads/adinsight) |
-| **Forcepoint Insider Threat** | Insider Threat Detection | [→ Link](https://www.forcepoint.com/security/insider-threat) |
-| **Fortra MDR** | Managed Detection & Response | [→ Link](https://www.fortra.com/services/managed-security-services/mdr) |
-| **IBM QRadar UEBA** | User & Entity Behavior Analytics | [→ Link](https://www.ibm.com/products/qradar-siem/user-entity-behavior-analytics) |
-| **IBM QRadar UEBA** | User & Entity Behavior Analytics | [→ Link](https://www.ibm.com/products/qradar-siem/user-behavior-analytics) |
-| **ManageEngine Log360** | SIEM & Log Management | [→ Link](https://www.manageengine.com/log-management/siem-solution-log360.html) |
-| **Rapid7 InsightIDR Docs** | XDR Platform Documentation | [→ Link](https://docs.rapid7.com/insightidr/) |
-| **Splunk UBA** | Splunk User Behavior Analytics | [→ Link](https://www.splunk.com/en_us/products/user-behavior-analytics.html) |
-| **Sysmon** | System Monitor - erweiterte Event-Logging für Security-Monitoring, SIEM-Integration & Threat Detection | [→ Link](https://learn.microsoft.com/en-us/sysinternals/downloads/sysmon) |
-| **Sysmon Config** | Microsoft Sysmon Configuration (Best Practice) | [→ Link](https://github.com/SwiftOnSecurity/sysmon-config) |
-| **Wazuh** | Open Source Security Platform | [→ Link](https://wazuh.com/) |
-| **Wazuh Community** | Community Support & Resources | [→ Link](https://wazuh.com/community/) |
+| **AD Insight** | Sysinternals Echtzeit-Monitor für LDAP-Anfragen an Active Directory. Zeigt alle LDAP-Calls mit Parametern — essentiell für AD-Troubleshooting und Security-Monitoring. | [→ Link](https://learn.microsoft.com/en-us/sysinternals/downloads/adinsight) |
+| **Forcepoint Insider Threat** | Insider Threat Detection. Nützlich für Security-Monitoring und Event-Korrelation. | [→ Link](https://www.forcepoint.com/security/insider-threat) |
+| **Fortra MDR** | Managed Detection & Response. Nützlich für Security-Monitoring und Event-Korrelation. | [→ Link](https://www.fortra.com/services/managed-security-services/mdr) |
+| **IBM QRadar UEBA** | User & Entity Behavior Analytics. Nützlich für Security-Monitoring und Event-Korrelation. | [→ Link](https://www.ibm.com/products/qradar-siem/user-entity-behavior-analytics) |
+| **IBM QRadar UEBA** | User & Entity Behavior Analytics. Nützlich für Security-Monitoring und Event-Korrelation. | [→ Link](https://www.ibm.com/products/qradar-siem/user-behavior-analytics) |
+| **ManageEngine Log360** | Integrierte SIEM-Lösung mit Log-Management, UEBA und CASB. Korreliert Events aus Netzwerk, Cloud und Endpoints für umfassende Bedrohungserkennung. | [→ Link](https://www.manageengine.com/log-management/siem-solution-log360.html) |
+| **Rapid7 InsightIDR Docs** | XDR Platform Documentation. Nützlich für Security-Monitoring und Event-Korrelation. | [→ Link](https://docs.rapid7.com/insightidr/) |
+| **Splunk UBA** | Splunk User Behavior Analytics. Nützlich für Security-Monitoring und Event-Korrelation. | [→ Link](https://www.splunk.com/en_us/products/user-behavior-analytics.html) |
+| **Sysmon** | Sysinternals System Monitor der Prozesserstellung, Netzwerkverbindungen, Datei-Hashes und Registry-Änderungen detailliert loggt. Die Basis für effektives Windows-Threat-Hunting. | [→ Link](https://learn.microsoft.com/en-us/sysinternals/downloads/sysmon) |
+| **Sysmon Config** | Microsoft Sysmon Configuration (Best Practice). Nützlich für Security-Monitoring und Event-Korrelation. | [→ Link](https://github.com/SwiftOnSecurity/sysmon-config) |
+| **Wazuh** | Open Source Security Platform mit SIEM, XDR und SOAR-Funktionalität. Bietet File Integrity Monitoring, Vulnerability Detection und Compliance-Reporting — kostenlose Alternative zu kommerziellen SIEMs. | [→ Link](https://wazuh.com/) |
+| **Wazuh Community** | Community Support & Resources. Nützlich für Security-Monitoring und Event-Korrelation. | [→ Link](https://wazuh.com/community/) |
 
 ---
 
 ## 📋 Standards & Frameworks
 
-*30 Links*
+*32 Links*
 
 | Tool | Beschreibung | Link |
 |------|-------------|------|
-| **BSI-200-x Standards** | BSI-Standards 200-1 bis 200-4 | [→ Link](https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Standards-und-Zertifizierung/IT-Grundschutz/BSI-Standards/bsi-standards_node.html) |
-| **CC Portal** | Common Criteria Portal | [→ Link](https://www.commoncriteriaportal.org/sitemap/index.cfm) |
-| **CC TDS (Finx RTOS SE)** | Target of Evaluation Documentation | [→ Link](https://www.commoncriteriaportal.org/files/epfiles/tds_finx_rtos_se_v31_lite01.pdf) |
-| **CIS** | Center for Internet Security | [→ Link](https://www.cisecurity.org/) |
-| **CIS Benchmarks** | Security Configuration Guidelines | [→ Link](https://www.cisecurity.org/cis-benchmarks) |
-| **CIS-CAT Pro** | CIS Configuration Assessment Tool | [→ Link](https://www.cisecurity.org/cybersecurity-tools/cis-cat-pro) |
-| **CISA HVA Program** | High Value Asset Programm - Framework zum Schutz kritischer Regierungs-IT-Systeme | [→ Link](https://www.cisa.gov/resources-tools/programs/high-value-asset-program-management-office-hva-pmo) |
-| **CISA OT Authentication Barriers** | Warum sichere Authentifizierung in OT-Umgebungen scheitert - Analyse & Empfehlungen | [→ Link](https://www.cisa.gov/sites/default/files/2026-02/Barriers-to-Secure-Communication-Why-OT-Johnny-Cant-Authenticate_508_2.pdf) |
-| **CISA Secure High Value Assets** | CISA Insights - Leitfaden zur Absicherung von High Value Assets gegen Cyber-Bedrohungen | [→ Link](https://www.cisa.gov/sites/default/files/publications/CISAInsights-Cyber-SecureHighValueAssets_S508C.pdf) |
-| **CISIS12** | Community für Informationssicherheit (IT-Grundschutz) | [→ Link](https://cisis12.de/) |
-| **DISA** | Defense Information Systems Agency | [→ Link](https://disa.mil/) |
-| **Dradis Reports** | Collaboration & Reporting für Pentests | [→ Link](https://dradis.com/ce/) |
-| **ISO 27001 + IT-Grundschutz** | Zertifizierung nach ISO 27001 mit BSI IT-Grundschutz | [→ Link](https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/Zertifikat/Veroeffentl/Pruefgrundlagen_Kompendium.html) |
-| **ISO/IEC 27001** | Internationaler Standard für Informationssicherheit | [→ Link](https://www.dinmedia.de/de/norm/din-en-iso-iec-27001/370680635) |
-| **ISSAF** | Information Systems Security Assessment Framework | [→ Link](https://sourceforge.net/projects/isstf/) |
-| **IT-Grundschutz-Kompendium** | BSI IT-Grundschutz - umfassendes Sicherheitskonzept | [→ Link](https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Standards-und-Zertifizierung/IT-Grundschutz/IT-Grundschutz-Kompendium/it-grundschutz-kompendium_node.html) |
-| **NIST SCAP** | NIST SCAP Validation Program | [→ Link](https://scap.nist.gov/) |
-| **NIST SP 800-30** | Guide for Conducting Risk Assessments | [→ Link](https://csrc.nist.gov/pubs/sp/800/30/r1/final) |
-| **NIST SP 800-30 PDF** | Risk Assessment Guide (PDF) | [→ Link](https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-30r1.pdf) |
-| **OSSTMM** | Open Source Security Testing Methodology Manual | [→ Link](https://www.isecom.org/OSSTMM.3.pdf) |
-| **OffSec Report Sample** | Offensive Security Pentest Report Template | [→ Link](https://www.offsec.com/reports/sample-penetration-testing-report.pdf) |
-| **OpenSCAP** | Security Compliance Scanner | [→ Link](https://www.open-scap.org/) |
-| **PTES** | Penetration Testing Execution Standard | [→ Link](http://www.pentest-standard.org/index.php/Main_Page) |
-| **PTES** | Penetration Testing Execution Standard | [→ Link](http://www.pentest-standard.org/) |
-| **PTES Technical Report** | Penetration Testing Report Standard | [→ Link](https://pentest-standard.readthedocs.io/en/latest/reporting.html#technical-report) |
-| **Pentest Report Example** | Beispiel Penetration Testing Report | [→ Link](https://www.pentest-hub.com/PDF/EXAMPLE-Penetration_Testing_Report_v.1.0.pdf) |
-| **SANS Security Policies** | IT Security Policy Templates | [→ Link](https://www.sans.org/information-security-policy/) |
-| **SCAP** | Security Content Automation Protocol | [→ Link](https://public.cyber.mil/stigs/scap/) |
-| **STIGs** | Security Technical Implementation Guides | [→ Link](https://www.cyber.mil/stigs/) |
-| **STIGs** | Security Technical Implementation Guides | [→ Link](https://public.cyber.mil/stigs/) |
+| **BSI-200-x Standards** | BSI-Standards 200-1 bis 200-4. Wichtiger Standard für strukturiertes Informationssicherheitsmanagement. | [→ Link](https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Standards-und-Zertifizierung/IT-Grundschutz/BSI-Standards/bsi-standards_node.html) |
+| **CC Portal** | Common Criteria Portal. Wichtiger Standard für strukturiertes Informationssicherheitsmanagement. | [→ Link](https://www.commoncriteriaportal.org/sitemap/index.cfm) |
+| **CC TDS (Finx RTOS SE)** | Target of Evaluation Documentation. Wichtiger Standard für strukturiertes Informationssicherheitsmanagement. | [→ Link](https://www.commoncriteriaportal.org/files/epfiles/tds_finx_rtos_se_v31_lite01.pdf) |
+| **CIS** | Center for Internet Security. Wichtiger Standard für strukturiertes Informationssicherheitsmanagement. | [→ Link](https://www.cisecurity.org/) |
+| **CIS Benchmarks** | Konfigurationsrichtlinien des CIS für die sichere Härtung von Betriebssystemen, Cloud-Diensten und Anwendungen. Community-entwickelte Best Practices für über 100 Technologien. | [→ Link](https://www.cisecurity.org/cis-benchmarks) |
+| **CIS Controls List** | Vollständige Liste der 18 CIS Critical Security Controls — priorisierte Best Practices zur Cyberabwehr. Von Asset-Inventarisierung bis Penetration Testing weltweit als Baseline genutzt. | [→ Link](https://www.cisecurity.org/controls/cis-controls-list) |
+| **CIS-CAT Pro** | CIS Configuration Assessment Tool. Wichtiger Standard für strukturiertes Informationssicherheitsmanagement. | [→ Link](https://www.cisecurity.org/cybersecurity-tools/cis-cat-pro) |
+| **CISA HVA Program** | CISA High Value Asset Programm — Framework zum Schutz kritischer Regierungs-IT-Systeme. Definiert Methoden zur Identifikation, Priorisierung und Absicherung hochkritischer Assets. | [→ Link](https://www.cisa.gov/resources-tools/programs/high-value-asset-program-management-office-hva-pmo) |
+| **CISA OT Authentication Barriers** | CISA-Analyse warum sichere Authentifizierung in OT-Umgebungen scheitert. Beschreibt technische und organisatorische Barrieren und gibt praktische Empfehlungen für Industrial Security. | [→ Link](https://www.cisa.gov/sites/default/files/2026-02/Barriers-to-Secure-Communication-Why-OT-Johnny-Cant-Authenticate_508_2.pdf) |
+| **CISA Secure High Value Assets** | CISA Insights-Leitfaden zur Absicherung von High Value Assets gegen Cyber-Bedrohungen. Praktische Checklisten und Maßnahmen für den Schutz kritischer Systeme und Daten. | [→ Link](https://www.cisa.gov/sites/default/files/publications/CISAInsights-Cyber-SecureHighValueAssets_S508C.pdf) |
+| **CISIS12** | Community für Informationssicherheit (IT-Grundschutz). Wichtiger Standard für strukturiertes Informationssicherheitsmanagement. | [→ Link](https://cisis12.de/) |
+| **DISA** | Defense Information Systems Agency. Wichtiger Standard für strukturiertes Informationssicherheitsmanagement. | [→ Link](https://disa.mil/) |
+| **Dradis Reports** | Collaboration & Reporting für Pentests. Wichtiger Standard für strukturiertes Informationssicherheitsmanagement. | [→ Link](https://dradis.com/ce/) |
+| **ISO 27001 + IT-Grundschutz** | Zertifizierung nach ISO 27001 mit BSI IT-Grundschutz. Wichtiger Standard für strukturiertes Informationssicherheitsmanagement. | [→ Link](https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/Zertifikat/Veroeffentl/Pruefgrundlagen_Kompendium.html) |
+| **ISO/IEC 27001** | Internationaler Standard für Informationssicherheit. Wichtiger Standard für strukturiertes Informationssicherheitsmanagement. | [→ Link](https://www.dinmedia.de/de/norm/din-en-iso-iec-27001/370680635) |
+| **ISSAF** | Information Systems Security Assessment Framework. Wichtiger Standard für strukturiertes Informationssicherheitsmanagement. | [→ Link](https://sourceforge.net/projects/isstf/) |
+| **IT-Grundschutz-Kompendium** | BSI IT-Grundschutz - umfassendes Sicherheitskonzept. Wichtiger Standard für strukturiertes Informationssicherheitsmanagement. | [→ Link](https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Standards-und-Zertifizierung/IT-Grundschutz/IT-Grundschutz-Kompendium/it-grundschutz-kompendium_node.html) |
+| **NIST SCAP** | NIST SCAP Validation Program. Wichtiger Standard für strukturiertes Informationssicherheitsmanagement. | [→ Link](https://scap.nist.gov/) |
+| **NIST SP 800-30** | Guide for Conducting Risk Assessments. Wichtiger Standard für strukturiertes Informationssicherheitsmanagement. | [→ Link](https://csrc.nist.gov/pubs/sp/800/30/r1/final) |
+| **NIST SP 800-30 PDF** | Risk Assessment Guide (PDF). Wichtiger Standard für strukturiertes Informationssicherheitsmanagement. | [→ Link](https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-30r1.pdf) |
+| **OSSTMM** | Open Source Security Testing Methodology Manual. Wichtiger Standard für strukturiertes Informationssicherheitsmanagement. | [→ Link](https://www.isecom.org/OSSTMM.3.pdf) |
+| **OffSec Report Sample** | Offensive Security Pentest Report Template. Wichtiger Standard für strukturiertes Informationssicherheitsmanagement. | [→ Link](https://www.offsec.com/reports/sample-penetration-testing-report.pdf) |
+| **OpenSCAP** | Security Compliance Scanner. Wichtiger Standard für strukturiertes Informationssicherheitsmanagement. | [→ Link](https://www.open-scap.org/) |
+| **PTES** | Penetration Testing Execution Standard. Wichtiger Standard für strukturiertes Informationssicherheitsmanagement. | [→ Link](http://www.pentest-standard.org/index.php/Main_Page) |
+| **PTES** | Penetration Testing Execution Standard. Wichtiger Standard für strukturiertes Informationssicherheitsmanagement. | [→ Link](http://www.pentest-standard.org/) |
+| **PTES Technical Report** | Penetration Testing Report Standard. Wichtiger Standard für strukturiertes Informationssicherheitsmanagement. | [→ Link](https://pentest-standard.readthedocs.io/en/latest/reporting.html#technical-report) |
+| **Pentest Report Example** | Beispiel Penetration Testing Report. Wichtiger Standard für strukturiertes Informationssicherheitsmanagement. | [→ Link](https://www.pentest-hub.com/PDF/EXAMPLE-Penetration_Testing_Report_v.1.0.pdf) |
+| **SANS Security Policies** | IT Security Policy Templates. Wichtiger Standard für strukturiertes Informationssicherheitsmanagement. | [→ Link](https://www.sans.org/information-security-policy/) |
+| **SCAP** | Security Content Automation Protocol. Wichtiger Standard für strukturiertes Informationssicherheitsmanagement. | [→ Link](https://public.cyber.mil/stigs/scap/) |
+| **SLSA Framework** | Supply-chain Levels for Software Artifacts — Google-initiiertes Framework zur Absicherung der Software-Lieferkette. Definiert vier Sicherheitsstufen für Build-Prozesse und Quellcode-Integrität. | [→ Link](https://slsa.dev/) |
+| **STIGs** | Security Technical Implementation Guides. Wichtiger Standard für strukturiertes Informationssicherheitsmanagement. | [→ Link](https://www.cyber.mil/stigs/) |
+| **STIGs** | Security Technical Implementation Guides. Wichtiger Standard für strukturiertes Informationssicherheitsmanagement. | [→ Link](https://public.cyber.mil/stigs/) |
 
 ---
 
@@ -424,37 +442,37 @@
 
 | Tool | Beschreibung | Link |
 |------|-------------|------|
-| **APK Studio** | Cross-Platform APK IDE | [→ Link](https://github.com/vaibhavpandeyvpz/apkstudio) |
-| **APKTool** | Android APK Reverse Engineering | [→ Link](https://apktool.org/) |
-| **Aircrack-ng** | WLAN-Security Audit Suite - WEP/WPA Cracking | [→ Link](https://www.aircrack-ng.org/) |
-| **Aireplay-ng** | Wi-Fi Packet Injection Tool | [→ Link](https://www.aircrack-ng.org/doku.php?id=aireplay-ng) |
-| **Airmon-ng** | Monitor Mode Enabler (DE) | [→ Link](https://aircrack-ng.org/doku.php?id=de:airmon-ng) |
-| **Airodump-ng** | Wi-Fi Packet Capture Tool | [→ Link](https://aircrack-ng.org/doku.php?id=airodump-ng/) |
-| **Android Studio** | Android SDK & Development Tools | [→ Link](https://developer.android.com/studio) |
-| **Blue Cedar** | Mobile App Deployment & Security | [→ Link](https://www.bluecedar.com/deploy) |
-| **BlueBorne** | Bluetooth-Schwachstellen (Amazon Echo, Google Home) | [→ Link](https://www.armis.com/research/blueborne/) |
-| **EAPHammer** | Rogue Access Point & Credential Harvesting | [→ Link](https://github.com/s0lst1c3/eaphammer) |
-| **EMF (Bundesnetzagentur)** | Elektromagnetische Felder | [→ Link](https://www.bundesnetzagentur.de/DE/Vportal/TK/Funktechnik/EMF/start.html) |
-| **Fern WiFi Cracker** | GUI Wi-Fi Security Auditing Tool | [→ Link](https://github.com/savio-code/fern-wifi-cracker) |
-| **Fern-Pro** | Professional Wi-Fi Cracker | [→ Link](http://www.fern-pro.com/) |
-| **Fern-Pro Screenshots** | Fern-Pro Interface Beispiele | [→ Link](http://www.fern-pro.com/screenshots) |
-| **Frida** | Dynamic Instrumentation Toolkit | [→ Link](https://frida.re/) |
-| **Kismet** | Wireless Network Detector & IDS | [→ Link](https://www.kismetwireless.net/) |
-| **MASTG (GitHub)** | MASTG Source Repository | [→ Link](https://github.com/OWASP/owasp-mastg) |
-| **MDK4** | Wireless DoS & Fuzzing Tool | [→ Link](https://github.com/aircrack-ng/mdk4) |
-| **MobSF** | Mobile Security Framework (Android/iOS/Windows) | [→ Link](https://github.com/MobSF/Mobile-Security-Framework-MobSF) |
-| **OWASP MASTG** | Mobile Application Security Testing Guide | [→ Link](https://mas.owasp.org/MASTG/) |
-| **Objection** | Runtime Mobile Exploration | [→ Link](https://github.com/sensepost/objection) |
-| **OpenWiFi** | Open Source Wi-Fi (SDR) | [→ Link](https://github.com/open-sdr/openwifi) |
-| **RTL8812AU Driver** | Realtek Monitor Mode & Packet Injection Driver | [→ Link](https://github.com/aircrack-ng/rtl8812au) |
-| **Reaver** | WPS-Brute Force Tool | [→ Link](https://www.kali.org/tools/reaver/) |
-| **Reaver Fork** | Enhanced Reaver Version | [→ Link](https://github.com/t6x/reaver-wps-fork-t6x) |
-| **SPAN** | SmartPhone Ad-hoc Networking | [→ Link](https://www.mitre.org/our-impact/intellectual-property/smartphone-ad-hoc-networking-span) |
-| **Spooftooph** | Bluetooth Device Spoofing | [→ Link](https://www.kali.org/tools/spooftooph/) |
-| **Spooftooph (Windows)** | Spooftooph für Windows | [→ Link](https://www.onworks.net/de/software/windows/app-spooftooph) |
-| **WiGLE** | Wireless Network Mapping (Triangulation) | [→ Link](https://wigle.net/) |
-| **Wifite2** | Automatisiertes Wi-Fi Hacking Tool | [→ Link](https://github.com/derv82/wifite2) |
-| **inSSIDer** | WLAN-Analyse & WiFi-Scanner Tool | [→ Link](https://www.oscium.com/products/inssider/) |
+| **APK Studio** | Cross-Platform APK IDE. Relevant für Wireless-Security-Assessments und WLAN-Auditing. | [→ Link](https://github.com/vaibhavpandeyvpz/apkstudio) |
+| **APKTool** | Android APK Reverse Engineering. Relevant für Wireless-Security-Assessments und WLAN-Auditing. | [→ Link](https://apktool.org/) |
+| **Aircrack-ng** | WLAN-Security-Audit-Suite für WEP-, WPA- und WPA2-Cracking. Enthält Tools für Packet-Capture, Deauthentication, Handshake-Capture und Brute-Force-Angriffe auf WLAN-Passwörter. | [→ Link](https://www.aircrack-ng.org/) |
+| **Aireplay-ng** | Wi-Fi Packet Injection Tool. Relevant für Wireless-Security-Assessments und WLAN-Auditing. | [→ Link](https://www.aircrack-ng.org/doku.php?id=aireplay-ng) |
+| **Airmon-ng** | Monitor Mode Enabler (DE). Relevant für Wireless-Security-Assessments und WLAN-Auditing. | [→ Link](https://aircrack-ng.org/doku.php?id=de:airmon-ng) |
+| **Airodump-ng** | Wi-Fi Packet Capture Tool. Relevant für Wireless-Security-Assessments und WLAN-Auditing. | [→ Link](https://aircrack-ng.org/doku.php?id=airodump-ng/) |
+| **Android Studio** | Android SDK & Development Tools. Relevant für Wireless-Security-Assessments und WLAN-Auditing. | [→ Link](https://developer.android.com/studio) |
+| **Blue Cedar** | Mobile App Deployment & Security. Relevant für Wireless-Security-Assessments und WLAN-Auditing. | [→ Link](https://www.bluecedar.com/deploy) |
+| **BlueBorne** | Bluetooth-Schwachstellen (Amazon Echo, Google Home). Relevant für Wireless-Security-Assessments und WLAN-Auditing. | [→ Link](https://www.armis.com/research/blueborne/) |
+| **EAPHammer** | Rogue Access Point & Credential Harvesting. Relevant für Wireless-Security-Assessments und WLAN-Auditing. | [→ Link](https://github.com/s0lst1c3/eaphammer) |
+| **EMF (Bundesnetzagentur)** | Elektromagnetische Felder. Relevant für Wireless-Security-Assessments und WLAN-Auditing. | [→ Link](https://www.bundesnetzagentur.de/DE/Vportal/TK/Funktechnik/EMF/start.html) |
+| **Fern WiFi Cracker** | GUI Wi-Fi Security Auditing Tool. Relevant für Wireless-Security-Assessments und WLAN-Auditing. | [→ Link](https://github.com/savio-code/fern-wifi-cracker) |
+| **Fern-Pro** | Professional Wi-Fi Cracker. Relevant für Wireless-Security-Assessments und WLAN-Auditing. | [→ Link](http://www.fern-pro.com/) |
+| **Fern-Pro Screenshots** | Fern-Pro Interface Beispiele. Relevant für Wireless-Security-Assessments und WLAN-Auditing. | [→ Link](http://www.fern-pro.com/screenshots) |
+| **Frida** | Dynamic Instrumentation Toolkit für Entwickler und Reverse Engineers. Hookt Funktionen in iOS- und Android-Apps zur Laufzeit — essentiell für Mobile-App-Security-Testing. | [→ Link](https://frida.re/) |
+| **Kismet** | Wireless Network Detector, Sniffer und Intrusion Detection System. Erkennt versteckte WLANs, Bluetooth- und Zigbee-Geräte passiv ohne aktives Probing. | [→ Link](https://www.kismetwireless.net/) |
+| **MASTG (GitHub)** | MASTG Source Repository. Relevant für Wireless-Security-Assessments und WLAN-Auditing. | [→ Link](https://github.com/OWASP/owasp-mastg) |
+| **MDK4** | Wireless DoS & Fuzzing Tool. Relevant für Wireless-Security-Assessments und WLAN-Auditing. | [→ Link](https://github.com/aircrack-ng/mdk4) |
+| **MobSF** | Mobile Security Framework — automatisierte Analyse von Android- und iOS-Apps. Statische und dynamische Analyse, Malware-Erkennung und API-Security-Testing in einer Plattform. | [→ Link](https://github.com/MobSF/Mobile-Security-Framework-MobSF) |
+| **OWASP MASTG** | Mobile Application Security Testing Guide. Relevant für Wireless-Security-Assessments und WLAN-Auditing. | [→ Link](https://mas.owasp.org/MASTG/) |
+| **Objection** | Runtime Mobile Exploration. Relevant für Wireless-Security-Assessments und WLAN-Auditing. | [→ Link](https://github.com/sensepost/objection) |
+| **OpenWiFi** | Open Source Wi-Fi (SDR). Relevant für Wireless-Security-Assessments und WLAN-Auditing. | [→ Link](https://github.com/open-sdr/openwifi) |
+| **RTL8812AU Driver** | Realtek Monitor Mode & Packet Injection Driver. Relevant für Wireless-Security-Assessments und WLAN-Auditing. | [→ Link](https://github.com/aircrack-ng/rtl8812au) |
+| **Reaver** | WPS-Brute-Force-Tool das die WPS-PIN errät und darüber das WLAN-Passwort extrahiert. Nutzt die Design-Schwäche des WPS-Protokolls für Offline-Passwort-Recovery. | [→ Link](https://www.kali.org/tools/reaver/) |
+| **Reaver Fork** | Enhanced Reaver Version. Relevant für Wireless-Security-Assessments und WLAN-Auditing. | [→ Link](https://github.com/t6x/reaver-wps-fork-t6x) |
+| **SPAN** | SmartPhone Ad-hoc Networking. Relevant für Wireless-Security-Assessments und WLAN-Auditing. | [→ Link](https://www.mitre.org/our-impact/intellectual-property/smartphone-ad-hoc-networking-span) |
+| **Spooftooph** | Bluetooth Device Spoofing. Relevant für Wireless-Security-Assessments und WLAN-Auditing. | [→ Link](https://www.kali.org/tools/spooftooph/) |
+| **Spooftooph (Windows)** | Spooftooph für Windows. Relevant für Wireless-Security-Assessments und WLAN-Auditing. | [→ Link](https://www.onworks.net/de/software/windows/app-spooftooph) |
+| **WiGLE** | Wireless Network Mapping Database mit weltweit über 1 Milliarde geloggten WLAN-Netzwerken. Ermöglicht Geolokalisierung von WLANs und Bluetooth-Geräten — wichtig für Wireless OSINT. | [→ Link](https://wigle.net/) |
+| **Wifite2** | Automatisiertes Wi-Fi Hacking Tool. Relevant für Wireless-Security-Assessments und WLAN-Auditing. | [→ Link](https://github.com/derv82/wifite2) |
+| **inSSIDer** | WLAN-Analyse und WiFi-Scanner von Oscium. Visualisiert Signalstärken, Kanalauslastung und Interferenzen — praktisch für WLAN-Troubleshooting und Site Surveys. | [→ Link](https://www.oscium.com/products/inssider/) |
 
 ---
 
@@ -464,40 +482,40 @@
 
 | Tool | Beschreibung | Link |
 |------|-------------|------|
-| **AdGuard Home** | Network-wide DNS/Ad Blocker | [→ Link](https://github.com/AdguardTeam/AdguardHome) |
-| **Bit-Twist** | Packet Generator & Editor | [→ Link](https://sourceforge.net/projects/bittwist/) |
-| **CIFS vs SMB** | Protocol Comparison | [→ Link](https://www.upguard.com/blog/cifs-vs-smb) |
-| **CleanBrowsing** | DNS-based Content Filtering | [→ Link](https://cleanbrowsing.org/) |
-| **Cloudflare (DE)** | CDN & DDoS Protection | [→ Link](https://www.cloudflare.com/de-de/) |
-| **Cyberly** | IT Security Learning Platform | [→ Link](https://www.cyberly.org/en/index.html) |
-| **DNS Checker** | DNS Propagation Tool | [→ Link](https://dnschecker.org/) |
-| **Deactivate SMBv1** | Microsoft Documentation | [→ Link](https://docs.microsoft.com/en-us/windows-server/storage/file-server/troubleshoot/detect-enable-and-disable-smbv1-v2-v3) |
-| **Ettercap** | Man-in-the-Middle Attack Tool | [→ Link](https://www.ettercap-project.org/) |
-| **IANA** | Internet Assigned Numbers Authority | [→ Link](https://www.iana.org/) |
-| **ICANN Root Server System** | DNS Root Infrastructure | [→ Link](https://www.icann.org/root-server-system-en) |
-| **IEEE 802.11 Overview** | WLAN Standards (Wikipedia DE) | [→ Link](https://de.wikipedia.org/wiki/IEEE_802.11) |
-| **IP Protection Classes** | IP Schutzarten erklärt | [→ Link](https://www.conrad.de/de/ratgeber/industrie-40/ip-schutzklassen-und-schutzarten.html) |
-| **Impacket** | Python Network Protocol Library | [→ Link](https://www.kali.org/tools/impacket/) |
-| **Impacket GitHub** | Impacket Source Repository | [→ Link](https://github.com/fortra/impacket) |
-| **NSLookup Online** | Online DNS Lookup Tool | [→ Link](https://www.nslookup.io/) |
-| **Network Cables Overview** | Cat5 to Cat8 Comparison | [→ Link](https://www.fs.com/de/blog/overview-of-network-cables-cat5-cat5e-cat6-cat6a-cat7-and-cat8-2566.html) |
-| **OpenDNS (Cisco)** | DNS Security & Filtering | [→ Link](https://www.opendns.com/) |
-| **Pi-hole** | Network-wide Ad Blocking | [→ Link](https://pi-hole.net/) |
-| **Quad9** | Privacy-focused DNS Resolver | [→ Link](https://quad9.net/) |
-| **Responder** | LLMNR/NBT-NS/MDNS Poisoner | [→ Link](https://github.com/SpiderLabs/Responder) |
-| **Responder Guide** | Credentials mit Responder Tool | [→ Link](https://medium.com/fmisec/gaining-credentials-easily-with-responder-tool-b821f33e342b) |
-| **Saddam DDoS** | DDoS Tool (Educational) | [→ Link](https://github.com/S4kur4/Saddam-new) |
-| **Samba Explained** | SMB/CIFS for Linux | [→ Link](https://www.samba.org/samba/what_is_samba.html) |
-| **Scapy** | Packet Manipulation Program | [→ Link](https://scapy.net/) |
-| **ShareEnum** | Scannt Netzwerk-Shares & zeigt deren Berechtigungen - Audit von File-Shares | [→ Link](https://learn.microsoft.com/en-us/sysinternals/downloads/shareenum) |
-| **Snort** | Open Source IDS/IPS | [→ Link](https://www.snort.org/) |
-| **Subnet Practice** | Subnetting üben | [→ Link](https://subnetipv4.com/) |
-| **Visual Subnet Calculator** | Visueller Subnetz-Rechner | [→ Link](https://www.davidc.net/sites/default/subnets/subnets.html) |
-| **Yersinia** | Network Protocol Exploitation Tool | [→ Link](https://www.kali.org/tools/yersinia/) |
-| **hping3** | Netzwerk-Tool für Packet Crafting | [→ Link](https://www.kali.org/tools/hping3/) |
-| **mitm6** | IPv6 Man-in-the-Middle Tool | [→ Link](https://www.kali.org/tools/mitm6/) |
-| **mitm6 Article** | IPv4 Netzwerke via IPv6 kompromittieren | [→ Link](https://blog.fox-it.com/2018/01/11/mitm6-compromising-ipv4-networks-via-ipv6/) |
-| **mitm6 GitHub** | mitm6 Source Repository | [→ Link](https://github.com/dirkjanm/mitm6) |
+| **AdGuard Home** | Network-wide DNS/Ad Blocker. Essentiell für Netzwerk-Security und Infrastruktur-Analyse. | [→ Link](https://github.com/AdguardTeam/AdguardHome) |
+| **Bit-Twist** | Packet Generator & Editor. Essentiell für Netzwerk-Security und Infrastruktur-Analyse. | [→ Link](https://sourceforge.net/projects/bittwist/) |
+| **CIFS vs SMB** | Protocol Comparison. Essentiell für Netzwerk-Security und Infrastruktur-Analyse. | [→ Link](https://www.upguard.com/blog/cifs-vs-smb) |
+| **CleanBrowsing** | DNS-based Content Filtering. Essentiell für Netzwerk-Security und Infrastruktur-Analyse. | [→ Link](https://cleanbrowsing.org/) |
+| **Cloudflare (DE)** | CDN & DDoS Protection. Essentiell für Netzwerk-Security und Infrastruktur-Analyse. | [→ Link](https://www.cloudflare.com/de-de/) |
+| **Cyberly** | IT Security Learning Platform. Essentiell für Netzwerk-Security und Infrastruktur-Analyse. | [→ Link](https://www.cyberly.org/en/index.html) |
+| **DNS Checker** | DNS Propagation Tool. Essentiell für Netzwerk-Security und Infrastruktur-Analyse. | [→ Link](https://dnschecker.org/) |
+| **Deactivate SMBv1** | Microsoft Documentation. Essentiell für Netzwerk-Security und Infrastruktur-Analyse. | [→ Link](https://docs.microsoft.com/en-us/windows-server/storage/file-server/troubleshoot/detect-enable-and-disable-smbv1-v2-v3) |
+| **Ettercap** | Man-in-the-Middle Attack Tool. Essentiell für Netzwerk-Security und Infrastruktur-Analyse. | [→ Link](https://www.ettercap-project.org/) |
+| **IANA** | Internet Assigned Numbers Authority. Essentiell für Netzwerk-Security und Infrastruktur-Analyse. | [→ Link](https://www.iana.org/) |
+| **ICANN Root Server System** | DNS Root Infrastructure. Essentiell für Netzwerk-Security und Infrastruktur-Analyse. | [→ Link](https://www.icann.org/root-server-system-en) |
+| **IEEE 802.11 Overview** | WLAN Standards (Wikipedia DE). Essentiell für Netzwerk-Security und Infrastruktur-Analyse. | [→ Link](https://de.wikipedia.org/wiki/IEEE_802.11) |
+| **IP Protection Classes** | IP Schutzarten erklärt. Essentiell für Netzwerk-Security und Infrastruktur-Analyse. | [→ Link](https://www.conrad.de/de/ratgeber/industrie-40/ip-schutzklassen-und-schutzarten.html) |
+| **Impacket** | Python-Bibliothek für Netzwerkprotokolle — SMB, LDAP, Kerberos, NTLM und mehr. Enthält fertige Scripts für SecretsDump, GetTGT, PsExec und weitere AD-Angriffstechniken. | [→ Link](https://www.kali.org/tools/impacket/) |
+| **Impacket GitHub** | Impacket Source Repository. Essentiell für Netzwerk-Security und Infrastruktur-Analyse. | [→ Link](https://github.com/fortra/impacket) |
+| **NSLookup Online** | Online DNS Lookup Tool. Essentiell für Netzwerk-Security und Infrastruktur-Analyse. | [→ Link](https://www.nslookup.io/) |
+| **Network Cables Overview** | Cat5 to Cat8 Comparison. Essentiell für Netzwerk-Security und Infrastruktur-Analyse. | [→ Link](https://www.fs.com/de/blog/overview-of-network-cables-cat5-cat5e-cat6-cat6a-cat7-and-cat8-2566.html) |
+| **OpenDNS (Cisco)** | DNS Security & Filtering. Essentiell für Netzwerk-Security und Infrastruktur-Analyse. | [→ Link](https://www.opendns.com/) |
+| **Pi-hole** | Network-wide Ad Blocking. Essentiell für Netzwerk-Security und Infrastruktur-Analyse. | [→ Link](https://pi-hole.net/) |
+| **Quad9** | Privacy-focused DNS Resolver. Essentiell für Netzwerk-Security und Infrastruktur-Analyse. | [→ Link](https://quad9.net/) |
+| **Responder** | LLMNR/NBT-NS/mDNS Poisoner und HTTP/SMB/MSSQL-Auth-Server. Fängt Netzwerk-Credentials durch Protokoll-Spoofing ab — Standardtool für interne Netzwerk-Pentests. | [→ Link](https://github.com/SpiderLabs/Responder) |
+| **Responder Guide** | Credentials mit Responder Tool. Essentiell für Netzwerk-Security und Infrastruktur-Analyse. | [→ Link](https://medium.com/fmisec/gaining-credentials-easily-with-responder-tool-b821f33e342b) |
+| **Saddam DDoS** | DDoS Tool (Educational). Essentiell für Netzwerk-Security und Infrastruktur-Analyse. | [→ Link](https://github.com/S4kur4/Saddam-new) |
+| **Samba Explained** | Erklärung des SMB/CIFS-Protokolls und Samba unter Linux. Essentiell für das Verständnis von Windows-Netzwerk-Shares und Active-Directory-Interaktion in gemischten Umgebungen. | [→ Link](https://www.samba.org/samba/what_is_samba.html) |
+| **Scapy** | Interaktives Python-basiertes Paket-Manipulations-Tool. Erstellt, sendet, fängt und analysiert Netzwerkpakete — extrem flexibel für Security-Testing und Protokoll-Forschung. | [→ Link](https://scapy.net/) |
+| **ShareEnum** | Sysinternals-Tool das Netzwerk-Shares scannt und deren Berechtigungen anzeigt. Identifiziert übermäßig offene File-Shares — wichtig für Security-Audits in Windows-Netzwerken. | [→ Link](https://learn.microsoft.com/en-us/sysinternals/downloads/shareenum) |
+| **Snort** | Open Source Network Intrusion Detection und Prevention System. Analysiert Netzwerkverkehr in Echtzeit mit regelbasierter Erkennung von Angriffen und Protokollanomalien. | [→ Link](https://www.snort.org/) |
+| **Subnet Practice** | Interaktive Übungsplattform für IPv4-Subnetting mit zufällig generierten Aufgaben. Trainiert schnelles Rechnen von Subnetzmasken, CIDR und IP-Bereichen für Netzwerk-Zertifizierungen. | [→ Link](https://subnetipv4.com/) |
+| **Visual Subnet Calculator** | Visueller Subnetz-Rechner. Essentiell für Netzwerk-Security und Infrastruktur-Analyse. | [→ Link](https://www.davidc.net/sites/default/subnets/subnets.html) |
+| **Yersinia** | Network Protocol Exploitation Tool. Essentiell für Netzwerk-Security und Infrastruktur-Analyse. | [→ Link](https://www.kali.org/tools/yersinia/) |
+| **hping3** | Netzwerk-Tool zum Erstellen und Analysieren von TCP/IP-Paketen. Unterstützt Firewall-Testing, Port-Scanning, OS-Fingerprinting und verschiedene DoS-Simulationen. | [→ Link](https://www.kali.org/tools/hping3/) |
+| **mitm6** | IPv6-basiertes Man-in-the-Middle-Tool für interne Netzwerke. Nutzt DHCPv6 und WPAD-Spoofing um Credentials abzufangen — besonders effektiv in Windows-Domänen. | [→ Link](https://www.kali.org/tools/mitm6/) |
+| **mitm6 Article** | IPv4 Netzwerke via IPv6 kompromittieren. Essentiell für Netzwerk-Security und Infrastruktur-Analyse. | [→ Link](https://blog.fox-it.com/2018/01/11/mitm6-compromising-ipv4-networks-via-ipv6/) |
+| **mitm6 GitHub** | mitm6 Source Repository. Essentiell für Netzwerk-Security und Infrastruktur-Analyse. | [→ Link](https://github.com/dirkjanm/mitm6) |
 
 ---
 
@@ -507,50 +525,50 @@
 
 | Tool | Beschreibung | Link |
 |------|-------------|------|
-| **Censys** | Internet-weite Scan-Daten & Zertifikats-Suche | [→ Link](https://censys.com/) |
-| **Censys Search** | Internet Asset Search Engine | [→ Link](https://search.censys.io/) |
-| **CentralOps** | Network & Domain Analysis Toolkit | [→ Link](https://centralops.net/co/) |
-| **CyberChef** | Data Encoding/Decoding Tool | [→ Link](https://gchq.github.io/CyberChef/) |
-| **ExifTool** | EXIF Metadata Reader/Editor | [→ Link](https://www.kali.org/tools/libimage-exiftool-perl/) |
-| **FOCA (GitHub)** | FOCA Source Repository | [→ Link](https://github.com/ElevenPaths/FOCA) |
-| **FOCA Tutorial** | FOCA Metadata Extraction Guide | [→ Link](https://kalilinuxtutorials.com/foca-metadata-hidden-documents/) |
-| **Firewalk** | Active Reconnaissance - IP Forwarding Testing | [→ Link](https://www.kali.org/tools/firewalk/) |
-| **Hunter.io** | E-Mail-Adressen-Finder für Domains & Unternehmen | [→ Link](https://hunter.io/email-finder) |
-| **MAC Finder** | MAC Address Lookup Tool | [→ Link](https://www.dein-ip-check.de/tools/macfinder) |
-| **MAC OUI Lookup** | MAC Address Vendor Lookup | [→ Link](https://www.wireshark.org/tools/oui-lookup.html) |
-| **Maltego** | OSINT & Link Analysis | [→ Link](https://www.maltego.com/) |
-| **MetaGeek** | WiFi Analysis Tools | [→ Link](https://www.metageek.com/downloads/) |
-| **Metagoofil** | Metadata Extraction Tool | [→ Link](https://www.kali.org/tools/metagoofil/) |
-| **Metagoofil (GitHub)** | Metagoofil Source Code | [→ Link](https://github.com/opsdisk/metagoofil) |
-| **Nessus (DE)** | Vulnerability Scanner | [→ Link](https://de.tenable.com/products/nessus) |
-| **Netcraft** | Website & Infrastructure Intelligence | [→ Link](https://www.netcraft.com/) |
-| **Nmap** | Network Scanner & Port Discovery | [→ Link](https://nmap.org/) |
-| **Nmap Cheat Sheet** | Nmap Kommando-Referenz | [→ Link](https://www.stationx.net/nmap-cheat-sheet/) |
-| **Nmap Cheat Sheet PDF** | Nmap Schnellreferenz (PDF) | [→ Link](https://cdn.comparitech.com/wp-content/uploads/2019/06/Nmap-Cheat-Sheet.pdf) |
-| **OSINT Framework** | Sammlung von OSINT-Tools & Ressourcen nach Kategorie | [→ Link](https://osintframework.com/) |
-| **OSINT.rocks** | OSINT Tool Collection | [→ Link](https://osint.rocks/) |
-| **OWASP Amass** | Attack Surface Mapping & Asset Discovery | [→ Link](https://owasp.org/www-project-amass/) |
-| **OpenVAS** | Open Source Vulnerability Scanner | [→ Link](https://www.openvas.org/index-de.html) |
-| **PeekYou** | People Search & OSINT | [→ Link](https://www.peekyou.com/) |
-| **Public Records Search** | Öffentliche Aufzeichnungen (OSINT) | [→ Link](https://publicrecords.searchsystems.net/) |
-| **QuickHash GUI** | File Hash Calculator | [→ Link](https://www.quickhash-gui.org/) |
-| **Recon-ng** | OSINT Reconnaissance Framework | [→ Link](https://github.com/lanmaster53/recon-ng) |
-| **Recon-ng Guide (DE)** | Anleitung für Recon-ng (Deutsch) | [→ Link](https://www.howto-do.it/de/was-ist-recon-ng/) |
-| **Shodan** | Search Engine for Internet-connected Devices | [→ Link](https://www.shodan.io/) |
-| **Social Catfish** | Reverse Image Search (in EU blockiert) | [→ Link](https://socialcatfish.com/) |
-| **SpiderFoot** | Automatisiertes OSINT-Tool für Threat Intelligence | [→ Link](https://spiderfoot.org/) |
-| **SpiderFoot OSINT Guide** | Anleitung zur OSINT-Automatisierung mit SpiderFoot | [→ Link](https://spiderfoot.org/what-is-spiderfoot-and-how-does-it-support-osint-automation/) |
-| **Tenable Nessus** | Vulnerability Scanner & Reports | [→ Link](https://www.tenable.com/) |
-| **TinEye** | Reverse Image Search | [→ Link](https://tineye.com/) |
-| **TruffleHog** | Secret Scanner - findet API-Keys, Passwörter & Credentials in Git-Repos & Code | [→ Link](https://trufflesecurity.com/trufflehog) |
-| **TruffleHog (GitHub)** | Open Source Secret Scanning Engine - scannt Git History, S3 Buckets, Filesystems nach Secrets | [→ Link](https://github.com/trufflesecurity/trufflehog) |
-| **VirusTotal** | File & URL Malware Scanner | [→ Link](https://www.virustotal.com/) |
-| **WHOIS Lookup** | Domain-Registrierungsdaten & Inhaberabfrage | [→ Link](https://www.whois.com/whois/) |
-| **Wayback Machine** | Internet Archive - Webseiten-Archiv & historische Snapshots | [→ Link](https://web.archive.org/) |
-| **Whois (Sysinternals)** | Kommandozeilen-WHOIS-Abfrage für Windows | [→ Link](https://learn.microsoft.com/en-us/sysinternals/downloads/whois) |
-| **Wireshark** | Network Protocol Analyzer | [→ Link](https://www.wireshark.org/) |
-| **Yandex Images** | Reverse Image Search | [→ Link](https://yandex.com/images/) |
-| **theHarvester** | E-Mail & Domain OSINT Gathering | [→ Link](https://github.com/laramies/theHarvester) |
+| **Censys** | Internet-weite Scan-Plattform die alle öffentlich erreichbaren Hosts und Zertifikate indexiert. Ermöglicht gezielte Suche nach Services, Konfigurationen und Schwachstellen. | [→ Link](https://censys.com/) |
+| **Censys Search** | Internet Asset Search Engine. Hilfreich für Reconnaissance und Open Source Intelligence Gathering. | [→ Link](https://search.censys.io/) |
+| **CentralOps** | Online-Netzwerk-Toolkit mit WHOIS, DNS-Lookup, Traceroute und Ping. Schnelle Browser-basierte Netzwerk-Diagnose ohne lokale Tool-Installation. | [→ Link](https://centralops.net/co/) |
+| **CyberChef** | Das Schweizer Taschenmesser für Datenkonvertierung und Kryptographie von GCHQ. Verschlüsselt, dekodiert, hasht und analysiert Daten über eine visuelle Drag-and-Drop-Oberfläche. | [→ Link](https://gchq.github.io/CyberChef/) |
+| **ExifTool** | Kommandozeilen-Tool zum Lesen, Schreiben und Bearbeiten von Metadaten in Dateien. Unterstützt EXIF, IPTC, XMP und hunderte Dateiformate — essentiell für OSINT und Forensik. | [→ Link](https://www.kali.org/tools/libimage-exiftool-perl/) |
+| **FOCA (GitHub)** | FOCA Source Repository. Hilfreich für Reconnaissance und Open Source Intelligence Gathering. | [→ Link](https://github.com/ElevenPaths/FOCA) |
+| **FOCA Tutorial** | FOCA Metadata Extraction Guide. Hilfreich für Reconnaissance und Open Source Intelligence Gathering. | [→ Link](https://kalilinuxtutorials.com/foca-metadata-hidden-documents/) |
+| **Firewalk** | Active Reconnaissance - IP Forwarding Testing. Hilfreich für Reconnaissance und Open Source Intelligence Gathering. | [→ Link](https://www.kali.org/tools/firewalk/) |
+| **Hunter.io** | E-Mail-Adressen-Finder für Domains und Unternehmen. Findet und verifiziert professionelle E-Mail-Adressen — nützlich für OSINT-Recherche und Social Engineering Assessments. | [→ Link](https://hunter.io/email-finder) |
+| **MAC Finder** | MAC Address Lookup Tool. Hilfreich für Reconnaissance und Open Source Intelligence Gathering. | [→ Link](https://www.dein-ip-check.de/tools/macfinder) |
+| **MAC OUI Lookup** | MAC Address Vendor Lookup. Hilfreich für Reconnaissance und Open Source Intelligence Gathering. | [→ Link](https://www.wireshark.org/tools/oui-lookup.html) |
+| **Maltego** | Visuelle Link-Analyse-Plattform für OSINT und Threat Intelligence. Stellt Beziehungen zwischen Personen, Domains, IPs und Social-Media-Profilen graphisch dar. | [→ Link](https://www.maltego.com/) |
+| **MetaGeek** | WiFi Analysis Tools. Hilfreich für Reconnaissance und Open Source Intelligence Gathering. | [→ Link](https://www.metageek.com/downloads/) |
+| **Metagoofil** | Metadata Extraction Tool. Hilfreich für Reconnaissance und Open Source Intelligence Gathering. | [→ Link](https://www.kali.org/tools/metagoofil/) |
+| **Metagoofil (GitHub)** | Metagoofil Source Code. Hilfreich für Reconnaissance und Open Source Intelligence Gathering. | [→ Link](https://github.com/opsdisk/metagoofil) |
+| **Nessus (DE)** | Vulnerability Scanner. Hilfreich für Reconnaissance und Open Source Intelligence Gathering. | [→ Link](https://de.tenable.com/products/nessus) |
+| **Netcraft** | Internet-Sicherheitsdienstleister mit Website-Analyse und Phishing-Detection. Zeigt Server-Technologien, Hosting-Provider und Uptime-Historien — nützlich für Reconnaissance. | [→ Link](https://www.netcraft.com/) |
+| **Nmap** | Der Industrie-Standard für Netzwerk-Scanning und Port-Discovery. Service-Erkennung, OS-Fingerprinting, NSE-Scripting und mehr — unverzichtbar für jeden Pentester und Admin. | [→ Link](https://nmap.org/) |
+| **Nmap Cheat Sheet** | Nmap Kommando-Referenz. Hilfreich für Reconnaissance und Open Source Intelligence Gathering. | [→ Link](https://www.stationx.net/nmap-cheat-sheet/) |
+| **Nmap Cheat Sheet PDF** | Nmap Schnellreferenz (PDF). Hilfreich für Reconnaissance und Open Source Intelligence Gathering. | [→ Link](https://cdn.comparitech.com/wp-content/uploads/2019/06/Nmap-Cheat-Sheet.pdf) |
+| **OSINT Framework** | Umfassende Sammlung von OSINT-Tools und Ressourcen, sortiert nach Kategorien. Interaktive Mindmap die für jeden Informationstyp passende Tools und Datenquellen verlinkt. | [→ Link](https://osintframework.com/) |
+| **OSINT.rocks** | OSINT Tool Collection. Hilfreich für Reconnaissance und Open Source Intelligence Gathering. | [→ Link](https://osint.rocks/) |
+| **OWASP Amass** | OWASP-Projekt für Attack Surface Mapping und Asset Discovery. Nutzt über 50 Datenquellen für Subdomain-Enumeration — eines der leistungsfähigsten Reconnaissance-Tools. | [→ Link](https://owasp.org/www-project-amass/) |
+| **OpenVAS** | Open Vulnerability Assessment Scanner — der freie Fork von Nessus. Führt authentifizierte und nicht-authentifizierte Schwachstellen-Scans mit regelmäßig aktualisierten Feeds durch. | [→ Link](https://www.openvas.org/index-de.html) |
+| **PeekYou** | People Search & OSINT. Hilfreich für Reconnaissance und Open Source Intelligence Gathering. | [→ Link](https://www.peekyou.com/) |
+| **Public Records Search** | Öffentliche Aufzeichnungen (OSINT). Hilfreich für Reconnaissance und Open Source Intelligence Gathering. | [→ Link](https://publicrecords.searchsystems.net/) |
+| **QuickHash GUI** | File Hash Calculator. Hilfreich für Reconnaissance und Open Source Intelligence Gathering. | [→ Link](https://www.quickhash-gui.org/) |
+| **Recon-ng** | Web Reconnaissance Framework mit modularer Architektur inspiriert von Metasploit. Automatisiert OSINT-Workflows mit Modulen für DNS, WHOIS, Social Media und mehr. | [→ Link](https://github.com/lanmaster53/recon-ng) |
+| **Recon-ng Guide (DE)** | Anleitung für Recon-ng (Deutsch). Hilfreich für Reconnaissance und Open Source Intelligence Gathering. | [→ Link](https://www.howto-do.it/de/was-ist-recon-ng/) |
+| **Shodan** | Suchmaschine für Internet-verbundene Geräte und Services. Findet offene Ports, verwundbare Systeme und IoT-Geräte weltweit — essentiell für Reconnaissance und Attack Surface Discovery. | [→ Link](https://www.shodan.io/) |
+| **Social Catfish** | Reverse Image Search (in EU blockiert). Hilfreich für Reconnaissance und Open Source Intelligence Gathering. | [→ Link](https://socialcatfish.com/) |
+| **SpiderFoot** | Automatisiertes OSINT-Tool das über 200 Datenquellen für Threat Intelligence abfragt. Scannt Domains, IPs, E-Mails und Namen — liefert umfassende Footprint-Analyse. | [→ Link](https://spiderfoot.org/) |
+| **SpiderFoot OSINT Guide** | Anleitung zur OSINT-Automatisierung mit SpiderFoot. Erklärt Scan-Typen, Datenquellen-Konfiguration und wie SpiderFoot in Pentest- und Threat-Intelligence-Workflows integriert wird. | [→ Link](https://spiderfoot.org/what-is-spiderfoot-and-how-does-it-support-osint-automation/) |
+| **Tenable Nessus** | Vulnerability Scanner & Reports. Hilfreich für Reconnaissance und Open Source Intelligence Gathering. | [→ Link](https://www.tenable.com/) |
+| **TinEye** | Reverse Image Search. Hilfreich für Reconnaissance und Open Source Intelligence Gathering. | [→ Link](https://tineye.com/) |
+| **TruffleHog** | Secret Scanner der API-Keys, Passwörter und Credentials in Git-Repos und Code aufspürt. Durchsucht Git-History, S3 Buckets und Filesysteme nach versehentlich committed Secrets. | [→ Link](https://trufflesecurity.com/trufflehog) |
+| **TruffleHog (GitHub)** | GitHub-Repository des Open Source Secret Scanning Tools TruffleHog. Unterstützt über 700 Credential-Detektoren und integriert sich in CI/CD-Pipelines für automatisierte Checks. | [→ Link](https://github.com/trufflesecurity/trufflehog) |
+| **VirusTotal** | Online-Multi-Scanner der Dateien und URLs gegen 70+ Antivirus-Engines prüft. Bietet Verhaltensanalyse, Community-Kommentare und Relation-Graphen — erste Anlaufstelle für Malware-Checks. | [→ Link](https://www.virustotal.com/) |
+| **WHOIS Lookup** | Domain-Registrierungsdaten-Abfrage für WHOIS-Informationen. Zeigt Registrar, Ablaufdatum, Nameserver und — je nach Domain — Inhaberinformationen. | [→ Link](https://www.whois.com/whois/) |
+| **Wayback Machine** | Internet Archive mit Milliarden gespeicherter Webseiten-Snapshots. Unverzichtbar für OSINT — zeigt historische Website-Versionen, gelöschte Inhalte und alte Konfigurationen. | [→ Link](https://web.archive.org/) |
+| **Whois (Sysinternals)** | Kommandozeilen-WHOIS-Abfrage für Windows. Hilfreich für Reconnaissance und Open Source Intelligence Gathering. | [→ Link](https://learn.microsoft.com/en-us/sysinternals/downloads/whois) |
+| **Wireshark** | Der weltweit meistgenutzte Netzwerk-Protokollanalysator. Echtzeit-Paketerfassung mit tiefer Protokoll-Inspektion — essentiell für Netzwerk-Troubleshooting und Forensik. | [→ Link](https://www.wireshark.org/) |
+| **Yandex Images** | Reverse Image Search. Hilfreich für Reconnaissance und Open Source Intelligence Gathering. | [→ Link](https://yandex.com/images/) |
+| **theHarvester** | E-Mail-, Subdomain- und IP-Harvesting-Tool für OSINT von Laramies. Sammelt Informationen aus Suchmaschinen, PGP-Servern, SHODAN und anderen öffentlichen Quellen. | [→ Link](https://github.com/laramies/theHarvester) |
 
 ---
 
@@ -560,19 +578,19 @@
 
 | Tool | Beschreibung | Link |
 |------|-------------|------|
-| **Bitwarden** | Open Source Password Manager | [→ Link](https://bitwarden.com/) |
-| **Bitwarden Password Generator** | Secure Password Creation | [→ Link](https://bitwarden.com/password-generator/) |
-| **Brute-force erklärt** | Brute Force Attacks Explained (DE) | [→ Link](https://www.1pw.de/brute-force.php) |
-| **CrackStation** | Password Hash Cracker | [→ Link](https://crackstation.net/) |
-| **Have I Been Pwned** | Data Breach Checker | [→ Link](https://haveibeenpwned.com/) |
-| **John the Ripper (GitHub)** | JtR Source Repository | [→ Link](https://github.com/openwall/john) |
-| **John the Ripper (Official)** | Password Cracker | [→ Link](https://www.openwall.com/john/) |
-| **KeePass** | Offline Password Manager | [→ Link](https://keepass.info/download.html) |
-| **LDAP RFC** | Lightweight Directory Access Protocol Schema | [→ Link](https://datatracker.ietf.org/doc/html/rfc4519) |
-| **Password Strength Checker** | Passwort-Sicherheit testen | [→ Link](https://www.security.org/how-secure-is-my-password/) |
-| **PingCastle** | Active Directory Security Assessment | [→ Link](https://www.pingcastle.com/) |
-| **THC Hydra (Kali)** | Hydra Documentation | [→ Link](https://www.kali.org/tools/hydra/) |
-| **THC Hydra (Official)** | Network Login Cracker | [→ Link](https://github.com/vanhauser-thc/thc-hydra) |
+| **Bitwarden** | Open Source Passwort-Manager mit Cloud-Sync und Self-Hosting-Option. Browser-Extensions, Mobile-Apps und Team-Sharing — die transparente Alternative zu LastPass und 1Password. | [→ Link](https://bitwarden.com/) |
+| **Bitwarden Password Generator** | Secure Password Creation. Wichtig für Passwort-Security und Authentifizierungs-Testing. | [→ Link](https://bitwarden.com/password-generator/) |
+| **Brute-force erklärt** | Brute Force Attacks Explained (DE). Wichtig für Passwort-Security und Authentifizierungs-Testing. | [→ Link](https://www.1pw.de/brute-force.php) |
+| **CrackStation** | Online-Hash-Lookup-Service mit massiver Rainbow-Table-Datenbank. Crackt MD5, SHA-1, SHA-256 und andere Hashes — demonstriert warum unsalted Hashes unsicher sind. | [→ Link](https://crackstation.net/) |
+| **Have I Been Pwned** | Dienst von Troy Hunt der prüft ob E-Mail-Adressen oder Passwörter in Datenlecks aufgetaucht sind. Durchsucht Milliarden kompromittierte Datensätze — sollte jeder regelmäßig nutzen. | [→ Link](https://haveibeenpwned.com/) |
+| **John the Ripper (GitHub)** | JtR Source Repository. Wichtig für Passwort-Security und Authentifizierungs-Testing. | [→ Link](https://github.com/openwall/john) |
+| **John the Ripper (Official)** | Offizielle Seite des legendären Open-Source-Passwort-Crackers. Unterstützt hunderte Hash-Formate und verschiedene Angriffsmodi — seit über 25 Jahren das Standard-Cracking-Tool. | [→ Link](https://www.openwall.com/john/) |
+| **KeePass** | Open Source Passwort-Manager mit lokaler AES-256-verschlüsselter Datenbank. Kein Cloud-Zwang, Plugin-Ökosystem und plattformübergreifend — für maximale Kontrolle über eigene Credentials. | [→ Link](https://keepass.info/download.html) |
+| **LDAP RFC** | Lightweight Directory Access Protocol Schema. Wichtig für Passwort-Security und Authentifizierungs-Testing. | [→ Link](https://datatracker.ietf.org/doc/html/rfc4519) |
+| **Password Strength Checker** | Passwort-Sicherheit testen. Wichtig für Passwort-Security und Authentifizierungs-Testing. | [→ Link](https://www.security.org/how-secure-is-my-password/) |
+| **PingCastle** | Active Directory Security Assessment Tool das Risikobewertungen für AD-Umgebungen erstellt. Scannt auf Fehlkonfigurationen, veraltete Protokolle und Angriffspfade mit übersichtlichem HTML-Report. | [→ Link](https://www.pingcastle.com/) |
+| **THC Hydra (Kali)** | Hydra Documentation. Wichtig für Passwort-Security und Authentifizierungs-Testing. | [→ Link](https://www.kali.org/tools/hydra/) |
+| **THC Hydra (Official)** | Network Login Cracker. Wichtig für Passwort-Security und Authentifizierungs-Testing. | [→ Link](https://github.com/vanhauser-thc/thc-hydra) |
 
 ---
 
@@ -582,26 +600,26 @@
 
 | Tool | Beschreibung | Link |
 |------|-------------|------|
-| **Actalis S/MIME Certificates** | Email Encryption Certificates | [→ Link](https://www.actalis.com/s-mime-certificates) |
-| **DMARC Record** | DMARC Record Generator (DE) | [→ Link](https://www.dmarc-record.de/) |
-| **DMARC Validation** | DMARC Record Validator | [→ Link](https://dnschecker.org/dmarc-record-validation.php) |
-| **DNS Checker All Tools** | DNS Diagnose & Analyse Toolbox | [→ Link](https://dnschecker.org/all-tools.php) |
-| **DNSSEC Erklärung** | Wie DNSSEC funktioniert (DE) | [→ Link](https://www.cloudflare.com/de-de/dns/dnssec/how-dnssec-works/) |
-| **HMAC RFC** | HMAC: Keyed-Hashing for Message Authentication | [→ Link](https://datatracker.ietf.org/doc/html/rfc2104) |
-| **Identity Leak Checker (HPI)** | E-Mail Breach-Check (DE) | [→ Link](https://sec.hpi.uni-potsdam.de/ilc/search) |
-| **Leak Checker (Uni Bonn)** | E-Mail Breach-Check (DE) | [→ Link](https://leakchecker.uni-bonn.de/de/index) |
-| **SSL Cipher Suites** | SSL/TLS Cipher Suites Erklärung (DE) | [→ Link](https://www.ssldragon.com/de/blog/cipher-suites/) |
-| **SSL Pulse** | SSL/TLS Version Distribution | [→ Link](https://www.ssllabs.com/ssl-pulse/) |
-| **SSLv3 RFC** | SSL Version 3.0 Specification | [→ Link](https://datatracker.ietf.org/doc/html/rfc6101) |
-| **Sectigo SSL Checker** | SSL/TLS Zertifikat-Prüfung & Analyse | [→ Link](https://sectigostore.com/ssl-tools/ssl-checker.php) |
-| **Sweet32 Attack** | Erklärung der Sweet32 Birthday-Attacke auf 64-Bit Block Ciphers (3DES, Blowfish) | [→ Link](https://cryptoservices.github.io/blog/2016-10-03-sweet32/) |
-| **TLSv1.0 RFC** | TLS Version 1.0 Specification | [→ Link](https://www.ietf.org/rfc/rfc2246.txt) |
-| **TLSv1.0/1.1 Deprecation** | TLS 1.0/1.1 Deprecation RFC | [→ Link](https://datatracker.ietf.org/doc/html/rfc8996) |
-| **TLSv1.1 RFC** | TLS Version 1.1 Specification | [→ Link](https://datatracker.ietf.org/doc/html/rfc4346) |
-| **TLSv1.2 RFC** | TLS Version 1.2 Specification | [→ Link](https://datatracker.ietf.org/doc/html/rfc5246) |
-| **TLSv1.3 RFC** | TLS Version 1.3 Specification | [→ Link](https://datatracker.ietf.org/doc/html/rfc8446) |
-| **Top Certificate Authorities** | Marktanteile von CAs | [→ Link](https://w3techs.com/technologies/overview/ssl_certificate) |
-| **crt.sh** | Certificate Transparency Log - Zertifikats-Suche | [→ Link](https://crt.sh/) |
+| **Actalis S/MIME Certificates** | Email Encryption Certificates. Relevant für Verschlüsselung und kryptographische Sicherheitsanalysen. | [→ Link](https://www.actalis.com/s-mime-certificates) |
+| **DMARC Record** | DMARC Record Generator (DE). Relevant für Verschlüsselung und kryptographische Sicherheitsanalysen. | [→ Link](https://www.dmarc-record.de/) |
+| **DMARC Validation** | DMARC Record Validator. Relevant für Verschlüsselung und kryptographische Sicherheitsanalysen. | [→ Link](https://dnschecker.org/dmarc-record-validation.php) |
+| **DNS Checker All Tools** | DNS Diagnose & Analyse Toolbox. Relevant für Verschlüsselung und kryptographische Sicherheitsanalysen. | [→ Link](https://dnschecker.org/all-tools.php) |
+| **DNSSEC Erklärung** | Wie DNSSEC funktioniert (DE). Relevant für Verschlüsselung und kryptographische Sicherheitsanalysen. | [→ Link](https://www.cloudflare.com/de-de/dns/dnssec/how-dnssec-works/) |
+| **HMAC RFC** | HMAC: Keyed-Hashing for Message Authentication. Relevant für Verschlüsselung und kryptographische Sicherheitsanalysen. | [→ Link](https://datatracker.ietf.org/doc/html/rfc2104) |
+| **Identity Leak Checker (HPI)** | E-Mail Breach-Check (DE). Relevant für Verschlüsselung und kryptographische Sicherheitsanalysen. | [→ Link](https://sec.hpi.uni-potsdam.de/ilc/search) |
+| **Leak Checker (Uni Bonn)** | E-Mail Breach-Check (DE). Relevant für Verschlüsselung und kryptographische Sicherheitsanalysen. | [→ Link](https://leakchecker.uni-bonn.de/de/index) |
+| **SSL Cipher Suites** | SSL/TLS Cipher Suites Erklärung (DE). Relevant für Verschlüsselung und kryptographische Sicherheitsanalysen. | [→ Link](https://www.ssldragon.com/de/blog/cipher-suites/) |
+| **SSL Pulse** | SSL/TLS Version Distribution. Relevant für Verschlüsselung und kryptographische Sicherheitsanalysen. | [→ Link](https://www.ssllabs.com/ssl-pulse/) |
+| **SSLv3 RFC** | SSL Version 3.0 Specification. Relevant für Verschlüsselung und kryptographische Sicherheitsanalysen. | [→ Link](https://datatracker.ietf.org/doc/html/rfc6101) |
+| **Sectigo SSL Checker** | Online SSL/TLS-Zertifikatsprüfung von Sectigo. Analysiert Zertifikatsketten, Ablaufdaten und Konfigurationsprobleme — schneller Check für Web-Server-Sicherheit. | [→ Link](https://sectigostore.com/ssl-tools/ssl-checker.php) |
+| **Sweet32 Attack** | Technische Erklärung der Sweet32 Birthday-Attacke auf 64-Bit Block Ciphers. Zeigt warum 3DES und Blowfish in langlebigen TLS-Sessions verwundbar sind. | [→ Link](https://cryptoservices.github.io/blog/2016-10-03-sweet32/) |
+| **TLSv1.0 RFC** | TLS Version 1.0 Specification. Relevant für Verschlüsselung und kryptographische Sicherheitsanalysen. | [→ Link](https://www.ietf.org/rfc/rfc2246.txt) |
+| **TLSv1.0/1.1 Deprecation** | TLS 1.0/1.1 Deprecation RFC. Relevant für Verschlüsselung und kryptographische Sicherheitsanalysen. | [→ Link](https://datatracker.ietf.org/doc/html/rfc8996) |
+| **TLSv1.1 RFC** | TLS Version 1.1 Specification. Relevant für Verschlüsselung und kryptographische Sicherheitsanalysen. | [→ Link](https://datatracker.ietf.org/doc/html/rfc4346) |
+| **TLSv1.2 RFC** | TLS Version 1.2 Specification. Relevant für Verschlüsselung und kryptographische Sicherheitsanalysen. | [→ Link](https://datatracker.ietf.org/doc/html/rfc5246) |
+| **TLSv1.3 RFC** | TLS Version 1.3 Specification. Relevant für Verschlüsselung und kryptographische Sicherheitsanalysen. | [→ Link](https://datatracker.ietf.org/doc/html/rfc8446) |
+| **Top Certificate Authorities** | Marktanteile von CAs. Relevant für Verschlüsselung und kryptographische Sicherheitsanalysen. | [→ Link](https://w3techs.com/technologies/overview/ssl_certificate) |
+| **crt.sh** | Certificate Transparency Log Suchmaschine. Findet alle jemals für eine Domain ausgestellten SSL/TLS-Zertifikate — wertvolle Quelle für Subdomain-Discovery und Infrastruktur-Mapping. | [→ Link](https://crt.sh/) |
 
 ---
 
@@ -611,19 +629,19 @@
 
 | Tool | Beschreibung | Link |
 |------|-------------|------|
-| **Aperi'Solve** | Web-basiertes Steganographie Tool | [→ Link](https://aperisolve.com/) |
-| **Coagula** | Bild zu Spektrogramm Konverter | [→ Link](https://www.abc.se/~re/Coagula/Coagula.html) |
-| **Grok (xAI)** | AI Chatbot by xAI | [→ Link](https://x.ai) |
-| **HTTrack** | Website Copier & Offline Browser | [→ Link](https://www.httrack.com/) |
-| **Monica KI** | AI Assistant | [→ Link](https://monica.im/) |
-| **OpenStego** | Open Source Steganographie (Wasserzeichen) | [→ Link](https://www.openstego.com/) |
-| **OutGuess** | Steganographie mit gleichmäßiger Verteilung | [→ Link](https://www.kali.org/tools/outguess/) |
-| **Regex Cheat Sheet** | Regular Expression Schnellreferenz | [→ Link](https://www.rexegg.com/regex-quickstart.html) |
-| **Regex101** | Regular Expression Tester | [→ Link](https://regex101.com/) |
-| **SaveWeb2Zip** | Kostenloser Website Downloader | [→ Link](https://saveweb2zip.com/en) |
-| **Steghide** | Steganographie Tool (komprimiert) | [→ Link](https://www.kali.org/tools/steghide/) |
-| **WormGPT** | AI Tool (Security Context) | [→ Link](https://www.wormgpt.ai/) |
-| **ZoomIt** | Screen-Zoom, Zeichnen & Timer für Präsentationen & Schulungen | [→ Link](https://learn.microsoft.com/en-us/sysinternals/downloads/zoomit) |
+| **Aperi'Solve** | Web-basiertes Steganographie-Analyse-Tool das automatisch verschiedene Extraktionsmethoden auf Bilder anwendet. Kombiniert zsteg, steghide, exiftool und weitere Tools in einem Interface. | [→ Link](https://aperisolve.com/) |
+| **Coagula** | Audio-Synthese-Tool das Bilder in Klang umwandelt und umgekehrt. In CTF-Challenges genutzt um in Spektrogrammen versteckte Nachrichten oder Bilder zu finden und zu entschlüsseln. | [→ Link](https://www.abc.se/~re/Coagula/Coagula.html) |
+| **Grok (xAI)** | KI-Chatbot von xAI (Elon Musks AI-Unternehmen). Bietet Echtzeit-Internetzugang und unzensierte Antworten — Alternative zu ChatGPT mit Integration in X (Twitter). | [→ Link](https://x.ai) |
+| **HTTrack** | Open Source Website-Kopierer der komplette Websites rekursiv herunterlädt. Erstellt navigierbare Offline-Kopien — nützlich für OSINT und Website-Archivierung. | [→ Link](https://www.httrack.com/) |
+| **Monica KI** | KI-Assistent als Browser-Extension mit GPT-4-Integration. Bietet Chat, Textgenerierung, Zusammenfassungen und Übersetzungen direkt im Browser — praktisch für schnelle Recherche. | [→ Link](https://monica.im/) |
+| **OpenStego** | Open Source Steganographie-Tool für digitale Wasserzeichen und Datenversteckung. Bettet unsichtbare Daten in Bilder ein — nützlich für Urheberrechtsschutz und CTF-Challenges. | [→ Link](https://www.openstego.com/) |
+| **OutGuess** | Steganographie-Tool das Daten statistisch gleichmäßig in JPEG-Bildern verteilt. Schwerer zu erkennen als einfache LSB-Methoden — fortgeschrittene Technik für verdeckte Kommunikation. | [→ Link](https://www.kali.org/tools/outguess/) |
+| **Regex Cheat Sheet** | Schnellreferenz für reguläre Ausdrücke mit Syntax, Quantifizierern, Gruppen und Assertions. Kompakte Übersicht für Pattern-Matching in Security-Tools, Log-Analyse und Scripting. | [→ Link](https://www.rexegg.com/regex-quickstart.html) |
+| **Regex101** | Interaktiver Online-Regex-Editor mit Echtzeit-Erklärungen. Unterstützt PCRE, JavaScript, Python und Go — unverzichtbar beim Schreiben und Debuggen von regulären Ausdrücken. | [→ Link](https://regex101.com/) |
+| **SaveWeb2Zip** | Kostenloser Online-Dienst der komplette Webseiten als ZIP-Archiv herunterlädt. Erfasst HTML, CSS, JavaScript und Medien für Offline-Analyse und OSINT-Archivierung. | [→ Link](https://saveweb2zip.com/en) |
+| **Steghide** | Open Source Steganographie-Tool das Daten in JPEG- und WAV-Dateien versteckt. Nutzt Verschlüsselung und Kompression — relevant für CTF-Challenges und Forensik-Analyse. | [→ Link](https://www.kali.org/tools/steghide/) |
+| **WormGPT** | Dokumentation über WormGPT — ein auf Cybercrime spezialisiertes KI-Modell ohne Sicherheitsschranken. Zeigt die Risiken von unregulierten LLMs für Phishing und Malware-Erstellung. | [→ Link](https://www.wormgpt.ai/) |
+| **ZoomIt** | Sysinternals Screen-Zoom-, Zeichen- und Timer-Tool für Präsentationen. Live-Zoom mit Annotation-Funktionen — Standard-Tool für IT-Schulungen und Security-Demos. | [→ Link](https://learn.microsoft.com/en-us/sysinternals/downloads/zoomit) |
 
 ---
 
@@ -633,45 +651,45 @@
 
 | Tool | Beschreibung | Link |
 |------|-------------|------|
-| **ANY.RUN** | Interactive Malware Sandbox | [→ Link](https://any.run/) |
-| **Autopsy Forensic Toolkit** | Digital Forensics Platform | [→ Link](https://www.autopsy.com/kit) |
-| **Autopsy Releases** | Sleuth Kit Autopsy Downloads | [→ Link](https://github.com/sleuthkit/autopsy/releases/) |
-| **Bulk Extractor** | Digital Forensics Feature Extraction | [→ Link](https://www.kali.org/tools/bulk-extractor/) |
-| **Cellebrite** | Mobile Forensics & Digital Intelligence | [→ Link](https://cellebrite.com/en/home/) |
-| **DFTT** | Digital Forensics Tool Testing Images | [→ Link](http://dftt.sourceforge.net/) |
-| **Disk2vhd** | Erstellt VHD/VHDX-Images von physischen Festplatten - Live-Forensik & Backup | [→ Link](https://learn.microsoft.com/en-us/sysinternals/downloads/disk2vhd) |
-| **EICAR Test File** | Standard Anti-Virus Test File | [→ Link](https://www.eicar.org/) |
-| **EnCase** | Enterprise Digital Investigation Platform | [→ Link](https://www.opentext.com/products/encase-endpoint-security) |
-| **EternalBlue (DE)** | SMB Exploit Explanation (Wikipedia) | [→ Link](https://de.wikipedia.org/wiki/EternalBlue) |
-| **Exterro DFIR Platform** | Enterprise Forensics Solution | [→ Link](https://www.exterro.com/digital-forensics-software/forensic-tool) |
-| **FTK** | Forensic Toolkit by AccessData | [→ Link](https://www.exterro.com/digital-forensics-software/forensic-toolkit) |
-| **Hybrid Analysis** | Malware-Analyse & Sandboxing | [→ Link](https://www.hybrid-analysis.com/) |
-| **Intezer Forensic AI SOC** | AI-powered Malware Analysis | [→ Link](https://intezer.com/forensic-ai-soc/) |
-| **Joe Sandbox** | Automated Malware Analysis | [→ Link](https://www.joesandbox.com/) |
-| **Joe Sandbox** | Automatisierte Malware-Analyse | [→ Link](https://www.joesandbox.com/#windows) |
-| **ListDLLs** | Listet alle geladenen DLLs pro Prozess - erkennt DLL-Injection & Sideloading | [→ Link](https://learn.microsoft.com/en-us/sysinternals/downloads/listdlls) |
-| **LiveKd** | Kernel-Debugging auf Live-System ohne Crash oder Reboot - analysiert Kernel-Strukturen | [→ Link](https://learn.microsoft.com/en-us/sysinternals/downloads/livekd) |
-| **Magnet AXIOM** | Digital Investigation Platform | [→ Link](https://www.magnetforensics.com/products/magnet-axiom/) |
-| **MetaDefender** | Multi-Engine Malware-Scanner | [→ Link](https://metadefender.opswat.com/) |
-| **NIST SP 800-61r2** | Incident Response Handling Guide | [→ Link](https://csrc.nist.gov/pubs/sp/800/61/r2/final) |
-| **ProcDump** | Erstellt Prozess-Dumps bei Crashes oder Triggern - Debugging & Memory-Forensik | [→ Link](https://learn.microsoft.com/en-us/sysinternals/downloads/procdump) |
-| **RFC 3227** | Evidence Collection and Archiving Guidelines | [→ Link](https://datatracker.ietf.org/doc/html/rfc3227) |
-| **RansomLook** | Ransomware-Gruppen Monitoring - trackt Leak-Sites, Opfer & Ransomware-Aktivitäten | [→ Link](https://www.ransomlook.io/) |
-| **RegDelNull** | Löscht Registry-Keys mit eingebetteten Null-Zeichen - werden von Malware zur Tarnung genutzt | [→ Link](https://learn.microsoft.com/en-us/sysinternals/downloads/regdelNull) |
-| **Registry Explorer** | Windows Registry Forensics Tool | [→ Link](https://www.sans.org/tools/registry-explorer/) |
-| **SDelete** | Sicheres Löschen von Dateien & freiem Speicher nach DoD-Standard - Anti-Forensik & Datenschutz | [→ Link](https://learn.microsoft.com/en-us/sysinternals/downloads/sdelete) |
-| **SigCheck** | Prüft digitale Signaturen, Zertifikate & VirusTotal-Abgleich von Dateien | [→ Link](https://learn.microsoft.com/en-us/sysinternals/downloads/sigcheck) |
-| **Sleuth Kit** | Digital Forensics Command-Line Tools | [→ Link](https://www.sleuthkit.org/) |
-| **Streams** | Zeigt NTFS Alternate Data Streams - Malware versteckt sich oft in ADS | [→ Link](https://learn.microsoft.com/en-us/sysinternals/downloads/streams) |
-| **Strings** | Extrahiert lesbare Zeichenketten aus Binärdateien - schnelle Malware-Erstanalyse | [→ Link](https://learn.microsoft.com/en-us/sysinternals/downloads/strings) |
-| **VMMap** | Visualisiert den virtuellen Speicher eines Prozesses - Analyse von Memory-Leaks & Exploits | [→ Link](https://learn.microsoft.com/en-us/sysinternals/downloads/vmmap) |
-| **Volatility Foundation (GitHub)** | Source Repository | [→ Link](https://github.com/volatilityfoundation) |
-| **Volatility Foundation (Official)** | Memory Forensics Framework | [→ Link](https://volatilityfoundation.org/) |
-| **X-Ways Forensics** | Integrierte Computer Forensics Software | [→ Link](https://www.x-ways.net/forensics/) |
-| **dcfldd (Kali)** | Kali Linux Documentation | [→ Link](https://www.kali.org/tools/dcfldd/) |
-| **dcfldd (Original)** | Enhanced dd for Forensics | [→ Link](https://dcfldd.sourceforge.net/) |
-| **dcfldd (Resurrected GitHub)** | Maintained Fork | [→ Link](https://github.com/resurrecting-open-source-projects/dcfldd) |
-| **dcfldd GUI (Python)** | Graphical Interface for dcfldd | [→ Link](https://github.com/teslatickles/dcfldd.GUI_Python/tree/master) |
-| **x64dbg Debugger** | Open Source x64/x32 Debugger | [→ Link](https://x64dbg.com/) |
+| **ANY.RUN** | Interactive Malware Sandbox. Nützliches Tool für digitale Forensik und Malware-Analyse. | [→ Link](https://any.run/) |
+| **Autopsy Forensic Toolkit** | Digital Forensics Platform. Nützliches Tool für digitale Forensik und Malware-Analyse. | [→ Link](https://www.autopsy.com/kit) |
+| **Autopsy Releases** | Sleuth Kit Autopsy Downloads. Nützliches Tool für digitale Forensik und Malware-Analyse. | [→ Link](https://github.com/sleuthkit/autopsy/releases/) |
+| **Bulk Extractor** | Digital Forensics Feature Extraction. Nützliches Tool für digitale Forensik und Malware-Analyse. | [→ Link](https://www.kali.org/tools/bulk-extractor/) |
+| **Cellebrite** | Mobile Forensics & Digital Intelligence. Nützliches Tool für digitale Forensik und Malware-Analyse. | [→ Link](https://cellebrite.com/en/home/) |
+| **DFTT** | Digital Forensics Tool Testing Images. Nützliches Tool für digitale Forensik und Malware-Analyse. | [→ Link](http://dftt.sourceforge.net/) |
+| **Disk2vhd** | Sysinternals-Tool das VHD/VHDX-Images von physischen Festplatten im laufenden Betrieb erstellt. Ermöglicht Live-Forensik-Snapshots und P2V-Migration ohne Downtime. | [→ Link](https://learn.microsoft.com/en-us/sysinternals/downloads/disk2vhd) |
+| **EICAR Test File** | Standard Anti-Virus Test File. Nützliches Tool für digitale Forensik und Malware-Analyse. | [→ Link](https://www.eicar.org/) |
+| **EnCase** | Enterprise Digital Investigation Platform. Nützliches Tool für digitale Forensik und Malware-Analyse. | [→ Link](https://www.opentext.com/products/encase-endpoint-security) |
+| **EternalBlue (DE)** | SMB Exploit Explanation (Wikipedia). Nützliches Tool für digitale Forensik und Malware-Analyse. | [→ Link](https://de.wikipedia.org/wiki/EternalBlue) |
+| **Exterro DFIR Platform** | Enterprise Forensics Solution. Nützliches Tool für digitale Forensik und Malware-Analyse. | [→ Link](https://www.exterro.com/digital-forensics-software/forensic-tool) |
+| **FTK** | Forensic Toolkit by AccessData. Nützliches Tool für digitale Forensik und Malware-Analyse. | [→ Link](https://www.exterro.com/digital-forensics-software/forensic-toolkit) |
+| **Hybrid Analysis** | Malware-Analyse & Sandboxing. Nützliches Tool für digitale Forensik und Malware-Analyse. | [→ Link](https://www.hybrid-analysis.com/) |
+| **Intezer Forensic AI SOC** | AI-powered Malware Analysis. Nützliches Tool für digitale Forensik und Malware-Analyse. | [→ Link](https://intezer.com/forensic-ai-soc/) |
+| **Joe Sandbox** | Automatisierte Malware-Analyse-Plattform mit Deep Analysis. Untersucht verdächtige Dateien und URLs in isolierten Umgebungen und liefert detaillierte Verhaltensberichte. | [→ Link](https://www.joesandbox.com/) |
+| **Joe Sandbox** | Automatisierte Malware-Analyse-Plattform mit Deep Analysis. Untersucht verdächtige Dateien und URLs in isolierten Umgebungen und liefert detaillierte Verhaltensberichte. | [→ Link](https://www.joesandbox.com/#windows) |
+| **ListDLLs** | Sysinternals-Tool das alle geladenen DLLs pro Prozess auflistet. Erkennt DLL-Hijacking, Side-Loading und ungewöhnliche Library-Injections in laufenden Prozessen. | [→ Link](https://learn.microsoft.com/en-us/sysinternals/downloads/listdlls) |
+| **LiveKd** | Sysinternals Kernel-Debugger für Live-Systeme ohne Crash oder Reboot. Analysiert Kernel-Strukturen, Treiber und Systemzustände — nützlich für Rootkit-Analyse. | [→ Link](https://learn.microsoft.com/en-us/sysinternals/downloads/livekd) |
+| **Magnet AXIOM** | Digital Investigation Platform. Nützliches Tool für digitale Forensik und Malware-Analyse. | [→ Link](https://www.magnetforensics.com/products/magnet-axiom/) |
+| **MetaDefender** | Multi-Engine Malware-Scanner. Nützliches Tool für digitale Forensik und Malware-Analyse. | [→ Link](https://metadefender.opswat.com/) |
+| **NIST SP 800-61r2** | Incident Response Handling Guide. Nützliches Tool für digitale Forensik und Malware-Analyse. | [→ Link](https://csrc.nist.gov/pubs/sp/800/61/r2/final) |
+| **ProcDump** | Sysinternals Crash-Dump-Tool das Prozess-Dumps basierend auf CPU/Memory-Triggern erstellt. Wird sowohl für Debugging als auch für Credential-Extraction aus LSASS genutzt. | [→ Link](https://learn.microsoft.com/en-us/sysinternals/downloads/procdump) |
+| **RFC 3227** | Evidence Collection and Archiving Guidelines. Nützliches Tool für digitale Forensik und Malware-Analyse. | [→ Link](https://datatracker.ietf.org/doc/html/rfc3227) |
+| **RansomLook** | Ransomware-Gruppen Monitoring-Plattform die Leak-Sites und Opfer trackt. Zeigt aktive Ransomware-Operationen und Trends in der Ransomware-Landschaft in Echtzeit. | [→ Link](https://www.ransomlook.io/) |
+| **RegDelNull** | Sysinternals-Tool das Registry-Keys mit eingebetteten Null-Zeichen löscht. Malware nutzt diese Technik zur Tarnung — RegDelNull macht sie sichtbar und entfernbar. | [→ Link](https://learn.microsoft.com/en-us/sysinternals/downloads/regdelNull) |
+| **Registry Explorer** | Windows Registry Forensics Tool. Nützliches Tool für digitale Forensik und Malware-Analyse. | [→ Link](https://www.sans.org/tools/registry-explorer/) |
+| **SDelete** | Sysinternals-Tool zum sicheren Löschen von Dateien und freiem Speicherplatz nach DoD-Standard. Relevant für Datenschutz-Compliance und Anti-Forensik-Verständnis. | [→ Link](https://learn.microsoft.com/en-us/sysinternals/downloads/sdelete) |
+| **SigCheck** | Prüft digitale Signaturen, Zertifikate & VirusTotal-Abgleich von Dateien. Nützliches Tool für digitale Forensik und Malware-Analyse. | [→ Link](https://learn.microsoft.com/en-us/sysinternals/downloads/sigcheck) |
+| **Sleuth Kit** | Open Source Forensik-Toolkit für die Analyse von Festplatten-Images und Dateisystemen. Unterstützt NTFS, FAT, EXT und HFS+ — die Kommandozeilen-Basis von Autopsy. | [→ Link](https://www.sleuthkit.org/) |
+| **Streams** | Sysinternals-Tool das NTFS Alternate Data Streams anzeigt und löscht. Malware nutzt ADS häufig um Payloads oder Daten in existierenden Dateien zu verstecken. | [→ Link](https://learn.microsoft.com/en-us/sysinternals/downloads/streams) |
+| **Strings** | Sysinternals-Tool das lesbare ASCII- und Unicode-Strings aus Binärdateien extrahiert. Erster Analyseschritt bei Malware-Verdacht — findet URLs, Befehle und eingebettete Texte. | [→ Link](https://learn.microsoft.com/en-us/sysinternals/downloads/strings) |
+| **VMMap** | Sysinternals-Tool das den virtuellen Speicher eines Prozesses visualisiert. Zeigt Heap, Stack, Images und Mapped Files — nützlich für Memory-Leak-Analyse und Exploit-Forschung. | [→ Link](https://learn.microsoft.com/en-us/sysinternals/downloads/vmmap) |
+| **Volatility Foundation (GitHub)** | GitHub-Repository des Volatility Memory Forensics Frameworks. Enthält Source Code, Plugins und Dokumentation für die Analyse von RAM-Dumps aus Windows, Linux und macOS. | [→ Link](https://github.com/volatilityfoundation) |
+| **Volatility Foundation (Official)** | Memory Forensics Framework. Nützliches Tool für digitale Forensik und Malware-Analyse. | [→ Link](https://volatilityfoundation.org/) |
+| **X-Ways Forensics** | Integrierte Computer Forensics Software. Nützliches Tool für digitale Forensik und Malware-Analyse. | [→ Link](https://www.x-ways.net/forensics/) |
+| **dcfldd (Kali)** | Kali Linux Documentation. Nützliches Tool für digitale Forensik und Malware-Analyse. | [→ Link](https://www.kali.org/tools/dcfldd/) |
+| **dcfldd (Original)** | Enhanced dd for Forensics. Nützliches Tool für digitale Forensik und Malware-Analyse. | [→ Link](https://dcfldd.sourceforge.net/) |
+| **dcfldd (Resurrected GitHub)** | Aktiv gepflegter Fork von dcfldd — dem forensischen dd-Ersatz mit On-the-fly Hashing, Statusanzeige und Split-Output. Modernisierte Version für aktuelle Linux-Distributionen. | [→ Link](https://github.com/resurrecting-open-source-projects/dcfldd) |
+| **dcfldd GUI (Python)** | Graphical Interface for dcfldd. Nützliches Tool für digitale Forensik und Malware-Analyse. | [→ Link](https://github.com/teslatickles/dcfldd.GUI_Python/tree/master) |
+| **x64dbg Debugger** | Open Source x64/x32 Debugger für Windows. Moderner Nachfolger von OllyDbg mit Plugin-System — Standard-Tool für Windows-Malware-Analyse und Reverse Engineering. | [→ Link](https://x64dbg.com/) |
 
 ---
