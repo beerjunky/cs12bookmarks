@@ -1,6 +1,6 @@
 # 🔒 CS_12 Security Bookmarks
 
-**Gesamtanzahl:** 515 Links | **Kategorien:** 17
+**Gesamtanzahl:** 536 Links | **Kategorien:** 18
 
 ---
 
@@ -11,7 +11,7 @@
 - ⚙️ Development & Automation (15 Links)
 - 🌐 Web Application Security (38 Links)
 - 🎓 Training & Zertifizierungen (49 Links)
-- 🎯 Penetration Testing (48 Links)
+- 🎯 Penetration Testing (51 Links)
 - 🎯 Schwachstellen & Exploits (33 Links)
 - 💻 Endpoint & Systems (50 Links)
 - 📊 SIEM & Monitoring (12 Links)
@@ -23,6 +23,7 @@
 - 🔒 Kryptographie & E-Mail Security (20 Links)
 - 🛠️ Spezial-Tools & Sonstiges (13 Links)
 - 🦠 Malware-Analyse & Forensics (40 Links)
+- 🧅 Tor & Onion Services (18 Links)
 
 ---
 
@@ -218,7 +219,7 @@
 
 ## 🎯 Penetration Testing
 
-*48 Links*
+*51 Links*
 
 | Tool | Beschreibung | Link |
 |------|-------------|------|
@@ -231,6 +232,8 @@
 | **Bugcrowd** | Bug-Bounty und Vulnerability-Disclosure-Plattform für Unternehmen. Crowd-sourced Security Testing mit tausenden Researchern — Alternative zu HackerOne mit fokus auf Managed Programs. | [→ Link](https://www.bugcrowd.com/) |
 | **Cobalt Strike** | Kommerzielle Adversary Simulation und Red Team Operations Plattform. Bietet Beacon-Payloads, C2-Kommunikation und Post-Exploitation — der Industriestandard für Red Teaming. | [→ Link](https://www.cobaltstrike.com/) |
 | **Covenant** | .NET C2 Framework (Empire-Nachfolger). Wichtiges Werkzeug im Arsenal eines jeden Penetration Testers. | [→ Link](https://github.com/cobbr/Covenant) |
+| **CrackMapExec (GitLab)** | GitLab-Repository des CrackMapExec Kali-Packages. Source Code und Packaging-Informationen für die automatisierte Credential-Testing und Lateral-Movement-Suite. | [→ Link](https://gitlab.com/kalilinux/packages/crackmapexec) |
+| **CrackMapExec (Kali Docs)** | Offizielle Kali-Linux-Dokumentation für CrackMapExec. Beschreibt Installation, Module und Anwendungsbeispiele für das Swiss Army Knife des Active-Directory-Pentestings. | [→ Link](https://www.kali.org/tools/crackmapexec/) |
 | **DNSChef** | DNS Proxy for Penetration Testing. Wichtiges Werkzeug im Arsenal eines jeden Penetration Testers. | [→ Link](https://github.com/iphelix/dnschef) |
 | **DirBuster** | Java-basierter Directory- und File-Brute-Forcer für Webserver. Findet versteckte Verzeichnisse und Dateien durch Wörterbuch-basiertes Scanning — OWASP-Projekt. | [→ Link](https://dirbuster.com/) |
 | **Dradis Framework** | Kollaboratives Reporting-Framework für Pentester & Security Teams. Wichtiges Werkzeug im Arsenal eines jeden Penetration Testers. | [→ Link](https://dradis.com/) |
@@ -245,6 +248,7 @@
 | **Gobuster** | Schneller Directory-, DNS- und VHost-Brute-Forcer geschrieben in Go. Performante Alternative zu DirBuster mit Support für verschiedene Wordlists und Wildcard-Erkennung. | [→ Link](https://gobuster.org/) |
 | **HackerOne** | Weltweit führende Bug-Bounty-Plattform die Unternehmen mit ethischen Hackern verbindet. Über 300.000 Researcher melden Schwachstellen gegen Prämien bei Firmen wie Google und Microsoft. | [→ Link](https://www.hackerone.com/) |
 | **ICMP Loki Attack** | ICMP Penetration Testing (Scapy). Wichtiges Werkzeug im Arsenal eines jeden Penetration Testers. | [→ Link](https://github.com/nam3z1p/ICMP_Loki_Attack) |
+| **Impacket Cheat Sheet (BHIS)** | Black Hills Information Security Cheat Sheet für Impacket. Kompakte Übersicht aller wichtigen Impacket-Scripts mit Syntax und Anwendungsbeispielen — von SecretsDump über GetTGT bis PsExec. | [→ Link](https://www.blackhillsinfosec.com/wp-content/uploads/2025/08/CheetSheet_Impacket-1.pdf) |
 | **Infection Monkey** | Open Source Breach & Attack Simulation von Guardicore. Simuliert automatisiert Lateral Movement, Credential Theft und Netzwerk-Angriffe zur Validierung der Sicherheitsmaßnahmen. | [→ Link](https://github.com/guardicore/monkey) |
 | **MITRE Caldera** | Automated Adversary Emulation Platform basierend auf dem MITRE ATT&CK Framework. Simuliert reale Angriffsketten automatisiert — ideal für Red-Team-Assessments und Detection-Testing. | [→ Link](https://github.com/mitre/caldera) |
 | **Metasploit Framework (GitHub)** | Exploit Development Platform. Wichtiges Werkzeug im Arsenal eines jeden Penetration Testers. | [→ Link](https://github.com/rapid7/metasploit-framework) |
@@ -691,5 +695,32 @@
 | **dcfldd (Resurrected GitHub)** | Aktiv gepflegter Fork von dcfldd — dem forensischen dd-Ersatz mit On-the-fly Hashing, Statusanzeige und Split-Output. Modernisierte Version für aktuelle Linux-Distributionen. | [→ Link](https://github.com/resurrecting-open-source-projects/dcfldd) |
 | **dcfldd GUI (Python)** | Graphical Interface for dcfldd. Nützliches Tool für digitale Forensik und Malware-Analyse. | [→ Link](https://github.com/teslatickles/dcfldd.GUI_Python/tree/master) |
 | **x64dbg Debugger** | Open Source x64/x32 Debugger für Windows. Moderner Nachfolger von OllyDbg mit Plugin-System — Standard-Tool für Windows-Malware-Analyse und Reverse Engineering. | [→ Link](https://x64dbg.com/) |
+
+---
+
+## 🧅 Tor & Onion Services
+
+*18 Links*
+
+| Tool | Beschreibung | Link |
+|------|-------------|------|
+| **Ahmia** | Suchmaschine für Tor-Onion-Services die nur legale Inhalte indexiert. Filtert illegale Seiten aktiv heraus — die seriöseste Möglichkeit im Onion-Netzwerk zu recherchieren. | [→ Link](https://ahmia.fi/) |
+| **DuckDuckGo Privacy** | Datenschutz-Suchmaschine die auch als Onion-Service verfügbar ist. Kein Tracking, keine Profilerstellung — und über den .onion-Zugang zusätzlich durch Tor-Anonymität geschützt. | [→ Link](https://duckduckgo.com/privacy) |
+| **EFF: Tor & HTTPS** | Interaktive Visualisierung der Electronic Frontier Foundation die zeigt welche Daten Tor und HTTPS jeweils schützen. Erklärt die Kombination beider Technologien für maximale Privatsphäre. | [→ Link](https://www.eff.org/pages/tor-and-https) |
+| **Nyx (Tor Monitor)** | Kommandozeilen-Monitor für Tor-Relays (ehemals arm). Zeigt Bandbreite, Verbindungen, Konfiguration und Relay-Informationen in Echtzeit — essentiell für Tor-Relay-Betreiber. | [→ Link](https://nyx.torproject.org/) |
+| **Onion Services Docs** | Offizielle Tor-Dokumentation zum Einrichten von Onion Services. Erklärt v3 Onion-Adressen, Konfiguration, Authentifizierung und Best Practices für Hidden Services. | [→ Link](https://community.torproject.org/onion-services/) |
+| **OnionShare** | Open Source Tool zum sicheren und anonymen Teilen von Dateien über das Tor-Netzwerk. Erstellt temporäre Onion-Services ohne Server — ideal für vertraulichen Datenaustausch. | [→ Link](https://onionshare.org/) |
+| **ProtonMail Onion Access** | ProtonMail über Tor-Onion-Service erreichbar für maximale Anonymität. Ende-zu-Ende-verschlüsselter E-Mail-Dienst der auch bei ISP-Überwachung Metadaten-Schutz bietet. | [→ Link](https://protonmail.com/tor) |
+| **SecureDrop** | Open Source Whistleblower-Plattform die über Tor-Onion-Services läuft. Wird von Medienorganisationen wie NYT, Guardian und Washington Post für sichere Quellenkommunikation eingesetzt. | [→ Link](https://securedrop.org/) |
+| **Stem (Tor Controller Library)** | Python-Library zur Interaktion mit dem Tor-Prozess. Ermöglicht programmatische Steuerung von Tor — Circuit-Erstellung, Relay-Informationen und Netzwerk-Status-Abfragen. | [→ Link](https://stem.torproject.org/) |
+| **Tails OS** | Portables Live-Betriebssystem das auf Privatsphäre und Anonymität ausgelegt ist. Bootet von USB, leitet alles über Tor und hinterlässt keine Spuren auf dem Host-System. | [→ Link](https://tails.net/) |
+| **Tor Bridges** | Tor-Bridge-Verzeichnis für den Zugang zum Tor-Netzwerk in zensierten Regionen. Bridges sind nicht-öffentliche Relays die Tor-Traffic vor Deep Packet Inspection verstecken. | [→ Link](https://bridges.torproject.org/) |
+| **Tor Browser Manual** | Offizielles Handbuch für den Tor Browser. Erklärt Installation, Sicherheitseinstellungen, Bridge-Konfiguration und Best Practices für anonymes Surfen. | [→ Link](https://tb-manual.torproject.org/) |
+| **Tor Hidden Service Security Guide** | Sicherheitsleitfaden für den Betrieb von Tor Hidden Services. Best Practices für OpSec, Server-Hardening und die Vermeidung von De-Anonymisierung durch Konfigurationsfehler. | [→ Link](https://github.com/nicehash/NiceHashQuickMiner/wiki/Security) |
+| **Tor Metrics** | Statistiken und Metriken des Tor-Netzwerks. Zeigt Relay-Anzahl, Bandbreite, Nutzerzahlen nach Land und Bridge-Nutzung — wichtig für Netzwerk-Analyse und Forschung. | [→ Link](https://metrics.torproject.org/) |
+| **Tor Project** | Offizielle Website des Tor-Netzwerks. Anonymisierungsnetzwerk das Internetverkehr über mehrere verschlüsselte Relays leitet — Grundlage für anonyme Kommunikation und Zensurumgehung. | [→ Link](https://www.torproject.org/) |
+| **Tor Support** | Offizielles Support-Portal des Tor Projects. FAQ, Troubleshooting-Guides und Anleitungen für Tor Browser, Onion Services, Bridges und Pluggable Transports. | [→ Link](https://support.torproject.org/) |
+| **Whonix** | Sicherheitsfokussierte Linux-Distribution die allen Traffic über Tor leitet. Zwei-VM-Architektur (Gateway + Workstation) verhindert IP-Leaks selbst bei kompromittierten Anwendungen. | [→ Link](https://www.whonix.org/) |
+| **dark.fail** | Verifizierter Link-Verzeichnis für bekannte Onion-Services. Prüft PGP-Signaturen und Uptime — schützt vor Phishing-Links und gefälschten .onion-Adressen. | [→ Link](https://dark.fail/) |
 
 ---
