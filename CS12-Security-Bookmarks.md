@@ -1,6 +1,6 @@
 # 🔒 CS_12 Security Bookmarks
 
-**Gesamtanzahl:** 536 Links | **Kategorien:** 18
+**Gesamtanzahl:** 551 Links | **Kategorien:** 18
 
 ---
 
@@ -10,18 +10,18 @@
 - ⚖️ Rechtliches & Compliance (29 Links)
 - ⚙️ Development & Automation (15 Links)
 - 🌐 Web Application Security (38 Links)
-- 🎓 Training & Zertifizierungen (49 Links)
-- 🎯 Penetration Testing (51 Links)
+- 🎓 Training & Zertifizierungen (51 Links)
+- 🎯 Penetration Testing (59 Links)
 - 🎯 Schwachstellen & Exploits (33 Links)
-- 💻 Endpoint & Systems (50 Links)
+- 💻 Endpoint & Systems (51 Links)
 - 📊 SIEM & Monitoring (12 Links)
 - 📋 Standards & Frameworks (32 Links)
 - 📡 Wireless & Mobile Security (31 Links)
 - 🔌 Netzwerk-Security (34 Links)
 - 🔍 Reconnaissance & OSINT (44 Links)
-- 🔐 Passwörter & Authentifizierung (13 Links)
+- 🔐 Passwörter & Authentifizierung (16 Links)
 - 🔒 Kryptographie & E-Mail Security (20 Links)
-- 🛠️ Spezial-Tools & Sonstiges (13 Links)
+- 🛠️ Spezial-Tools & Sonstiges (14 Links)
 - 🦠 Malware-Analyse & Forensics (40 Links)
 - 🧅 Tor & Onion Services (18 Links)
 
@@ -161,12 +161,13 @@
 
 ## 🎓 Training & Zertifizierungen
 
-*49 Links*
+*51 Links*
 
 | Tool | Beschreibung | Link |
 |------|-------------|------|
 | **0xRick Blog** | CTF Writeups und Pentesting-Blog. Wertvolle Lernressource für den Aufbau und die Vertiefung von Security-Kompetenzen. | [→ Link](https://0xrick.github.io/about/) |
 | **Active Directory Basics** | Enterprise Environment Fundamentals. Wertvolle Lernressource für den Aufbau und die Vertiefung von Security-Kompetenzen. | [→ Link](https://tryhackme.com/room/winadbasics) |
+| **Active Directory Hacking Full Course (TCM Security)** | Über 5-stündiger Komplettkurs zum Hacken von Active Directory von Heath Adams (TCM Security). Deckt Lab-Setup, LLMNR Poisoning, SMB Relay, IPv6-Angriffe, Kerberoasting, Pass-the-Hash, Mimikatz, Golden Tickets und Post-Exploitation ab — einer der besten kostenlosen AD-Pentesting-Kurse. | [→ Link](https://www.youtube.com/watch?v=VXxH4n684HE) |
 | **Attacking Active Directory** | AD Exploitation Techniques. Wertvolle Lernressource für den Aufbau und die Vertiefung von Security-Kompetenzen. | [→ Link](https://tryhackme.com/room/attackingad) |
 | **Autopsy** | Open Source Digital Forensics Platform mit GUI. Analysiert Festplatten-Images, extrahiert Dateien, E-Mails, Browser-Historien und Timeline-Daten für forensische Untersuchungen. | [→ Link](https://tryhackme.com/room/autopsy2ze0) |
 | **Basic Malware RE** | Reverse Engineering Introduction. Wertvolle Lernressource für den Aufbau und die Vertiefung von Security-Kompetenzen. | [→ Link](https://tryhackme.com/room/basicmalwarere) |
@@ -189,6 +190,7 @@
 | **Learn Python** | Interactive Python Tutorial. Wertvolle Lernressource für den Aufbau und die Vertiefung von Security-Kompetenzen. | [→ Link](https://www.learnpython.org/) |
 | **Linux Forensics** | DFIR on Linux Systems. Wertvolle Lernressource für den Aufbau und die Vertiefung von Security-Kompetenzen. | [→ Link](https://tryhackme.com/room/linuxforensics) |
 | **MAL: Malware Introductory** | Malware Analysis Basics. Wertvolle Lernressource für den Aufbau und die Vertiefung von Security-Kompetenzen. | [→ Link](https://tryhackme.com/room/malmalintroductory) |
+| **Medusa Tutorial (FreeCodeCamp)** | Ausführliches Tutorial zur Nutzung von Medusa für Multi-Protokoll-Brute-Force-Angriffe. Erklärt Installation, Modul-Auswahl, Passwort-Listen und praktische Anwendungsbeispiele Schritt für Schritt. | [→ Link](https://www.freecodecamp.org/news/how-to-use-medusa-for-fast-multi-protocol-brute-force-attacks-security-tutorial/) |
 | **Metasploit: Exploitation** | Advanced Exploitation Techniques. Wertvolle Lernressource für den Aufbau und die Vertiefung von Security-Kompetenzen. | [→ Link](https://tryhackme.com/room/metasploitexploitation) |
 | **Metasploit: Introduction** | Exploitation Framework Basics. Wertvolle Lernressource für den Aufbau und die Vertiefung von Security-Kompetenzen. | [→ Link](https://tryhackme.com/room/metasploitintro) |
 | **Network Forensics** | PCAP Analysis & Investigation. Wertvolle Lernressource für den Aufbau und die Vertiefung von Security-Kompetenzen. | [→ Link](https://tryhackme.com/room/networkforensics) |
@@ -219,7 +221,7 @@
 
 ## 🎯 Penetration Testing
 
-*51 Links*
+*59 Links*
 
 | Tool | Beschreibung | Link |
 |------|-------------|------|
@@ -230,6 +232,7 @@
 | **BeEF** | Browser Exploitation Framework — hookt Webbrowser und nutzt sie als Angriffsvektoren. Demonstriert die Risiken von XSS-Schwachstellen durch reale Browser-basierte Angriffe. | [→ Link](https://beefproject.com/) |
 | **BeEF (GitHub)** | Browser Exploitation Framework Source. Wichtiges Werkzeug im Arsenal eines jeden Penetration Testers. | [→ Link](https://github.com/beefproject/beef) |
 | **Bugcrowd** | Bug-Bounty und Vulnerability-Disclosure-Plattform für Unternehmen. Crowd-sourced Security Testing mit tausenden Researchern — Alternative zu HackerOne mit fokus auf Managed Programs. | [→ Link](https://www.bugcrowd.com/) |
+| **Certify (GhostPack)** | C#-Tool zur Enumeration und zum Missbrauch von Active Directory Certificate Services (AD CS). Findet verwundbare Zertifikatsvorlagen und führt ESC1-ESC8-Angriffe für Privilege Escalation durch. | [→ Link](https://github.com/GhostPack/Certify) |
 | **Cobalt Strike** | Kommerzielle Adversary Simulation und Red Team Operations Plattform. Bietet Beacon-Payloads, C2-Kommunikation und Post-Exploitation — der Industriestandard für Red Teaming. | [→ Link](https://www.cobaltstrike.com/) |
 | **Covenant** | .NET C2 Framework (Empire-Nachfolger). Wichtiges Werkzeug im Arsenal eines jeden Penetration Testers. | [→ Link](https://github.com/cobbr/Covenant) |
 | **CrackMapExec (GitLab)** | GitLab-Repository des CrackMapExec Kali-Packages. Source Code und Packaging-Informationen für die automatisierte Credential-Testing und Lateral-Movement-Suite. | [→ Link](https://gitlab.com/kalilinux/packages/crackmapexec) |
@@ -243,6 +246,8 @@
 | **Empire Wiki** | Empire Dokumentation (aktuell). Wichtiges Werkzeug im Arsenal eines jeden Penetration Testers. | [→ Link](https://bc-security.gitbook.io/empire-wiki) |
 | **Ettercap (Kali Tools)** | MITM Tool Documentation. Wichtiges Werkzeug im Arsenal eines jeden Penetration Testers. | [→ Link](https://www.kali.org/tools/ettercap/) |
 | **Ettercap (Official)** | Man-in-the-Middle Attack Tool. Wichtiges Werkzeug im Arsenal eines jeden Penetration Testers. | [→ Link](https://www.ettercap-project.org) |
+| **Evil-WinRM (Docker Hub)** | Docker-Image von Evil-WinRM für schnellen Einsatz ohne Installation. Vorkonfigurierte Umgebung mit allen Abhängigkeiten — ideal für Pentesting-Labs und schnelle Engagements. | [→ Link](https://hub.docker.com/r/oscarakaelvis/evil-winrm) |
+| **Evil-WinRM (GitHub)** | GitHub-Repository der Windows Remote Management Shell für Pentester. PowerShell-Remoting mit Datei-Upload/Download, Bypass-Techniken, Pass-the-Hash und AMSI-Evasion — Standard für Windows-Post-Exploitation. | [→ Link](https://github.com/Hackplayers/evil-winrm) |
 | **Faraday** | Kollaborative Vulnerability Management & Pentest-Plattform mit Multi-Tool-Integration | [→ Link](https://faradaysec.com/) |
 | **GoPhish** | Open-Source Phishing Framework für Security Awareness Kampagnen & Social Engineering Tests | [→ Link](https://github.com/gophish/gophish) |
 | **Gobuster** | Schneller Directory-, DNS- und VHost-Brute-Forcer geschrieben in Go. Performante Alternative zu DirBuster mit Support für verschiedene Wordlists und Wildcard-Erkennung. | [→ Link](https://gobuster.org/) |
@@ -250,9 +255,12 @@
 | **ICMP Loki Attack** | ICMP Penetration Testing (Scapy). Wichtiges Werkzeug im Arsenal eines jeden Penetration Testers. | [→ Link](https://github.com/nam3z1p/ICMP_Loki_Attack) |
 | **Impacket Cheat Sheet (BHIS)** | Black Hills Information Security Cheat Sheet für Impacket. Kompakte Übersicht aller wichtigen Impacket-Scripts mit Syntax und Anwendungsbeispielen — von SecretsDump über GetTGT bis PsExec. | [→ Link](https://www.blackhillsinfosec.com/wp-content/uploads/2025/08/CheetSheet_Impacket-1.pdf) |
 | **Infection Monkey** | Open Source Breach & Attack Simulation von Guardicore. Simuliert automatisiert Lateral Movement, Credential Theft und Netzwerk-Angriffe zur Validierung der Sicherheitsmaßnahmen. | [→ Link](https://github.com/guardicore/monkey) |
+| **Kerberoasting Cheatsheet (Gist)** | Kompakte Kerberoasting-Referenz mit Befehlen für GetUserSPNs, Rubeus, PowerView und Hashcat. Deckt den kompletten Workflow ab — von SPN-Enumeration über Ticket-Extraction bis zum Hash-Cracking. | [→ Link](https://gist.github.com/insi2304/484a4e92941b437bad961fcacda82d49) |
 | **MITRE Caldera** | Automated Adversary Emulation Platform basierend auf dem MITRE ATT&CK Framework. Simuliert reale Angriffsketten automatisiert — ideal für Red-Team-Assessments und Detection-Testing. | [→ Link](https://github.com/mitre/caldera) |
+| **Metasploit Cheatsheet (SwisskyRepo)** | Umfassendes Metasploit-Cheatsheet aus der InternalAllTheThings-Sammlung. Enthält Msfvenom-Payloads, Handler-Setup, Post-Exploitation-Module und Meterpreter-Befehle in kompakter Übersicht. | [→ Link](https://swisskyrepo.github.io/InternalAllTheThings/command-control/metasploit/) |
 | **Metasploit Framework (GitHub)** | Exploit Development Platform. Wichtiges Werkzeug im Arsenal eines jeden Penetration Testers. | [→ Link](https://github.com/rapid7/metasploit-framework) |
 | **Meterpreter Manual** | Metasploit Meterpreter Dokumentation. Wichtiges Werkzeug im Arsenal eines jeden Penetration Testers. | [→ Link](https://docs.metasploit.com/docs/using-metasploit/advanced/meterpreter/meterpreter.html) |
+| **Mimikatz Cheatsheet (SwisskyRepo)** | Umfassendes Mimikatz-Cheatsheet mit allen wichtigen Modulen und Befehlen. Von sekurlsa::logonpasswords über kerberos::golden bis lsadump::dcsync — strukturierte Referenz für Credential-Attacks. | [→ Link](https://swisskyrepo.github.io/InternalAllTheThings/cheatsheets/mimikatz-cheatsheet/) |
 | **Mythic** | Cross-Platform C2 Framework (MacOS Support). Wichtiges Werkzeug im Arsenal eines jeden Penetration Testers. | [→ Link](https://github.com/its-a-feature/Mythic) |
 | **Nikto** | Open Source Web Server Scanner der über 6.700 potentiell gefährliche Dateien und Programme prüft. Erkennt veraltete Server-Versionen, Fehlkonfigurationen und bekannte Schwachstellen. | [→ Link](https://github.com/sullo/nikto) |
 | **Nishang** | PowerShell für Red Teaming. Wichtiges Werkzeug im Arsenal eines jeden Penetration Testers. | [→ Link](https://github.com/samratashok/nishang) |
@@ -267,6 +275,8 @@
 | **PsGetSid** | Sysinternals-Tool zur Übersetzung von SIDs zu Account-Namen und umgekehrt. Nützlich für AD-Enumeration und forensische Analyse von Windows-Security-Logs. | [→ Link](https://learn.microsoft.com/en-us/sysinternals/downloads/psgetsid) |
 | **PsLoggedOn** | Sysinternals-Tool das lokal und remote eingeloggte Benutzer anzeigt. Hilft bei der Enumeration aktiver Sessions für gezielte Lateral-Movement-Angriffe. | [→ Link](https://learn.microsoft.com/en-us/sysinternals/downloads/psloggedon) |
 | **Purple Knight (Semperis)** | Kostenloses Active Directory Security Assessment Tool. Scannt AD und Entra ID auf über 150 Schwachstellen — von Kerberos-Delegation bis Password-Policy-Lücken. | [→ Link](https://www.semperis.com/de/purple-knight/) |
+| **Rubeus (GhostPack/GitHub)** | C#-Toolset für Kerberos-Interaktion und -Angriffe von GhostPack. Führt Kerberoasting, AS-REP Roasting, S4U-Delegation, Ticket-Forging und Constrained-Delegation-Missbrauch durch. | [→ Link](https://github.com/GhostPack/Rubeus) |
+| **Seatbelt (GhostPack)** | C#-basiertes Post-Exploitation-Enumeration-Tool von GhostPack. Sammelt systematisch Host-Informationen — installierte Software, Browser-Credentials, Netzwerk-Shares, Scheduled Tasks und Security-Einstellungen. | [→ Link](https://github.com/GhostPack/Seatbelt) |
 | **Sliver** | Open Source C2 Framework. Wichtiges Werkzeug im Arsenal eines jeden Penetration Testers. | [→ Link](https://bishopfox.com/tools/sliver) |
 | **Sliver GitHub** | Sliver Source Repository. Wichtiges Werkzeug im Arsenal eines jeden Penetration Testers. | [→ Link](https://github.com/BishopFox/sliver) |
 | **Social-Engineer Toolkit (SET)** | TrustedSec's Social Engineering Toolkit – Phishing, Credential Harvesting & Attack Vectors | [→ Link](https://github.com/trustedsec/social-engineer-toolkit) |
@@ -321,7 +331,7 @@
 
 ## 💻 Endpoint & Systems
 
-*50 Links*
+*51 Links*
 
 | Tool | Beschreibung | Link |
 |------|-------------|------|
@@ -371,6 +381,7 @@
 | **Sync** | Sysinternals-Tool das den Dateisystem-Cache auf die Festplatte flusht. Sichert Datenintegrität vor Systemänderungen oder bei instabilen Systemen. | [→ Link](https://learn.microsoft.com/en-us/sysinternals/downloads/sync) |
 | **Sysinternals Suite** | Microsoft Sysinternals - Komplette Suite für Windows System-Administration & Troubleshooting | [→ Link](https://learn.microsoft.com/en-us/sysinternals/) |
 | **TCPView** | Sysinternals-Tool das alle aktiven TCP/UDP-Verbindungen mit Prozesszuordnung in Echtzeit anzeigt. Erkennt verdächtige Netzwerkaktivität und unbekannte Verbindungen sofort. | [→ Link](https://learn.microsoft.com/en-us/sysinternals/downloads/tcpview) |
+| **UAC Remote Restrictions (Microsoft)** | Microsoft-Dokumentation zu UAC und Remote-Einschränkungen unter Windows. Erklärt wie LocalAccountTokenFilterPolicy und UAC-Konfiguration Remote-Admin-Zugriffe beeinflussen — relevant für SMB-Relay und PsExec. | [→ Link](https://learn.microsoft.com/en-us/troubleshoot/windows-server/windows-security/user-account-control-and-remote-restriction) |
 | **VolumeID** | Sysinternals-Tool das Volume-Seriennummern von FAT- und NTFS-Partitionen ändert. Nützlich für Disk-Cloning und forensische Szenarien. | [→ Link](https://learn.microsoft.com/en-us/sysinternals/downloads/volumeid) |
 | **Windows Security Baselines (DE)** | Microsoft Sicherheitsbaselines (DE). Nützlich für Windows-Administration und Endpoint-Security. | [→ Link](https://learn.microsoft.com/de-de/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines) |
 | **Windows Security Baselines (EN)** | Microsoft Security Baselines (EN). Nützlich für Windows-Administration und Endpoint-Security. | [→ Link](https://learn.microsoft.com/nl-nl/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines) |
@@ -578,7 +589,7 @@
 
 ## 🔐 Passwörter & Authentifizierung
 
-*13 Links*
+*16 Links*
 
 | Tool | Beschreibung | Link |
 |------|-------------|------|
@@ -586,11 +597,14 @@
 | **Bitwarden Password Generator** | Secure Password Creation. Wichtig für Passwort-Security und Authentifizierungs-Testing. | [→ Link](https://bitwarden.com/password-generator/) |
 | **Brute-force erklärt** | Brute Force Attacks Explained (DE). Wichtig für Passwort-Security und Authentifizierungs-Testing. | [→ Link](https://www.1pw.de/brute-force.php) |
 | **CrackStation** | Online-Hash-Lookup-Service mit massiver Rainbow-Table-Datenbank. Crackt MD5, SHA-1, SHA-256 und andere Hashes — demonstriert warum unsalted Hashes unsicher sind. | [→ Link](https://crackstation.net/) |
+| **Hashcat Cheatsheet (BHIS)** | Black Hills Information Security Hashcat-Cheatsheet. Übersicht aller wichtigen Hash-Modi, Angriffstypen, Regeln und Masken — kompakte Referenz für schnelles Password-Cracking. | [→ Link](https://www.blackhillsinfosec.com/hashcat-cheatsheet/) |
+| **Hashcat Cheatsheet PDF (BHIS)** | Druckbare PDF-Version des BHIS Hashcat-Cheatsheets. Hash-Typen (NTLM, Kerberos, WPA), Attack-Modes, Rules und Performance-Tipps auf einen Blick — ideal als Schreibtisch-Referenz. | [→ Link](https://www.blackhillsinfosec.com/wp-content/uploads/2025/08/CheetSheet_Hashcat.pdf) |
 | **Have I Been Pwned** | Dienst von Troy Hunt der prüft ob E-Mail-Adressen oder Passwörter in Datenlecks aufgetaucht sind. Durchsucht Milliarden kompromittierte Datensätze — sollte jeder regelmäßig nutzen. | [→ Link](https://haveibeenpwned.com/) |
 | **John the Ripper (GitHub)** | JtR Source Repository. Wichtig für Passwort-Security und Authentifizierungs-Testing. | [→ Link](https://github.com/openwall/john) |
 | **John the Ripper (Official)** | Offizielle Seite des legendären Open-Source-Passwort-Crackers. Unterstützt hunderte Hash-Formate und verschiedene Angriffsmodi — seit über 25 Jahren das Standard-Cracking-Tool. | [→ Link](https://www.openwall.com/john/) |
 | **KeePass** | Open Source Passwort-Manager mit lokaler AES-256-verschlüsselter Datenbank. Kein Cloud-Zwang, Plugin-Ökosystem und plattformübergreifend — für maximale Kontrolle über eigene Credentials. | [→ Link](https://keepass.info/download.html) |
 | **LDAP RFC** | Lightweight Directory Access Protocol Schema. Wichtig für Passwort-Security und Authentifizierungs-Testing. | [→ Link](https://datatracker.ietf.org/doc/html/rfc4519) |
+| **Medusa (GitHub)** | Schneller, paralleler Netzwerk-Login-Brute-Forcer von Foofus. Unterstützt SSH, FTP, HTTP, SMB, RDP, MySQL und viele weitere Protokolle — leichtgewichtige Alternative zu Hydra. | [→ Link](https://github.com/jmk-foofus/medusa) |
 | **Password Strength Checker** | Passwort-Sicherheit testen. Wichtig für Passwort-Security und Authentifizierungs-Testing. | [→ Link](https://www.security.org/how-secure-is-my-password/) |
 | **PingCastle** | Active Directory Security Assessment Tool das Risikobewertungen für AD-Umgebungen erstellt. Scannt auf Fehlkonfigurationen, veraltete Protokolle und Angriffspfade mit übersichtlichem HTML-Report. | [→ Link](https://www.pingcastle.com/) |
 | **THC Hydra (Kali)** | Hydra Documentation. Wichtig für Passwort-Security und Authentifizierungs-Testing. | [→ Link](https://www.kali.org/tools/hydra/) |
@@ -629,7 +643,7 @@
 
 ## 🛠️ Spezial-Tools & Sonstiges
 
-*13 Links*
+*14 Links*
 
 | Tool | Beschreibung | Link |
 |------|-------------|------|
@@ -639,6 +653,7 @@
 | **HTTrack** | Open Source Website-Kopierer der komplette Websites rekursiv herunterlädt. Erstellt navigierbare Offline-Kopien — nützlich für OSINT und Website-Archivierung. | [→ Link](https://www.httrack.com/) |
 | **Monica KI** | KI-Assistent als Browser-Extension mit GPT-4-Integration. Bietet Chat, Textgenerierung, Zusammenfassungen und Übersetzungen direkt im Browser — praktisch für schnelle Recherche. | [→ Link](https://monica.im/) |
 | **OpenStego** | Open Source Steganographie-Tool für digitale Wasserzeichen und Datenversteckung. Bettet unsichtbare Daten in Bilder ein — nützlich für Urheberrechtsschutz und CTF-Challenges. | [→ Link](https://www.openstego.com/) |
+| **OpenStego Releases (GitHub)** | GitHub-Releases von OpenStego mit allen Versionen zum Download. Java-basiertes Steganographie-Tool für LSB-Embedding und unsichtbare Wasserzeichen in Bilddateien. | [→ Link](https://github.com/syvaidya/openstego/releases) |
 | **OutGuess** | Steganographie-Tool das Daten statistisch gleichmäßig in JPEG-Bildern verteilt. Schwerer zu erkennen als einfache LSB-Methoden — fortgeschrittene Technik für verdeckte Kommunikation. | [→ Link](https://www.kali.org/tools/outguess/) |
 | **Regex Cheat Sheet** | Schnellreferenz für reguläre Ausdrücke mit Syntax, Quantifizierern, Gruppen und Assertions. Kompakte Übersicht für Pattern-Matching in Security-Tools, Log-Analyse und Scripting. | [→ Link](https://www.rexegg.com/regex-quickstart.html) |
 | **Regex101** | Interaktiver Online-Regex-Editor mit Echtzeit-Erklärungen. Unterstützt PCRE, JavaScript, Python und Go — unverzichtbar beim Schreiben und Debuggen von regulären Ausdrücken. | [→ Link](https://regex101.com/) |
