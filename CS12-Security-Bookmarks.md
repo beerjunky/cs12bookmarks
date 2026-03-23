@@ -1,6 +1,6 @@
 # 🔒 CS_12 Security Bookmarks
 
-**Gesamtanzahl:** 551 Links | **Kategorien:** 18
+**Gesamtanzahl:** 632 Links | **Kategorien:** 18
 
 ---
 
@@ -10,14 +10,14 @@
 - ⚖️ Rechtliches & Compliance (29 Links)
 - ⚙️ Development & Automation (15 Links)
 - 🌐 Web Application Security (38 Links)
-- 🎓 Training & Zertifizierungen (51 Links)
-- 🎯 Penetration Testing (59 Links)
+- 🎓 Training & Zertifizierungen (113 Links)
+- 🎯 Penetration Testing (63 Links)
 - 🎯 Schwachstellen & Exploits (33 Links)
 - 💻 Endpoint & Systems (51 Links)
 - 📊 SIEM & Monitoring (12 Links)
 - 📋 Standards & Frameworks (32 Links)
-- 📡 Wireless & Mobile Security (31 Links)
-- 🔌 Netzwerk-Security (34 Links)
+- 📡 Wireless & Mobile Security (44 Links)
+- 🔌 Netzwerk-Security (36 Links)
 - 🔍 Reconnaissance & OSINT (44 Links)
 - 🔐 Passwörter & Authentifizierung (16 Links)
 - 🔒 Kryptographie & E-Mail Security (20 Links)
@@ -161,7 +161,7 @@
 
 ## 🎓 Training & Zertifizierungen
 
-*51 Links*
+*113 Links*
 
 | Tool | Beschreibung | Link |
 |------|-------------|------|
@@ -205,6 +205,68 @@
 | **Snort** | Open Source Network Intrusion Detection und Prevention System. Analysiert Netzwerkverkehr in Echtzeit mit regelbasierter Erkennung von Angriffen und Protokollanomalien. | [→ Link](https://tryhackme.com/room/snort) |
 | **SolarWinds Hack (NPR)** | Supply Chain Attack Analysis. Wertvolle Lernressource für den Aufbau und die Vertiefung von Security-Kompetenzen. | [→ Link](https://www.npr.org/2021/04/16/985439655/a-worst-nightmare-cyberattack-the-untold-story-of-the-solarwinds-hack) |
 | **Splunk 101** | SIEM & Log Analysis. Wertvolle Lernressource für den Aufbau und die Vertiefung von Security-Kompetenzen. | [→ Link](https://tryhackme.com/room/splunk101) |
+| **TCM AD Kurs: AD Lab Überblick** | AD Lab Architektur-Überblick. Zeigt den Aufbau des kompletten Pentest-Labs mit Domain Controller und Client-Maschinen. | [→ Link](https://www.youtube.com/watch?v=VXxH4n684HE&t=2412) |
+| **TCM AD Kurs: Active Directory Überblick** | Active Directory Grundlagen und Überblick. Erklärt was AD ist, warum es überall eingesetzt wird und warum es ein so beliebtes Angriffsziel ist. | [→ Link](https://www.youtube.com/watch?v=VXxH4n684HE&t=1304) |
+| **TCM AD Kurs: BloodHound Domain-Analyse** | BloodHound zur Domain-Analyse nutzen. Angriffspfade visualisieren, kürzeste Wege zu Domain Admins und Kerberoastable Accounts finden. | [→ Link](https://www.youtube.com/watch?v=VXxH4n684HE&t=12763) |
+| **TCM AD Kurs: BloodHound Überblick** | BloodHound Überblick. Einführung in das Graph-basierte AD-Angriffspfad-Visualisierungstool. | [→ Link](https://www.youtube.com/watch?v=VXxH4n684HE&t=12360) |
+| **TCM AD Kurs: Cloud Lab Alternative** | Cloud-basierte Lab-Alternative. Wie man das AD-Lab in der Cloud aufbaut wenn lokale Ressourcen begrenzt sind. | [→ Link](https://www.youtube.com/watch?v=VXxH4n684HE&t=2593) |
+| **TCM AD Kurs: Conclusion** | Kursabschluss und Zusammenfassung. Recap aller behandelten Angriffe und Empfehlungen für weiterführendes Lernen. | [→ Link](https://www.youtube.com/watch?v=VXxH4n684HE&t=18936) |
+| **TCM AD Kurs: CrackMapExec installieren** | CrackMapExec installieren. Setup des Swiss Army Knife für AD-Pentesting. | [→ Link](https://www.youtube.com/watch?v=VXxH4n684HE&t=13465) |
+| **TCM AD Kurs: Credential Dumping mit Mimikatz** | Credential Dumping mit Mimikatz. Klartext-Passwörter, NTLM-Hashes und Kerberos-Tickets mit sekurlsa::logonpasswords extrahieren. | [→ Link](https://www.youtube.com/watch?v=VXxH4n684HE&t=17937) |
+| **TCM AD Kurs: Daten sammeln mit BloodHound** | Daten sammeln mit Invoke-BloodHound. SharpHound Collector ausführen um AD-Daten für BloodHound zu sammeln. | [→ Link](https://www.youtube.com/watch?v=VXxH4n684HE&t=12573) |
+| **TCM AD Kurs: Domain Controller Setup** | Einrichten des Domain Controllers. Windows Server installieren, AD DS-Rolle hinzufügen und die erste Domain erstellen. | [→ Link](https://www.youtube.com/watch?v=VXxH4n684HE&t=2886) |
+| **TCM AD Kurs: Domain Enumeration mit PowerView** | Domain Enumeration mit PowerView. Praktische Demonstration von Get-DomainUser, Get-DomainGroup, Find-LocalAdminAccess und mehr. | [→ Link](https://www.youtube.com/watch?v=VXxH4n684HE&t=11441) |
+| **TCM AD Kurs: Domain Join** | Maschinen der Domain beitreten lassen. DNS konfigurieren und Windows-Clients in die AD-Domain aufnehmen. | [→ Link](https://www.youtube.com/watch?v=VXxH4n684HE&t=5123) |
+| **TCM AD Kurs: GPP Ausnutzung Teil 1** | GPP Ausnutzung — Teil 1. SYSVOL durchsuchen und Groups.xml mit cPassword-Feldern finden. | [→ Link](https://www.youtube.com/watch?v=VXxH4n684HE&t=16488) |
+| **TCM AD Kurs: GPP Ausnutzung Teil 2** | GPP Ausnutzung — Teil 2. gpp-decrypt nutzen um AES-256-verschlüsselte GPP-Passwörter zu entschlüsseln. | [→ Link](https://www.youtube.com/watch?v=VXxH4n684HE&t=17014) |
+| **TCM AD Kurs: GPP Password Attacks Theorie** | GPP Password Attacks — Theorie. Wie Group Policy Preferences Passwörter in SYSVOL-Shares hinterlassen die leicht entschlüsselt werden können. | [→ Link](https://www.youtube.com/watch?v=VXxH4n684HE&t=16283) |
+| **TCM AD Kurs: Golden Ticket Attacks** | Golden Ticket Attacks. krbtgt-Hash nutzen um gefälschte Kerberos-TGTs zu erstellen — persistenter Domain-Admin-Zugriff. | [→ Link](https://www.youtube.com/watch?v=VXxH4n684HE&t=18499) |
+| **TCM AD Kurs: Hashes dumpen mit secretsdump** | Hashes dumpen mit secretsdump. Impacket secretsdump.py nutzen um SAM, LSA Secrets und NTDS.dit-Hashes zu extrahieren. | [→ Link](https://www.youtube.com/watch?v=VXxH4n684HE&t=13931) |
+| **TCM AD Kurs: IPv6 Attack Defenses** | IPv6 Attack Abwehrmaßnahmen. IPv6 deaktivieren, DHCPv6 Guard und WPAD-Einträge als Schutz gegen IPv6-basierte Angriffe. | [→ Link](https://www.youtube.com/watch?v=VXxH4n684HE&t=10167) |
+| **TCM AD Kurs: IPv6 Attacks Theorie** | IPv6 Attacks — Theorie. Wie mitm6 und IPv6 DHCPv6-Spoofing für NTLM-Relay-Angriffe in Windows-Domänen missbraucht werden. | [→ Link](https://www.youtube.com/watch?v=VXxH4n684HE&t=9242) |
+| **TCM AD Kurs: IPv6 DNS Attacks** | IPv6 DNS Attacks durchführen. Praktische Demonstration des mitm6-Angriffs mit WPAD-Spoofing und NTLM-Relay zu LDAPS. | [→ Link](https://www.youtube.com/watch?v=VXxH4n684HE&t=9703) |
+| **TCM AD Kurs: ISOs herunterladen** | Download der benötigten ISOs. Windows Server und Windows 10 ISOs für den Aufbau des Domain Controllers und der Clients. | [→ Link](https://www.youtube.com/watch?v=VXxH4n684HE&t=2717) |
+| **TCM AD Kurs: Initial AD Attacks Überblick** | Überblick über initiale AD-Angriffe. Vorstellung der ersten Angriffsvektoren gegen Active Directory ohne Credentials. | [→ Link](https://www.youtube.com/watch?v=VXxH4n684HE&t=5651) |
+| **TCM AD Kurs: Introduction** | Einführung in den Active Directory Hacking Kurs. Heath Adams (TCM Security) gibt einen Überblick über den Kursaufbau und die behandelten Themen. | [→ Link](https://www.youtube.com/watch?v=VXxH4n684HE&t=0) |
+| **TCM AD Kurs: Kerberoasting Defenses** | Kerberoasting Abwehrmaßnahmen. Starke Service-Account-Passwörter, Managed Service Accounts und SPN-Monitoring als Schutz. | [→ Link](https://www.youtube.com/watch?v=VXxH4n684HE&t=16214) |
+| **TCM AD Kurs: Kerberoasting Theorie** | Kerberoasting — Theorie. Wie Service Principal Names (SPNs) ausgenutzt werden um Kerberos-Tickets zu extrahieren und offline zu knacken. | [→ Link](https://www.youtube.com/watch?v=VXxH4n684HE&t=15671) |
+| **TCM AD Kurs: Kerberoasting Walkthrough** | Kerberoasting praktisch durchgeführt. GetUserSPNs.py und Hashcat nutzen um Service-Account-Passwörter zu cracken. | [→ Link](https://www.youtube.com/watch?v=VXxH4n684HE&t=15982) |
+| **TCM AD Kurs: LDAPS Setup** | LDAPS einrichten. Konfiguration von LDAP over SSL auf dem Domain Controller als Voraussetzung für den IPv6-Angriff. | [→ Link](https://www.youtube.com/watch?v=VXxH4n684HE&t=9560) |
+| **TCM AD Kurs: LLMNR Poisoning Defenses** | LLMNR Poisoning Abwehrmaßnahmen. Wie man LLMNR und NBT-NS deaktiviert und Netzwerk-Segmentierung als Schutz einsetzt. | [→ Link](https://www.youtube.com/watch?v=VXxH4n684HE&t=7312) |
+| **TCM AD Kurs: LLMNR Poisoning Theorie** | LLMNR Poisoning — Theorie. Wie Link-Local Multicast Name Resolution ausgenutzt wird um NTLMv2-Hashes abzufangen. | [→ Link](https://www.youtube.com/watch?v=VXxH4n684HE&t=5887) |
+| **TCM AD Kurs: Linux Installation** | Linux-Installation für das Pentesting-Lab. Einrichtung der Angreifer-Maschine als Basis für alle weiteren AD-Angriffe. | [→ Link](https://www.youtube.com/watch?v=VXxH4n684HE&t=617) |
+| **TCM AD Kurs: Logische AD Komponenten** | Logische Active Directory Komponenten. Domains, Trees, Forests, OUs, Trusts und Schema — die logische Struktur von AD verstehen. | [→ Link](https://www.youtube.com/watch?v=VXxH4n684HE&t=1965) |
+| **TCM AD Kurs: Mimikatz Überblick** | Mimikatz — Überblick. Einführung in das mächtigste Windows-Credential-Extraction-Tool von Benjamin Delpy. | [→ Link](https://www.youtube.com/watch?v=VXxH4n684HE&t=17602) |
+| **TCM AD Kurs: NTLM Hashes cracken** | NTLM Hashes mit Hashcat cracken. Gedumpte NTLM-Hashes offline mit Hashcat und Wordlists knacken. | [→ Link](https://www.youtube.com/watch?v=VXxH4n684HE&t=14122) |
+| **TCM AD Kurs: NTLMv2 Hashes mit Responder** | NTLMv2-Hashes mit Responder abfangen. Praktische Demonstration des LLMNR-Poisoning-Angriffs mit dem Responder-Tool. | [→ Link](https://www.youtube.com/watch?v=VXxH4n684HE&t=6334) |
+| **TCM AD Kurs: PMK Installation** | Installation des Pentesting-Toolkits PMK. Einrichtung der wichtigsten Tools auf der Angreifer-Maschine für AD-Pentesting. | [→ Link](https://www.youtube.com/watch?v=VXxH4n684HE&t=1146) |
+| **TCM AD Kurs: Pass Attack Mitigationen** | Pass Attack Mitigationen. Schutzmaßnahmen gegen Pass-the-Hash und Pass-the-Password — Credential Guard, LAPS und Privilege-Tiering. | [→ Link](https://www.youtube.com/watch?v=VXxH4n684HE&t=14694) |
+| **TCM AD Kurs: Pass the Hash Attacks** | Pass the Hash Attacks. NTLM-Hashes direkt für Authentifizierung nutzen ohne sie zu knacken — mit CrackMapExec und psexec. | [→ Link](https://www.youtube.com/watch?v=VXxH4n684HE&t=14309) |
+| **TCM AD Kurs: Pass the Hash/Password Theorie** | Pass the Hash und Pass the Password — Theorie. Wie erbeutete Hashes und Passwörter für Lateral Movement genutzt werden. | [→ Link](https://www.youtube.com/watch?v=VXxH4n684HE&t=13281) |
+| **TCM AD Kurs: Pass the Password Attacks** | Pass the Password Attacks. Erbeutete Klartext-Passwörter mit CrackMapExec gegen mehrere Systeme testen. | [→ Link](https://www.youtube.com/watch?v=VXxH4n684HE&t=13504) |
+| **TCM AD Kurs: Passback Attacks** | Passback Attacks. Angriffe gegen LDAP-konfigurierte Geräte wie Drucker um Credentials abzufangen. | [→ Link](https://www.youtube.com/watch?v=VXxH4n684HE&t=10347) |
+| **TCM AD Kurs: Password Cracking mit Hashcat** | Password Cracking mit Hashcat. Abgefangene NTLMv2-Hashes mit Hashcat und Wordlists knacken. | [→ Link](https://www.youtube.com/watch?v=VXxH4n684HE&t=6620) |
+| **TCM AD Kurs: Physische AD Komponenten** | Physische Active Directory Komponenten. Domain Controller, AD Data Store, DNS-Server und Global Catalog — die Hardware-Seite von AD. | [→ Link](https://www.youtube.com/watch?v=VXxH4n684HE&t=1618) |
+| **TCM AD Kurs: Post-Compromise Attacks Intro** | Post-Compromise Attacks — Einführung. Überblick über Angriffstechniken nach erfolgreicher initialer Kompromittierung. | [→ Link](https://www.youtube.com/watch?v=VXxH4n684HE&t=13219) |
+| **TCM AD Kurs: Post-Compromise Enumeration** | Post-Compromise Enumeration — Einführung. Was nach dem ersten Zugriff kommt — systematische Domain-Aufklärung. | [→ Link](https://www.youtube.com/watch?v=VXxH4n684HE&t=11187) |
+| **TCM AD Kurs: PowerView Überblick** | PowerView Überblick. Einführung in das PowerShell-Tool für Active Directory Enumeration und Exploitation. | [→ Link](https://www.youtube.com/watch?v=VXxH4n684HE&t=11309) |
+| **TCM AD Kurs: Quick Lab Update** | Quick Lab Update. Notwendige Anpassungen am Lab für die folgenden SMB-Relay-Demonstrationen. | [→ Link](https://www.youtube.com/watch?v=VXxH4n684HE&t=7803) |
+| **TCM AD Kurs: SMB Relay Attack Teil 1** | SMB Relay Attack — Teil 1. Praktische Durchführung des Relay-Angriffs mit ntlmrelayx für SAM-Dump. | [→ Link](https://www.youtube.com/watch?v=VXxH4n684HE&t=8080) |
+| **TCM AD Kurs: SMB Relay Attack Teil 2** | SMB Relay Attack — Teil 2. Interaktive Shell und Command-Execution über SMB-Relay mit ntlmrelayx. | [→ Link](https://www.youtube.com/watch?v=VXxH4n684HE&t=8374) |
+| **TCM AD Kurs: SMB Relay Defenses** | SMB Relay Abwehrmaßnahmen. SMB Signing erzwingen, lokale Admin-Accounts einschränken und Netzwerk-Segmentierung. | [→ Link](https://www.youtube.com/watch?v=VXxH4n684HE&t=8620) |
+| **TCM AD Kurs: SMB Relay Theorie** | SMB Relay Attacks — Theorie. Wie abgefangene NTLM-Authentifizierung an andere Systeme weitergeleitet wird. | [→ Link](https://www.youtube.com/watch?v=VXxH4n684HE&t=7481) |
+| **TCM AD Kurs: SMB Signing Disabled finden** | Hosts mit deaktiviertem SMB Signing finden. Nmap-Scan zur Identifikation verwundbarer Systeme für SMB-Relay-Angriffe. | [→ Link](https://www.youtube.com/watch?v=VXxH4n684HE&t=7862) |
+| **TCM AD Kurs: Shell Access erlangen** | Shell-Zugriff erlangen. Verschiedene Methoden um nach erfolgreicher Authentifizierung eine Shell auf dem Zielsystem zu bekommen. | [→ Link](https://www.youtube.com/watch?v=VXxH4n684HE&t=8775) |
+| **TCM AD Kurs: Token Impersonation Mitigationen** | Token Impersonation Mitigationen. Account-Tiering, regelmäßige Passwort-Rotation und eingeschränkte Token-Delegation als Schutz. | [→ Link](https://www.youtube.com/watch?v=VXxH4n684HE&t=15508) |
+| **TCM AD Kurs: Token Impersonation Theorie** | Token Impersonation — Theorie. Wie Windows-Delegation-Tokens für Privilege Escalation und Lateral Movement missbraucht werden. | [→ Link](https://www.youtube.com/watch?v=VXxH4n684HE&t=14856) |
+| **TCM AD Kurs: Token Impersonation mit Incognito** | Token Impersonation mit Incognito. Praktische Demonstration des Token-Diebstahls über Meterpreter und das Incognito-Modul. | [→ Link](https://www.youtube.com/watch?v=VXxH4n684HE&t=15085) |
+| **TCM AD Kurs: URL File Attacks** | URL File Attacks. Bösartige .url-Dateien in Netzwerk-Shares platzieren um NTLM-Authentifizierung zu erzwingen. | [→ Link](https://www.youtube.com/watch?v=VXxH4n684HE&t=17265) |
+| **TCM AD Kurs: User Machines Setup** | Einrichten der User-Maschinen. Windows 10 Clients aufsetzen die später der Domain beitreten. | [→ Link](https://www.youtube.com/watch?v=VXxH4n684HE&t=3705) |
+| **TCM AD Kurs: Users, Groups & Policies** | Erstellen von Usern, Gruppen und Policies. Realistische AD-Struktur mit verschiedenen Benutzerkonten und Gruppenrichtlinien aufbauen. | [→ Link](https://www.youtube.com/watch?v=VXxH4n684HE&t=4178) |
+| **TCM AD Kurs: VMWare/VirtualBox Setup** | Installation von VMWare und VirtualBox für das AD-Lab. Schritt-für-Schritt-Anleitung zur Einrichtung der Virtualisierungsumgebung. | [→ Link](https://www.youtube.com/watch?v=VXxH4n684HE&t=242) |
+| **TCM AD Kurs: VirtualBox Konfiguration** | VirtualBox-Konfiguration und Netzwerk-Setup. Optimale Einstellungen für NAT-Networks und interne Kommunikation zwischen Lab-VMs. | [→ Link](https://www.youtube.com/watch?v=VXxH4n684HE&t=950) |
+| **TCM AD Kurs: Weitere Angriffsvektoren** | Weitere Angriffsvektoren und Strategien. Überblick über zusätzliche initiale Angriffsmethoden und Open-Source-Intelligence. | [→ Link](https://www.youtube.com/watch?v=VXxH4n684HE&t=10663) |
+| **TCM AD Kurs: mitm6 Installation** | Installation von mitm6. Setup des IPv6-Man-in-the-Middle-Tools für DNS-Takeover-Angriffe. | [→ Link](https://www.youtube.com/watch?v=VXxH4n684HE&t=9483) |
 | **Top 7 Vendor-Related Breaches** | Supply Chain Security Incidents. Wertvolle Lernressource für den Aufbau und die Vertiefung von Security-Kompetenzen. | [→ Link](https://www.securitystudio.com/blog/top-7-vendor-related-breaches-of-all-time) |
 | **TryHackMe** | Interaktive Cybersecurity-Lernplattform mit geführten Räumen und Challenges. Browserbasierte VMs ohne Setup — perfekt für Einsteiger bis zur OSCP-Vorbereitung. | [→ Link](https://tryhackme.com/) |
 | **Udemy** | Online Lernplattform. Wertvolle Lernressource für den Aufbau und die Vertiefung von Security-Kompetenzen. | [→ Link](https://udemy.com) |
@@ -221,7 +283,7 @@
 
 ## 🎯 Penetration Testing
 
-*59 Links*
+*63 Links*
 
 | Tool | Beschreibung | Link |
 |------|-------------|------|
@@ -231,6 +293,7 @@
 | **Awesome C2** | Command & Control Framework Collection. Wichtiges Werkzeug im Arsenal eines jeden Penetration Testers. | [→ Link](https://github.com/tcostam/awesome-command-control) |
 | **BeEF** | Browser Exploitation Framework — hookt Webbrowser und nutzt sie als Angriffsvektoren. Demonstriert die Risiken von XSS-Schwachstellen durch reale Browser-basierte Angriffe. | [→ Link](https://beefproject.com/) |
 | **BeEF (GitHub)** | Browser Exploitation Framework Source. Wichtiges Werkzeug im Arsenal eines jeden Penetration Testers. | [→ Link](https://github.com/beefproject/beef) |
+| **Breakdev** | Website von Kuba Gretzky — dem Entwickler von Evilginx. Blog-Posts zu Advanced Phishing, Reverse-Proxy-Techniken, Session Hijacking und der Weiterentwicklung von Evilginx. | [→ Link](https://breakdev.org/) |
 | **Bugcrowd** | Bug-Bounty und Vulnerability-Disclosure-Plattform für Unternehmen. Crowd-sourced Security Testing mit tausenden Researchern — Alternative zu HackerOne mit fokus auf Managed Programs. | [→ Link](https://www.bugcrowd.com/) |
 | **Certify (GhostPack)** | C#-Tool zur Enumeration und zum Missbrauch von Active Directory Certificate Services (AD CS). Findet verwundbare Zertifikatsvorlagen und führt ESC1-ESC8-Angriffe für Privilege Escalation durch. | [→ Link](https://github.com/GhostPack/Certify) |
 | **Cobalt Strike** | Kommerzielle Adversary Simulation und Red Team Operations Plattform. Bietet Beacon-Payloads, C2-Kommunikation und Post-Exploitation — der Industriestandard für Red Teaming. | [→ Link](https://www.cobaltstrike.com/) |
@@ -248,8 +311,10 @@
 | **Ettercap (Official)** | Man-in-the-Middle Attack Tool. Wichtiges Werkzeug im Arsenal eines jeden Penetration Testers. | [→ Link](https://www.ettercap-project.org) |
 | **Evil-WinRM (Docker Hub)** | Docker-Image von Evil-WinRM für schnellen Einsatz ohne Installation. Vorkonfigurierte Umgebung mit allen Abhängigkeiten — ideal für Pentesting-Labs und schnelle Engagements. | [→ Link](https://hub.docker.com/r/oscarakaelvis/evil-winrm) |
 | **Evil-WinRM (GitHub)** | GitHub-Repository der Windows Remote Management Shell für Pentester. PowerShell-Remoting mit Datei-Upload/Download, Bypass-Techniken, Pass-the-Hash und AMSI-Evasion — Standard für Windows-Post-Exploitation. | [→ Link](https://github.com/Hackplayers/evil-winrm) |
+| **Evilginx** | Advanced Phishing Framework das als Man-in-the-Middle Reverse Proxy fungiert. Fängt Session-Cookies und 2FA-Tokens in Echtzeit ab — demonstriert warum selbst MFA gegen sophistiziertes Phishing nicht immun ist. | [→ Link](https://evilginx.com/) |
 | **Faraday** | Kollaborative Vulnerability Management & Pentest-Plattform mit Multi-Tool-Integration | [→ Link](https://faradaysec.com/) |
 | **GoPhish** | Open-Source Phishing Framework für Security Awareness Kampagnen & Social Engineering Tests | [→ Link](https://github.com/gophish/gophish) |
+| **GoPhish** | Open Source Phishing Framework für Security Awareness Testing. Erstellt und verwaltet Phishing-Kampagnen mit E-Mail-Templates, Landing Pages und detailliertem Reporting — ideal für interne Security-Assessments. | [→ Link](https://getgophish.com/) |
 | **Gobuster** | Schneller Directory-, DNS- und VHost-Brute-Forcer geschrieben in Go. Performante Alternative zu DirBuster mit Support für verschiedene Wordlists und Wildcard-Erkennung. | [→ Link](https://gobuster.org/) |
 | **HackerOne** | Weltweit führende Bug-Bounty-Plattform die Unternehmen mit ethischen Hackern verbindet. Über 300.000 Researcher melden Schwachstellen gegen Prämien bei Firmen wie Google und Microsoft. | [→ Link](https://www.hackerone.com/) |
 | **ICMP Loki Attack** | ICMP Penetration Testing (Scapy). Wichtiges Werkzeug im Arsenal eines jeden Penetration Testers. | [→ Link](https://github.com/nam3z1p/ICMP_Loki_Attack) |
@@ -279,6 +344,7 @@
 | **Seatbelt (GhostPack)** | C#-basiertes Post-Exploitation-Enumeration-Tool von GhostPack. Sammelt systematisch Host-Informationen — installierte Software, Browser-Credentials, Netzwerk-Shares, Scheduled Tasks und Security-Einstellungen. | [→ Link](https://github.com/GhostPack/Seatbelt) |
 | **Sliver** | Open Source C2 Framework. Wichtiges Werkzeug im Arsenal eines jeden Penetration Testers. | [→ Link](https://bishopfox.com/tools/sliver) |
 | **Sliver GitHub** | Sliver Source Repository. Wichtiges Werkzeug im Arsenal eines jeden Penetration Testers. | [→ Link](https://github.com/BishopFox/sliver) |
+| **Social Engineer Toolkit (SET)** | Das Social Engineer Toolkit von TrustedSec — das Standard-Framework für Social-Engineering-Angriffe. Automatisiert Phishing, Credential Harvesting, USB-HID-Angriffe und Website-Kloning für Red-Team-Engagements. | [→ Link](https://www.trustedsec.com/resources/tools/the-social-engineer-toolkit-set) |
 | **Social-Engineer Toolkit (SET)** | TrustedSec's Social Engineering Toolkit – Phishing, Credential Harvesting & Attack Vectors | [→ Link](https://github.com/trustedsec/social-engineer-toolkit) |
 | **The C2 Matrix** | C2 Framework Comparison. Wichtiges Werkzeug im Arsenal eines jeden Penetration Testers. | [→ Link](https://howto.thec2matrix.com/) |
 | **Wfuzz** | Vielseitiger Web Application Fuzzer für Brute-Force-Angriffe auf Parameter, Directories, Headers und Cookies. Unterstützt Filter, Encoder und rekursives Fuzzing. | [→ Link](https://github.com/xmendez/wfuzz) |
@@ -453,7 +519,7 @@
 
 ## 📡 Wireless & Mobile Security
 
-*31 Links*
+*44 Links*
 
 | Tool | Beschreibung | Link |
 |------|-------------|------|
@@ -466,26 +532,39 @@
 | **Android Studio** | Android SDK & Development Tools. Relevant für Wireless-Security-Assessments und WLAN-Auditing. | [→ Link](https://developer.android.com/studio) |
 | **Blue Cedar** | Mobile App Deployment & Security. Relevant für Wireless-Security-Assessments und WLAN-Auditing. | [→ Link](https://www.bluecedar.com/deploy) |
 | **BlueBorne** | Bluetooth-Schwachstellen (Amazon Echo, Google Home). Relevant für Wireless-Security-Assessments und WLAN-Auditing. | [→ Link](https://www.armis.com/research/blueborne/) |
+| **Bluestrike (StealthIQ)** | Bluetooth-Reconnaissance und Attack-Tool von StealthIQ. Scannt nach Bluetooth-Geräten in Reichweite, enumeriert Services und testet auf bekannte Bluetooth-Schwachstellen. | [→ Link](https://github.com/StealthIQ/Bluestrike) |
+| **Bully** | WPS-Brute-Force-Tool als Alternative zu Reaver. Unterstützt Pixie-Dust-Angriffe, verschiedene Pin-Generierungsalgorithmen und hat verbesserte Fehlerbehandlung bei unkooperativen Access Points. | [→ Link](https://github.com/wiire-a/bully) |
 | **EAPHammer** | Rogue Access Point & Credential Harvesting. Relevant für Wireless-Security-Assessments und WLAN-Auditing. | [→ Link](https://github.com/s0lst1c3/eaphammer) |
 | **EMF (Bundesnetzagentur)** | Elektromagnetische Felder. Relevant für Wireless-Security-Assessments und WLAN-Auditing. | [→ Link](https://www.bundesnetzagentur.de/DE/Vportal/TK/Funktechnik/EMF/start.html) |
 | **Fern WiFi Cracker** | GUI Wi-Fi Security Auditing Tool. Relevant für Wireless-Security-Assessments und WLAN-Auditing. | [→ Link](https://github.com/savio-code/fern-wifi-cracker) |
 | **Fern-Pro** | Professional Wi-Fi Cracker. Relevant für Wireless-Security-Assessments und WLAN-Auditing. | [→ Link](http://www.fern-pro.com/) |
 | **Fern-Pro Screenshots** | Fern-Pro Interface Beispiele. Relevant für Wireless-Security-Assessments und WLAN-Auditing. | [→ Link](http://www.fern-pro.com/screenshots) |
 | **Frida** | Dynamic Instrumentation Toolkit für Entwickler und Reverse Engineers. Hookt Funktionen in iOS- und Android-Apps zur Laufzeit — essentiell für Mobile-App-Security-Testing. | [→ Link](https://frida.re/) |
+| **Frida Cheatsheet** | Kompakte Referenz für Frida mit den wichtigsten Hooking-Befehlen und JavaScript-Snippets. Deckt Function-Hooking, Class-Enumeration, Method-Overriding und Native-Function-Interception auf Android und iOS ab. | [→ Link](https://hack1s.fun/notes/Frida-Cheatsheet) |
+| **Frida Scripts Collection (t0thkr1s)** | Sammlung vorgefertigter Frida-Scripts für Mobile-App-Pentesting. Enthält Hooks für Root-Detection-Bypass, SSL-Pinning-Bypass, Encryption-Interception und Runtime-Manipulation auf Android. | [→ Link](https://github.com/t0thkr1s/frida) |
+| **Frida Tutorial (Vaadata)** | Ausführlicher Blog-Artikel über Frida für Mobile Application Security. Erklärt Grundkonzepte, Installation, erste Hooks und praktische Anwendungsfälle für Android- und iOS-Security-Testing. | [→ Link](https://www.vaadata.com/blog/frida-the-tool-dedicated-to-mobile-application-security/) |
 | **Kismet** | Wireless Network Detector, Sniffer und Intrusion Detection System. Erkennt versteckte WLANs, Bluetooth- und Zigbee-Geräte passiv ohne aktives Probing. | [→ Link](https://www.kismetwireless.net/) |
+| **Kismet (GitHub)** | GitHub-Repository von Kismet mit aktuellem Source Code und Plugin-Architektur. Unterstützt Remote-Capture, REST-API, GPS-Logging und diverse Wireless-Chipsets für umfassendes Wireless-Monitoring. | [→ Link](https://github.com/kismetwireless/kismet) |
 | **MASTG (GitHub)** | MASTG Source Repository. Relevant für Wireless-Security-Assessments und WLAN-Auditing. | [→ Link](https://github.com/OWASP/owasp-mastg) |
 | **MDK4** | Wireless DoS & Fuzzing Tool. Relevant für Wireless-Security-Assessments und WLAN-Auditing. | [→ Link](https://github.com/aircrack-ng/mdk4) |
 | **MobSF** | Mobile Security Framework — automatisierte Analyse von Android- und iOS-Apps. Statische und dynamische Analyse, Malware-Erkennung und API-Security-Testing in einer Plattform. | [→ Link](https://github.com/MobSF/Mobile-Security-Framework-MobSF) |
 | **OWASP MASTG** | Mobile Application Security Testing Guide. Relevant für Wireless-Security-Assessments und WLAN-Auditing. | [→ Link](https://mas.owasp.org/MASTG/) |
 | **Objection** | Runtime Mobile Exploration. Relevant für Wireless-Security-Assessments und WLAN-Auditing. | [→ Link](https://github.com/sensepost/objection) |
 | **OpenWiFi** | Open Source Wi-Fi (SDR). Relevant für Wireless-Security-Assessments und WLAN-Auditing. | [→ Link](https://github.com/open-sdr/openwifi) |
+| **Owfuzz (Alipay)** | WiFi Protocol Fuzzer von Alipay Security. Fuzzt 802.11 Management-, Control- und Data-Frames um Schwachstellen in WLAN-Implementierungen von Access Points und Clients aufzudecken. | [→ Link](https://github.com/alipay/Owfuzz) |
+| **Pixiewps** | Offline-WPS-Brute-Force-Tool das die Pixie-Dust-Schwachstelle in WPS-Implementierungen ausnutzt. Crackt WPS-PINs in Sekunden statt Stunden — deutlich schneller als Online-Brute-Force mit Reaver. | [→ Link](https://github.com/wiire-a/pixiewps) |
 | **RTL8812AU Driver** | Realtek Monitor Mode & Packet Injection Driver. Relevant für Wireless-Security-Assessments und WLAN-Auditing. | [→ Link](https://github.com/aircrack-ng/rtl8812au) |
 | **Reaver** | WPS-Brute-Force-Tool das die WPS-PIN errät und darüber das WLAN-Passwort extrahiert. Nutzt die Design-Schwäche des WPS-Protokolls für Offline-Passwort-Recovery. | [→ Link](https://www.kali.org/tools/reaver/) |
 | **Reaver Fork** | Enhanced Reaver Version. Relevant für Wireless-Security-Assessments und WLAN-Auditing. | [→ Link](https://github.com/t6x/reaver-wps-fork-t6x) |
 | **SPAN** | SmartPhone Ad-hoc Networking. Relevant für Wireless-Security-Assessments und WLAN-Auditing. | [→ Link](https://www.mitre.org/our-impact/intellectual-property/smartphone-ad-hoc-networking-span) |
 | **Spooftooph** | Bluetooth Device Spoofing. Relevant für Wireless-Security-Assessments und WLAN-Auditing. | [→ Link](https://www.kali.org/tools/spooftooph/) |
+| **Spooftooph** | Bluetooth-Spoofing-Tool das Bluetooth-Device-Informationen (Name, Klasse, Adresse) klont und fälscht. Ermöglicht Impersonation von vertrauenswürdigen Bluetooth-Geräten für Security-Assessments. | [→ Link](https://www.hackfromacave.com/projects/spooftooph.html) |
+| **Spooftooph (GitLab)** | GitLab-Repository des Spooftooph Kali-Packages. Source Code und Build-Informationen für das Bluetooth-Device-Spoofing-Tool — nützlich für Bluetooth-Security-Audits. | [→ Link](https://gitlab.com/kalilinux/packages/spooftooph) |
 | **Spooftooph (Windows)** | Spooftooph für Windows. Relevant für Wireless-Security-Assessments und WLAN-Auditing. | [→ Link](https://www.onworks.net/de/software/windows/app-spooftooph) |
+| **WiFi-Pumpkin3 (GitHub)** | Powerful Rogue AP Framework von P0cL4bs für WLAN-Angriffe. Python3-basiert mit Modulen für DNS-Spoofing, SSL-Strip, Credential-Capture und Traffic-Manipulation über gefälschte Access Points. | [→ Link](https://github.com/P0cL4bs/wifipumpkin3) |
+| **WiFi-Pumpkin3 Docs** | Dokumentation für WiFi-Pumpkin3 — das Framework für Rogue Access Point Angriffe. Erklärt Evil-Twin-Setup, Captive-Portal-Konfiguration, Credential-Harvesting und MITM-Proxy-Plugins. | [→ Link](https://docs.wifipumpkin3.com/) |
 | **WiGLE** | Wireless Network Mapping Database mit weltweit über 1 Milliarde geloggten WLAN-Netzwerken. Ermöglicht Geolokalisierung von WLANs und Bluetooth-Geräten — wichtig für Wireless OSINT. | [→ Link](https://wigle.net/) |
+| **Wifijammer** | Python-basiertes WLAN-Deauthentication-Tool das kontinuierlich Deauth-Pakete an alle erreichbaren Access Points und Clients sendet. Demonstriert die Schwäche von ungeschützten Management-Frames in WiFi. | [→ Link](https://github.com/DanMcInerney/wifijammer) |
 | **Wifite2** | Automatisiertes Wi-Fi Hacking Tool. Relevant für Wireless-Security-Assessments und WLAN-Auditing. | [→ Link](https://github.com/derv82/wifite2) |
 | **inSSIDer** | WLAN-Analyse und WiFi-Scanner von Oscium. Visualisiert Signalstärken, Kanalauslastung und Interferenzen — praktisch für WLAN-Troubleshooting und Site Surveys. | [→ Link](https://www.oscium.com/products/inssider/) |
 
@@ -493,7 +572,7 @@
 
 ## 🔌 Netzwerk-Security
 
-*34 Links*
+*36 Links*
 
 | Tool | Beschreibung | Link |
 |------|-------------|------|
@@ -525,7 +604,9 @@
 | **ShareEnum** | Sysinternals-Tool das Netzwerk-Shares scannt und deren Berechtigungen anzeigt. Identifiziert übermäßig offene File-Shares — wichtig für Security-Audits in Windows-Netzwerken. | [→ Link](https://learn.microsoft.com/en-us/sysinternals/downloads/shareenum) |
 | **Snort** | Open Source Network Intrusion Detection und Prevention System. Analysiert Netzwerkverkehr in Echtzeit mit regelbasierter Erkennung von Angriffen und Protokollanomalien. | [→ Link](https://www.snort.org/) |
 | **Subnet Practice** | Interaktive Übungsplattform für IPv4-Subnetting mit zufällig generierten Aufgaben. Trainiert schnelles Rechnen von Subnetzmasken, CIDR und IP-Bereichen für Netzwerk-Zertifizierungen. | [→ Link](https://subnetipv4.com/) |
+| **VLAN Hopping Erklärung (byte-sized)** | Deutschsprachiger Artikel über VLAN Hopping — Switch Spoofing und Double Tagging erklärt. Zeigt wie Angreifer VLAN-Grenzen überwinden und welche Gegenmaßnahmen (DTP deaktivieren, Native VLAN ändern) wirken. | [→ Link](https://byte-sized.de/netzwerk/vlan-hopping-was-ist-das-und-wie-kann-ich-mich-schuetzen/) |
 | **Visual Subnet Calculator** | Visueller Subnetz-Rechner. Essentiell für Netzwerk-Security und Infrastruktur-Analyse. | [→ Link](https://www.davidc.net/sites/default/subnets/subnets.html) |
+| **WPAD Windows Konfiguration (Akamai)** | Technische Dokumentation zu Web Proxy Auto-Discovery unter Windows. Erklärt wie WPAD funktioniert, warum es ein beliebter Angriffsvektor für MITM-Angriffe ist und wie die Konfiguration sicher erfolgt. | [→ Link](https://techdocs.akamai.com/etp/docs/wpad-windows) |
 | **Yersinia** | Network Protocol Exploitation Tool. Essentiell für Netzwerk-Security und Infrastruktur-Analyse. | [→ Link](https://www.kali.org/tools/yersinia/) |
 | **hping3** | Netzwerk-Tool zum Erstellen und Analysieren von TCP/IP-Paketen. Unterstützt Firewall-Testing, Port-Scanning, OS-Fingerprinting und verschiedene DoS-Simulationen. | [→ Link](https://www.kali.org/tools/hping3/) |
 | **mitm6** | IPv6-basiertes Man-in-the-Middle-Tool für interne Netzwerke. Nutzt DHCPv6 und WPAD-Spoofing um Credentials abzufangen — besonders effektiv in Windows-Domänen. | [→ Link](https://www.kali.org/tools/mitm6/) |
